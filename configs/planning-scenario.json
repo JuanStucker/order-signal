@@ -1,0 +1,6 @@
+{
+  "C1": {"correct": 0, "wrong": 0, "pass": 1},
+  "C2": {"correct": 0, "wrong": 0, "pass": 1},
+  "C3": {"correct": 0.8, "wrong": 0.1, "pass": 0.1},
+  "C4": {"correct": 0, "wrong": 0, "pass": 1}
+}

@@ -1,0 +1,61 @@
+{
+  "mode": "scripted",
+  "phase": "verification",
+  "protocol_version": "sender-channel-receiver-v2",
+  "prompt_version": "order-signal-prompts-v3",
+  "rounds_per_condition": 20,
+  "conditions": [
+    {
+      "id": "K1",
+      "objective": "individual",
+      "delivery": "actual"
+    },
+    {
+      "id": "K2",
+      "objective": "individual",
+      "delivery": "random"
+    }
+  ],
+  "agents": [
+    {
+      "id": "alice",
+      "role": "sender",
+      "display_name": "Alice",
+      "model": "scripted-offline"
+    },
+    {
+      "id": "bob",
+      "role": "receiver",
+      "display_name": "Bob",
+      "model": "scripted-offline"
+    }
+  ],
+  "seeds": {
+    "schedule": 4171,
+    "secrets": 5251,
+    "channel": 6311
+  },
+  "generation": {
+    "max_output_tokens": 512,
+    "temperature": 1.0,
+    "reasoning_effort": "none"
+  },
+  "budget": {
+    "max_requests": 80,
+    "ceiling_usd": 1.0,
+    "prices_usd_per_million": {
+      "input": 0,
+      "cached_input": 0,
+      "output": 0
+    },
+    "rates_checked_on": null
+  },
+  "analysis": {
+    "method": "hoeffding_simultaneous",
+    "alpha": 0.05
+  },
+  "design_version": "order-signal-design-v3",
+  "payoff_version": "penalty-transfer-v2",
+  "analysis_version": "joint-hoeffding-diagnostics-v3",
+  "study": "capability"
+}
