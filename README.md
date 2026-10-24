@@ -126,9 +126,11 @@ In the copied config, set `mode` to `deepseek`, `phase` to `pilot`, and both age
 to the same supported model. Set a **new explicit** dollar ceiling, verified
 USD-per-million input/cached-input/output rates and `rates_checked_on` (YYYY-MM-DD).
 Check [provider rates](https://api-docs.deepseek.com/quick_start/pricing) first.
-Keep 20 rounds per condition and at most 160 requests. Export `DEEPSEEK_API_KEY`
-in the shell, then run `.venv/bin/order-signal --config configs/pilot.local.json`.
-Credentials stay outside configs and audit payloads; echoed keys are redacted.
+Keep 20 rounds per condition and at most 160 requests. Put `DEEPSEEK_API_KEY`
+in a root-level `.env` file (for example, `DEEPSEEK_API_KEY=your-key`), then run
+`.venv/bin/order-signal --config configs/pilot.local.json`. The `.env` file is
+ignored by Git. Credentials stay outside configs and audit payloads; echoed keys
+are redacted.
 
 The locally adapted optional SDK transport has no automatic retries and a
 60-second timeout. Exactly one complete role-appropriate call is required.

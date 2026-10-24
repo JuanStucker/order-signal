@@ -9,6 +9,8 @@ from pathlib import Path
 import random
 import uuid
 
+from dotenv import load_dotenv
+
 from . import prompts
 from .budget import DollarRequestBudget
 from .clients import AuditedClient, DeepSeekClient, ScriptedClient
@@ -17,6 +19,7 @@ from .records import append, provenance, write
 from .versions import VERSIONS, require_versions
 
 PROJECT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT / ".env")
 CONDITIONS = [
     {"id": "C1", "objective": "group", "delivery": "actual"},
     {"id": "C2", "objective": "group", "delivery": "random"},
