@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "error_type": null,
+  "completed": 47,
+  "planned": 48,
+  "segments": 2,
+  "abandoned": [
+    "r-low-v3-AB-rev-4"
+  ]
+}

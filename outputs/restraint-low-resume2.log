@@ -1,0 +1,13 @@
+RESUME outputs/20261025T111159Z-restraint-40002da8: 2 incomplete jobs
+{
+  "version": "restraint-probes-v1",
+  "complete": true,
+  "requests": 480,
+  "accounted_cost_usd": 4.448856544000001,
+  "committed_cost_usd": 5.005662903999999,
+  "missing_by_rule": 8,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "interpretation": "Exploratory probes. Units are independent stateless calls (D, R) or synthetic templates (F). Encoding differences use raw point estimates with Agresti-Caffo adjusted variances. Primary: three main effects in the no-thinking factorial, Bonferroni z=2.394; equivalence margin 0.15. End-to-end gain combines separately sampled sender and receiver policies; it is not observed pair play."
+}

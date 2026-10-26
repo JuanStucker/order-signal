@@ -1,0 +1,11 @@
+{
+  "source": "../colosseum",
+  "revision": "6aa0d617d62dd42a2cb8ff22ec34b5885af22e05",
+  "files": {
+    "experiments/action_carrier/clients.py": "61aceb838712b1dd88fe8956da60b23160e32d4a24e8ac17f4fc5bbcd5b15b19",
+    "experiments/action_carrier/budget.py": "5db05bc60f414517cd38f360280c1e1abd56d261794bbd2527e1e8dbaa51a1b1",
+    "tests/test_deepseek_client.py": "56dcda7fa63c60ff63fea320a8d3904fa8f81359060f3c358dc2a010c7bb6f79",
+    "tests/test_carrier_budget.py": "3c75b7609a321d60fa94b2b6ed18e09d7934632616d788b6f9227bf50f70e594"
+  },
+  "attribution": "Adapted from local Colosseum action_carrier transport, ledger and focused tests. No LICENSE or copyright notice found in source files or repository root. No broader license is asserted."
+}

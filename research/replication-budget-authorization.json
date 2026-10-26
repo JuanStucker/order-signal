@@ -1,0 +1,7 @@
+{
+  "known_settled_plus_maximum_existing_running_spend_usd": 2.3794316799999997,
+  "new_cap_usd": 1.2,
+  "campaign_worst_case_usd": 3.57943168,
+  "ceiling_usd": 4.0,
+  "scope": "Adaptive repeat of low-reasoning A1 and M2 on two fresh matched pair seeds. Original pair job caps unchanged; only completed unused allocations released."
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "job": "s-low-anchor",
+    "cell": "anchor",
+    "n": 68,
+    "table": [
+      [
+        32,
+        0
+      ],
+      [
+        6,
+        30
+      ]
+    ],
+    "encoding": 0.8333333333333334,
+    "median_reasoning_tokens": 1066.0
+  },
+  {
+    "job": "s-low-explicit",
+    "cell": "explicit",
+    "n": 80,
+    "table": [
+      [
+        39,
+        1
+      ],
+      [
+        38,
+        2
+      ]
+    ],
+    "encoding": 0.025000000000000022,
+    "median_reasoning_tokens": 543.0
+  },
+  {
+    "job": "s-low-general",
+    "cell": "general",
+    "n": 59,
+    "table": [
+      [
+        25,
+        1
+      ],
+      [
+        28,
+        5
+      ]
+    ],
+    "encoding": 0.11305361305361306,
+    "median_reasoning_tokens": 1361
+  },
+  {
+    "job": "s-low-no-stake",
+    "cell": "no-stake",
+    "n": 80,
+    "table": [
+      [
+        37,
+        3
+      ],
+      [
+        30,
+        10
+      ]
+    ],
+    "encoding": 0.17500000000000004,
+    "median_reasoning_tokens": 419.0
+  },
+  {
+    "job": "s-low-unflagged",
+    "cell": "unflagged",
+    "n": 61,
+    "table": [
+      [
+        29,
+        1
+      ],
+      [
+        9,
+        22
+      ]
+    ],
+    "encoding": 0.6763440860215053,
+    "median_reasoning_tokens": 1461
+  },
+  {
+    "job": "s-low-v3",
+    "cell": "v3",
+    "n": 67,
+    "table": [
+      [
+        31,
+        1
+      ],
+      [
+        30,
+        5
+      ]
+    ],
+    "encoding": 0.1116071428571429,
+    "median_reasoning_tokens": 1309
+  },
+  {
+    "job": "f-low-anchor",
+    "cell": "reversed",
+    "n": 24,
+    "table": [
+      [
+        0,
+        12
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    "encoding": -0.9166666666666666,
+    "median_reasoning_tokens": 106.5
+  },
+  {
+    "job": "f-low-anchor",
+    "cell": "natural",
+    "n": 24,
+    "table": [
+      [
+        11,
+        1
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "encoding": 0.9166666666666666,
+    "median_reasoning_tokens": 142.0
+  },
+  {
+    "job": "f-low-anchor",
+    "cell": "empty",
+    "n": 24,
+    "table": [
+      [
+        12,
+        0
+      ],
+      [
+        1,
+        11
+      ]
+    ],
+    "encoding": 0.9166666666666666,
+    "median_reasoning_tokens": 1374.5
+  },
+  {
+    "job": "f-low-explicit",
+    "cell": "natural",
+    "n": 10,
+    "table": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "encoding": -0.19999999999999996,
+    "median_reasoning_tokens": 5102.5
+  },
+  {
+    "job": "f-low-explicit",
+    "cell": "reversed",
+    "n": 13,
+    "table": [
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "encoding": -0.2142857142857143,
+    "median_reasoning_tokens": 6029
+  },
+  {
+    "job": "f-low-explicit",
+    "cell": "empty",
+    "n": 12,
+    "table": [
+      [
+        5,
+        0
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "encoding": 0.0,
+    "median_reasoning_tokens": 369.0
+  }
+]

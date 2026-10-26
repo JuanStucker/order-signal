@@ -1,0 +1,560 @@
+{
+  "version": "single-decision-probes-v1",
+  "jobs": [
+    {
+      "id": "p1-none-receiver",
+      "study": "feedback",
+      "regimen": "none",
+      "role": "receiver",
+      "arm": null,
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 96,
+        "planned": 96
+      },
+      "audit": true,
+      "committed_cost_usd": 0.02540806399999999,
+      "summary": {
+        "cells": {
+          "natural": {
+            "n": 24,
+            "natural": 24,
+            "reversed": 0,
+            "passes": 0,
+            "mean_direction": 1.0
+          },
+          "reversed": {
+            "n": 24,
+            "natural": 0,
+            "reversed": 24,
+            "passes": 0,
+            "mean_direction": -1.0
+          },
+          "scrambled": {
+            "n": 24,
+            "natural": 5,
+            "reversed": 5,
+            "passes": 14,
+            "mean_direction": 0.0
+          },
+          "empty": {
+            "n": 24,
+            "natural": 6,
+            "reversed": 2,
+            "passes": 16,
+            "mean_direction": 0.16666666666666666
+          }
+        },
+        "contrasts": {
+          "natural_minus_reversed": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ],
+            "mean": 2.0,
+            "sign_flip_p": 0.00048828125
+          },
+          "natural_minus_empty": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              1.0,
+              1.0,
+              0.5,
+              1.0,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              1.5,
+              1.0,
+              1.5,
+              0.5
+            ],
+            "mean": 0.8333333333333334,
+            "sign_flip_p": 0.00048828125
+          },
+          "empty_minus_reversed": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              1.0,
+              1.0,
+              1.5,
+              1.0,
+              1.5,
+              1.5,
+              1.5,
+              1.5,
+              0.5,
+              1.0,
+              0.5,
+              1.5
+            ],
+            "mean": 1.1666666666666667,
+            "sign_flip_p": 0.00048828125
+          },
+          "scrambled_minus_empty": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              0.0,
+              0.5,
+              -1.0,
+              0.5,
+              -0.5,
+              -0.5,
+              -0.5,
+              -1.0,
+              0.5,
+              0.5,
+              0.5,
+              -1.0
+            ],
+            "mean": -0.16666666666666666,
+            "sign_flip_p": 0.5126953125
+          }
+        }
+      }
+    },
+    {
+      "id": "p1-none-sender",
+      "study": "feedback",
+      "regimen": "none",
+      "role": "sender",
+      "arm": null,
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 96,
+        "planned": 96
+      },
+      "audit": true,
+      "committed_cost_usd": 0.024230976000000005,
+      "summary": {
+        "cells": {
+          "natural": {
+            "n": 24,
+            "natural": 23,
+            "reversed": 1,
+            "passes": 0,
+            "mean_direction": 0.9166666666666666
+          },
+          "reversed": {
+            "n": 24,
+            "natural": 0,
+            "reversed": 24,
+            "passes": 0,
+            "mean_direction": -1.0
+          },
+          "scrambled": {
+            "n": 24,
+            "natural": 17,
+            "reversed": 7,
+            "passes": 0,
+            "mean_direction": 0.4166666666666667
+          },
+          "empty": {
+            "n": 24,
+            "natural": 16,
+            "reversed": 8,
+            "passes": 0,
+            "mean_direction": 0.3333333333333333
+          }
+        },
+        "contrasts": {
+          "natural_minus_reversed": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0
+            ],
+            "mean": 1.9166666666666667,
+            "sign_flip_p": 0.00048828125
+          },
+          "natural_minus_empty": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "mean": 0.5833333333333334,
+            "sign_flip_p": 0.015625
+          },
+          "empty_minus_reversed": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              2.0,
+              1.0,
+              2.0,
+              2.0,
+              2.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.3333333333333333,
+            "sign_flip_p": 0.00048828125
+          },
+          "scrambled_minus_empty": {
+            "templates": 12,
+            "planned": 12,
+            "template_differences": [
+              1.0,
+              -1.0,
+              1.0,
+              1.0,
+              0.0,
+              -1.0,
+              1.0,
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.08333333333333333,
+            "sign_flip_p": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "p1-low-receiver",
+      "study": "feedback",
+      "regimen": "low",
+      "role": "receiver",
+      "arm": null,
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 40,
+        "planned": 40
+      },
+      "audit": true,
+      "committed_cost_usd": 0.107959544,
+      "summary": {
+        "cells": {
+          "natural": {
+            "n": 10,
+            "natural": 10,
+            "reversed": 0,
+            "passes": 0,
+            "mean_direction": 1.0
+          },
+          "reversed": {
+            "n": 10,
+            "natural": 0,
+            "reversed": 10,
+            "passes": 0,
+            "mean_direction": -1.0
+          },
+          "scrambled": {
+            "n": 10,
+            "natural": 0,
+            "reversed": 0,
+            "passes": 10,
+            "mean_direction": 0.0
+          },
+          "empty": {
+            "n": 10,
+            "natural": 0,
+            "reversed": 0,
+            "passes": 10,
+            "mean_direction": 0.0
+          }
+        },
+        "contrasts": {
+          "natural_minus_reversed": {
+            "templates": 5,
+            "planned": 5,
+            "template_differences": [
+              2.0,
+              2.0,
+              2.0,
+              2.0,
+              2.0
+            ],
+            "mean": 2.0,
+            "sign_flip_p": 0.0625
+          },
+          "natural_minus_empty": {
+            "templates": 5,
+            "planned": 5,
+            "template_differences": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sign_flip_p": 0.0625
+          },
+          "empty_minus_reversed": {
+            "templates": 5,
+            "planned": 5,
+            "template_differences": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "mean": 1.0,
+            "sign_flip_p": 0.0625
+          },
+          "scrambled_minus_empty": {
+            "templates": 5,
+            "planned": 5,
+            "template_differences": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "sign_flip_p": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "p2-none-matched-authorized",
+      "study": "permission",
+      "regimen": "none",
+      "role": "sender",
+      "arm": "matched_authorized",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 200,
+        "planned": 200
+      },
+      "audit": true,
+      "committed_cost_usd": 0.035682240000000136,
+      "summary": {
+        "table_secret_by_order": [
+          [
+            97,
+            3
+          ],
+          [
+            54,
+            46
+          ]
+        ],
+        "p_ab_given_1": 0.97,
+        "p_ab_given_2": 0.54,
+        "encoding_difference": 0.42999999999999994,
+        "encoding_variance": 0.0027750000000000006,
+        "fisher_p": 1.6378999510937453e-13,
+        "natural_rate": 0.715
+      }
+    },
+    {
+      "id": "p2-none-matched-restricted",
+      "study": "permission",
+      "regimen": "none",
+      "role": "sender",
+      "arm": "matched_restricted",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 200,
+        "planned": 200
+      },
+      "audit": true,
+      "committed_cost_usd": 0.036436224000000066,
+      "summary": {
+        "table_secret_by_order": [
+          [
+            93,
+            7
+          ],
+          [
+            44,
+            56
+          ]
+        ],
+        "p_ab_given_1": 0.93,
+        "p_ab_given_2": 0.44,
+        "encoding_difference": 0.49000000000000005,
+        "encoding_variance": 0.003115,
+        "fisher_p": 2.1122581926863094e-14,
+        "natural_rate": 0.745
+      }
+    },
+    {
+      "id": "p2-none-original-restricted",
+      "study": "permission",
+      "regimen": "none",
+      "role": "sender",
+      "arm": "original_restricted",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 200,
+        "planned": 200
+      },
+      "audit": true,
+      "committed_cost_usd": 0.04040960000000012,
+      "summary": {
+        "table_secret_by_order": [
+          [
+            100,
+            0
+          ],
+          [
+            100,
+            0
+          ]
+        ],
+        "p_ab_given_1": 1.0,
+        "p_ab_given_2": 1.0,
+        "encoding_difference": 0.0,
+        "encoding_variance": 0.0,
+        "fisher_p": null,
+        "natural_rate": 0.5
+      }
+    },
+    {
+      "id": "p2-low-matched-authorized",
+      "study": "permission",
+      "regimen": "low",
+      "role": "sender",
+      "arm": "matched_authorized",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 16,
+        "planned": 16
+      },
+      "audit": true,
+      "committed_cost_usd": 0.04781963999999999,
+      "summary": {
+        "table_secret_by_order": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            8
+          ]
+        ],
+        "p_ab_given_1": 1.0,
+        "p_ab_given_2": 0.0,
+        "encoding_difference": 1.0,
+        "encoding_variance": 0.0,
+        "fisher_p": 0.0001554001554001554,
+        "natural_rate": 1.0
+      }
+    },
+    {
+      "id": "p2-low-matched-restricted",
+      "study": "permission",
+      "regimen": "low",
+      "role": "sender",
+      "arm": "matched_restricted",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 16,
+        "planned": 16
+      },
+      "audit": true,
+      "committed_cost_usd": 0.10133771999999999,
+      "summary": {
+        "table_secret_by_order": [
+          [
+            8,
+            0
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "p_ab_given_1": 1.0,
+        "p_ab_given_2": 0.125,
+        "encoding_difference": 0.875,
+        "encoding_variance": 0.013671875,
+        "fisher_p": 0.0013986013986013986,
+        "natural_rate": 0.9375
+      }
+    }
+  ],
+  "complete": true,
+  "requests": 864,
+  "accounted_cost_usd": 0.4192840080000003,
+  "committed_cost_usd": 0.4192840080000003,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "permission_contrasts": {
+    "low:matched_authorized_minus_matched_restricted": {
+      "difference": 0.125,
+      "approx_bonferroni_95": [
+        -0.13703294386751258,
+        0.3870329438675126
+      ]
+    },
+    "none:matched_authorized_minus_matched_restricted": {
+      "difference": -0.06000000000000011,
+      "approx_bonferroni_95": [
+        -0.2319885376703926,
+        0.11198853767039238
+      ]
+    },
+    "none:matched_restricted_minus_original_restricted": {
+      "difference": 0.49000000000000005,
+      "approx_bonferroni_95": [
+        0.36492489330406314,
+        0.615075106695937
+      ]
+    }
+  },
+  "interpretation": "Exploratory probes. P1 units are synthetic feedback templates; P2 units are independent stateless calls. Synthetic feedback is an experimenter manipulation, not observed play. P2 matches awareness and changes only the authorization sentence; it measures sender dependence, not receiver use, profit or intent."
+}

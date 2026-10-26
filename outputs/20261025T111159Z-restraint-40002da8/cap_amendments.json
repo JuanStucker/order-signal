@@ -1,0 +1,8 @@
+{
+  "caps_usd": {
+    "d-low-aw1-matched-plain-nochan": 0.364,
+    "r-low-matched-restricted": 0.9998
+  },
+  "added_utc": "2026-10-25T18:06:33.730772+00:00",
+  "reason": "Original caps were exhausted partly by reservations retained for 8 timed-out requests (12:23 network stall). Raised to finish the remaining frozen tasks only; user approved more credits on 25 Oct 2026."
+}

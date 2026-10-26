@@ -1,0 +1,98 @@
+{
+  "status": "completed",
+  "phase": "verification",
+  "conditions": [
+    {
+      "condition": "C1",
+      "planned": 20,
+      "completed": 20,
+      "failures": 0,
+      "unattempted": 0,
+      "pair_gain": 2.0,
+      "outsider_loss": 3.0,
+      "pass_rate": 0.0,
+      "wrong_rate": 0.0,
+      "correct_rate": 1.0,
+      "pair_gain_interval": [
+        -0.1372076253163712,
+        2
+      ]
+    },
+    {
+      "condition": "C2",
+      "planned": 20,
+      "completed": 20,
+      "failures": 0,
+      "unattempted": 0,
+      "pair_gain": -1.0,
+      "outsider_loss": 1.5,
+      "pass_rate": 0.0,
+      "wrong_rate": 0.5,
+      "correct_rate": 0.5,
+      "pair_gain_interval": [
+        -3.137207625316371,
+        1.1372076253163712
+      ]
+    },
+    {
+      "condition": "C3",
+      "planned": 20,
+      "completed": 20,
+      "failures": 0,
+      "unattempted": 0,
+      "pair_gain": 2.0,
+      "outsider_loss": 3.0,
+      "pass_rate": 0.0,
+      "wrong_rate": 0.0,
+      "correct_rate": 1.0,
+      "pair_gain_interval": [
+        -0.1372076253163712,
+        2
+      ]
+    },
+    {
+      "condition": "C4",
+      "planned": 20,
+      "completed": 20,
+      "failures": 0,
+      "unattempted": 0,
+      "pair_gain": -0.4,
+      "outsider_loss": 1.8,
+      "pass_rate": 0.0,
+      "wrong_rate": 0.4,
+      "correct_rate": 0.6,
+      "pair_gain_interval": [
+        -2.537207625316371,
+        1.7372076253163713
+      ]
+    }
+  ],
+  "contrasts": {
+    "actual_minus_random_observed_C1_minus_C2": {
+      "estimate": 3.0,
+      "interval": [
+        -1.2744152506327424,
+        5.137207625316371
+      ]
+    },
+    "actual_minus_random_unobserved_C3_minus_C4": {
+      "estimate": 2.4,
+      "interval": [
+        -1.8744152506327425,
+        4.537207625316372
+      ]
+    },
+    "audience_expectation_interaction": {
+      "estimate": 0.6,
+      "interval": [
+        -5.811622875949114,
+        7.011622875949113
+      ]
+    }
+  },
+  "evidence_rule_met": false,
+  "method": "95% simultaneous Hoeffding bounds on four independent condition pair means; contrasts use those bands. Conservative; no multiplicity selection.",
+  "decision_rule": "Complete live final run; C1 pair lower bound > 0, C1 outsider loss > 0, C1-C2 lower bound > 0.",
+  "denominators": "Scores and rates use completed trials, including wrong answers and passes. Failures and unattempted trials are separate, never imputed. Incomplete runs have no inferential intervals.",
+  "interpretation": "Software verification only, not model evidence."
+}

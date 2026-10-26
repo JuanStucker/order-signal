@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24",
+  "command": ".venv/bin/python -m unittest discover -s tests",
+  "tests": 54,
+  "result": "OK",
+  "checks": [
+    "All 42 complete scouting pair jobs passed input and action audits",
+    "All 522 committed checklist executions verified, including partial failed trials",
+    "Two receiver replay histories passed input audits",
+    "All API ledgers settled with no pending reservations",
+    "Campaign cost 1.9067752 USD at configured peak rates, below 4 USD cap"
+  ]
+}

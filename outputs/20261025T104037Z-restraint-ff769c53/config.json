@@ -1,0 +1,92 @@
+{
+  "version": "restraint-probes-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1025311,
+  "ceiling_usd": 0.8,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "none": {
+      "max_output_tokens": 1024,
+      "temperature": 1.0,
+      "reasoning_effort": "none"
+    },
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "d-none-aw0-v3-rlabel",
+      "study": "decomposition",
+      "cell": "aw0-v3-rlabel",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw0-v3-plain",
+      "study": "decomposition",
+      "cell": "aw0-v3-plain",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw0-matched-rlabel",
+      "study": "decomposition",
+      "cell": "aw0-matched-rlabel",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw0-matched-plain",
+      "study": "decomposition",
+      "cell": "aw0-matched-plain",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw1-v3-rlabel",
+      "study": "decomposition",
+      "cell": "aw1-v3-rlabel",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw1-v3-plain",
+      "study": "decomposition",
+      "cell": "aw1-v3-plain",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw1-matched-rlabel",
+      "study": "decomposition",
+      "cell": "aw1-matched-rlabel",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "d-none-aw1-matched-plain",
+      "study": "decomposition",
+      "cell": "aw1-matched-plain",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.1
+    }
+  ]
+}

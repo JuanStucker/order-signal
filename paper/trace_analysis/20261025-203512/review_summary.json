@@ -1,0 +1,64 @@
+{
+  "literal_benchmark_pattern": "\\bbenchmark\\b",
+  "literal_benchmark_counts": [
+    [
+      "Low-reasoning short-rule sender",
+      31,
+      63
+    ],
+    [
+      "Phase 1 short-rule sender",
+      16,
+      32
+    ],
+    [
+      "Phase 1 explicit-rule sender",
+      1,
+      32
+    ],
+    [
+      "Low-reasoning short-rule receiver",
+      28,
+      47
+    ]
+  ],
+  "phase2_token_medians": [
+    [
+      "Short rule",
+      "natural",
+      24,
+      142.0
+    ],
+    [
+      "Short rule",
+      "reversed",
+      24,
+      106.5
+    ],
+    [
+      "Short rule",
+      "empty",
+      24,
+      1374.5
+    ],
+    [
+      "Explicit rule",
+      "natural",
+      10,
+      5102.5
+    ],
+    [
+      "Explicit rule",
+      "reversed",
+      13,
+      6029
+    ],
+    [
+      "Explicit rule",
+      "empty",
+      12,
+      369.0
+    ]
+  ],
+  "selected_cases": 11
+}

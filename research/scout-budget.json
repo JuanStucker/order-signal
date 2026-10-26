@@ -1,0 +1,19 @@
+{
+  "ceiling_usd": 4.0,
+  "requests": 1075,
+  "accounted_cost_usd": 1.9067751999999996,
+  "committed_cost_usd": 1.9067751999999996,
+  "completed_trials": 521,
+  "failed_trials": 2,
+  "unattempted_trials": 5,
+  "runs": [
+    "/home/justu/Documents/Sprint/order_signal/outputs/20261024T213446Z-scout-6457b0df",
+    "/home/justu/Documents/Sprint/order_signal/outputs/20261024T213450Z-scout-67d57a3a",
+    "/home/justu/Documents/Sprint/order_signal/outputs/20261024T213909Z-scout-8212b48a",
+    "/home/justu/Documents/Sprint/order_signal/outputs/scout-receiver-replay-20261024"
+  ],
+  "completed_receiver_replays": 32,
+  "planned_receiver_replays": 32,
+  "remaining_usd": 2.0932248000000007,
+  "basis": "Peak-rate ledger estimates; unknown charges remain reserved. Includes only the listed newly authorized scouting runs, not earlier historical experiments."
+}

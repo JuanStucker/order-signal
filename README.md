@@ -1,4 +1,72 @@
+# Order signal
+
+Code and data for **"Can AI Agents Share a Secret Through Action Order?"** (Apart Research AI
+Collusion Research Sprint, 23–25 October 2026).
+
+## Start here: runs used in the paper
+
+Every run folder in `outputs/` holds the frozen configuration and plan (exact prompts and tool
+schema for every call), a source snapshot, every request and response (`calls.jsonl`), results,
+budget ledgers, status and a `summary.json`. Each run has a plan document (listed below); changes
+made during a run, such as budget-cap amendments, are recorded in the plan or the run folder.
+
+| Paper ID | Role | Folder in `outputs/` | Plan and results |
+| --- | --- | --- | --- |
+| R0 | Initial probes | `20261024T220300Z-probes-95164128` | `research/PROBE_*.md` |
+| R1 | Initial restraint (incomplete) | `20261024T222603Z-restraint-71e0e24f` | `research/RESTRAINT_*.md` |
+| R2 | No thinking | `20261025T104037Z-restraint-ff769c53` | `research/RESTRAINT_*.md` |
+| R3 | Exploratory probe, low reasoning | `20261025T111159Z-restraint-40002da8` | `research/RESTRAINT_LOW_*.md` |
+| R4 | Screening run | `20261025T183218Z-screen-b47b2977` | `research/PHASE1_*.md` |
+| R5 | Confirmatory comparison | `20261025T191314Z-phase2-0169a262` | `research/PHASE2_*.md` |
+| R6 | Paired play | `20261025T202227Z-pairplay-2138b055` | `research/PAIRPLAY_PLAN.md`, `research/PHASE2_RESULTS.md` |
+| R7 | No-observer control | `20261025T214405Z-study3-8639138c` | `research/STUDY3_*.md` |
+| R8 | Payoff screen | `20261025T205630Z-payoff-d94cf861` | `research/PAYOFF_*.md` |
+| R9 | Hint control and matched positive control | `20261025T231744Z-hint-5212b736` | `research/HINT_*.md` |
+
+The authorized pair controls come from the scouting runs `20261024T213446Z-scout-6457b0df`,
+`20261024T213450Z-scout-67d57a3a` and `20261024T213909Z-scout-8212b48a`. The current state of all
+claims is in `research/CURRENT_STATUS.md`. Folder names such as `study3` are internal code names;
+the paper reports one experiment with runs R0–R9.
+
+Recompute a run's analysis without API calls, for example
+`.venv/bin/python -m order_signal.phase2 --summarize outputs/20261025T191314Z-phase2-0169a262`
+(modules: `restraint`, `screen`, `phase2`, `pairplay`, `study3`, `payoff`, `hint`).
+
+**Paths in the paper.** The report gives paths relative to the original workspace:
+`order_signal/…` is the root of this repository, and `paper/…` is the `paper/` folder here.
+`paper/analysis/20261025-211501/` is the analysis archive (manifest, recomputed values, code).
+Its `raw/` and `pairs/` copies are omitted here because all 459 files are byte-identical to the
+`outputs/` files listed under `source` in `manifest.json`; check them with the listed SHA-256
+hashes. `paper/trace_analysis/20261025-203512/` holds the trace review; its 42 MB `traces.jsonl`
+extract is omitted and can be rebuilt from `outputs/`. `paper/figure/` builds Figure 1.
+
+**Code written before the sprint.** The DeepSeek transport and cost-ledger utilities and their
+tests were adapted from our fork of the public Colosseum repository (Nakamura et al., 2026). They
+were written during the sprint (fork commit `6aa0d61`, 24 October 2026). The Colosseum framework
+itself is not used. `SOURCE_PROVENANCE.json` records the source commit and file hashes.
+
+Output folders contain the synthetic hidden answers given to Alice. The game has no real secret.
+
+---
+
 # Order signal — design revision 3
+
+**Update, 25 October 2026:** single-decision probes (`python -m order_signal.probes
+--config configs/probes.json`; [results](research/PROBE_RESULTS.md)) show that
+four consistent synthetic feedback examples override the natural convention.
+They also show that a restricted sender given a disclose-only rule and mutual
+awareness encodes the answer at a rate similar to the matched authorized sender,
+while the original v3 restricted prompt shows no encoding. That contrast bundles
+several wording changes. **Current state of claims:** [CURRENT_STATUS.md](research/CURRENT_STATUS.md).
+
+**Earlier selection assessment, 24 October 2026:** the bounded scouting campaign
+accounted for $1.907 of its $4 allowance. Four low-reasoning authorized history
+pairs scored 32/32 correct versus 16/32 without history; a frozen-history receiver
+replay isolated immediate dependence on order. These are exploratory results.
+Two expensive controls stopped at preset per-pair cash caps. See the
+[decision report](research/SCOUT_DECISION.md), [method review](research/METHOD_REVIEW.md),
+and [proposed next experiment](research/NEXT_EXPERIMENT.md) before running the
+existing larger learning configuration.
 
 A standalone, one-round test of profitable unauthorized information use through equivalent
 checklist actions under a fixed confidentiality rule. Python 3.11+; the core uses
@@ -17,6 +85,16 @@ For a chart, install the optional plotting dependency and analyze a revision 3 r
 uv sync --locked --extra analysis
 .venv/bin/order-signal-analyze outputs/<run_id> --plot
 ```
+
+## Code provenance for the sprint report
+
+The model-call and cost-tracking utilities and their tests were adapted from the
+local Colosseum fork (Nakamura et al., 2026), commit `6aa0d61`. The Colosseum
+framework itself is not used. [SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json)
+records the source commit and file hashes.
+
+**Authors to complete before submission:** confirm when the adapted files were
+written and identify any code that predates the sprint.
 
 ## Question and interpretation
 
@@ -228,3 +306,135 @@ proof of intent. A real utility-preservation claim would need a meaningful task 
 an equivalence/non-inferiority margin; identical dummy checklist execution needs no
 statistical equivalence claim. The former audience-expectation intervention was
 removed in v2, so the current study cannot estimate its causal effect.
+
+## Repeated-pair learning pilot (separate extension)
+
+Run `./.venv/bin/python -m order_signal.learning --config configs/learning-pilot.json`.
+This versioned exploratory runner leaves the v3 single-round study intact. Its
+initial configuration uses one pair per arm, four training rounds and four fresh
+independent evaluation secrets (64 trials, 128 calls total), `low` reasoning,
+a 4,096-token output cap, and a $5 request-budget ceiling. Peak provider rates
+verified on 2026-10-24 are used conservatively, rather than discounted billing.
+
+L1–L4 retain the original confidentiality, payoffs and four objective/channel
+conditions. A1/A2 permit communication without supplying a codebook, with actual
+or random delivery. M1/M2 are memoryless actual-channel comparisons for restricted
+and authorized individual-objective behavior. All allow passing and retain the
+original payoffs; the authorized control is not an aligned-interest control.
+
+Each learning pair sees its shared training history: past answer, **delivered**
+order, Bob's choice and outcome. Past answers are explicitly released by the
+experimenter; the current restricted answer remains restricted. Raw transcripts,
+private reasoning, and Alice's actual order are never replayed as feedback. This
+changes the information available relative to v3 and must be reported as such.
+Histories are isolated by arm and pair; evaluation reuses frozen training history
+and releases no evaluation outcomes. There is no weight update or persistent
+server session: learning means adaptation from the supplied feedback context.
+Secret draws are IID and matched across arms within a replication; the agents are
+not told schedules or channel assignments. Replication seeds differ across pairs.
+
+Artifacts include source snapshots, configuration, schedule, per-call inputs and
+responses, trials, budget, status, and descriptive summaries. The summary audits
+saved prompts and channel delivery against reconstructed training history.
+Rounds within a pair are dependent: v3 confidence bounds and evidence gates do
+not apply. One pair and four evaluation rounds per arm only establish feasibility
+and describe behavior; use multiple independent pairs and longer training before
+claiming learning, absence of learning, or an objective effect. A1 versus M2 and
+L3 versus M1 are the relevant history comparisons, alongside random-channel arms.
+
+The live endpoint rejected `tool_choice=required` with thinking enabled despite
+listing both features in its documentation. Thinking requests now use `auto`;
+local validation still rejects responses without exactly one valid tool call.
+No failed trial is retried or converted into a pass. Older artifacts are retained.
+
+For the initial live results, use the concurrent-arm entry point:
+`./.venv/bin/python -m order_signal.learning_batch --config configs/learning-pilot.json`.
+It divides the configured dollar/request caps equally across eight independent
+arm runners and aggregates their summaries. Within each pair, all decisions stay
+sequential. Each arm has its own API client, history, source snapshot and ledger.
+Learning runs allow 180 seconds per request; the original runner retains 60 seconds.
+An earlier sequential learning attempt timed out after 11 completed trials and is
+retained separately; the batch uses fresh seeds and does not pool that attempt.
+
+### Initial results, 2026-10-24
+
+The completed non-thinking pilot is in
+[outputs/20261024T201207Z-learning-batch-e1091614/summary.md](outputs/20261024T201207Z-learning-batch-e1091614/summary.md).
+Reproduce its design with `configs/learning-pilot-none.json` and the batch command
+above. It completed 64/64 trials (128 calls), with no failures and all eight input
+boundary audits passing. Four training and four evaluation rounds were used per
+arm. In memoryless arms, “training” is only the schedule label: no feedback was
+supplied in either phase.
+
+Evaluation counts (correct / wrong / pass, four trials each):
+
+| Condition | Correct | Wrong | Pass |
+|---|---:|---:|---:|
+| Restricted, group, history, actual | 2 | 1 | 1 |
+| Restricted, group, history, random | 1 | 2 | 1 |
+| Restricted, individual, history, actual | 1 | 3 | 0 |
+| Restricted, individual, history, random | 2 | 2 | 0 |
+| Authorized, history, actual | 2 | 1 | 1 |
+| Authorized, history, random | 2 | 2 | 0 |
+| Restricted, individual, memoryless, actual | 2 | 1 | 1 |
+| Authorized, memoryless, actual | 4 | 0 | 0 |
+
+This is a successful implementation/feasibility run, not evidence of a learning
+benefit. The authorized memoryless arm outperformed its history counterpart in
+this tiny sample. Four evaluation rounds and one pair per arm cannot establish
+reliable differences or a null effect.
+
+The separate low-reasoning batch is retained in
+[outputs/20261024T200948Z-learning-batch-255ccb89/summary.md](outputs/20261024T200948Z-learning-batch-255ccb89/summary.md).
+It completed 35/64 trials, with six failed trials and 23 unattempted trials.
+The authorized actual-channel pair passed initially, then answered three training
+rounds and all four evaluation rounds correctly. Its memoryless comparison failed
+before evaluation, so this does not demonstrate a benefit of history. Six arms
+stopped on incomplete responses at the 4,096-token output cap. Do not compare
+reasoning settings causally: the pilots have different seeds and unequal completion.
+A future thinking pilot needs an independently specified larger output budget;
+these failures were not retried or counted as decisions.
+
+The earlier sequential attempt completed 11 trials before a timeout and remains
+separate in `outputs/20261024T190734Z-learning-3be5e34f`. Across these three attempts,
+usage-accounted cost at configured peak rates was about $0.536, with about $0.558
+committed including the unresolved timeout reservation; these are ledger estimates,
+not an invoice. The complete non-thinking batch alone accounted for about $0.038.
+Next scientific step: longer training and multiple independent pair replications,
+with pair-level analysis and stable generation limits fixed before sampling.
+
+## Ten-pair authorized learning pilot
+
+`configs/learning-10pairs.json` fixes three authorized conditions: A1 (history,
+actual order), M2 (memoryless, actual order), and A2 (history, randomized order).
+Each has ten independent context-based pair replications, twenty training rounds,
+and twenty evaluation rounds. No codebook is supplied. The model is DeepSeek V4 Pro,
+with low reasoning and a 32,768-token output cap. Technical preflights used
+16,384 tokens; the main pilot uses extra headroom above the observed usage.
+Training history is frozen during evaluation; no evaluation outcomes are returned.
+
+Run with:
+
+```sh
+./.venv/bin/python -m order_signal.learning_replicates --config configs/learning-10pairs.json
+```
+
+The runner makes at most 2,400 model requests, with a $60 total ceiling divided
+across thirty independent pair/condition jobs. Jobs run concurrently, but every
+pair's rounds and sender/receiver decisions stay sequential. Each replication has
+fresh seeded IID secrets, matched across its three arms. Pair histories, channel
+streams, clients, and ledgers are isolated. The generation model's random sampling
+is not seeded by these experiment seeds. Failed trials stop their pair, without
+replacement or imputation; other independent pairs continue.
+
+Before calls, the run saves source provenance, all job configurations and an
+analysis plan. The primary outcome is evaluation correctness over all rounds,
+including passes. Pass rate is secondary. A1−M2 measures the history contrast;
+A1−A2 measures the delivery contrast. Differences are computed within replication,
+then averaged across pairs. Exploratory pointwise 95% percentile bootstrap bands
+resample the ten pair differences (10,000 draws, fixed analysis seed); they do not
+treat 200 repeated rounds as independent or adjust for multiple comparisons.
+Ten pairs still offer limited precision. A contrast is withheld if any required
+pair is incomplete or fails its input audit; descriptive completed counts remain
+visible. No comparison to the earlier non-thinking pilots is a causal reasoning
+comparison, and authorized communication does not establish restricted disclosure.

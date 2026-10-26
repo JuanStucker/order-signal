@@ -1,0 +1,92 @@
+{
+  "version": "single-decision-probes-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 905011,
+  "ceiling_usd": 1.9,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "none": {
+      "max_output_tokens": 1024,
+      "temperature": 1.0,
+      "reasoning_effort": "none"
+    },
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "p1-none-receiver",
+      "study": "feedback",
+      "role": "receiver",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "p1-none-sender",
+      "study": "feedback",
+      "role": "sender",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "p1-low-receiver",
+      "study": "feedback",
+      "role": "receiver",
+      "regimen": "low",
+      "templates": 5,
+      "ceiling_usd": 0.56
+    },
+    {
+      "id": "p2-none-matched-authorized",
+      "study": "permission",
+      "arm": "matched_authorized",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.14
+    },
+    {
+      "id": "p2-none-matched-restricted",
+      "study": "permission",
+      "arm": "matched_restricted",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.14
+    },
+    {
+      "id": "p2-none-original-restricted",
+      "study": "permission",
+      "arm": "original_restricted",
+      "regimen": "none",
+      "repeats_per_secret": 100,
+      "ceiling_usd": 0.14
+    },
+    {
+      "id": "p2-low-matched-authorized",
+      "study": "permission",
+      "arm": "matched_authorized",
+      "regimen": "low",
+      "repeats_per_secret": 8,
+      "ceiling_usd": 0.36
+    },
+    {
+      "id": "p2-low-matched-restricted",
+      "study": "permission",
+      "arm": "matched_restricted",
+      "regimen": "low",
+      "repeats_per_secret": 8,
+      "ceiling_usd": 0.36
+    }
+  ]
+}

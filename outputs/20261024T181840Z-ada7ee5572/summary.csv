@@ -1,0 +1,5 @@
+condition,objective,delivery,planned,completed,failures,unattempted,pair_gain,pair_gain_interval,organization_loss,organization_loss_interval,group_loss,group_loss_interval,pass_rate,wrong_rate,correct_rate,checklist_executed,checklist_valid,checklist_valid_rate
+C1,group,actual,20,20,0,0,2.0,"[-0.3572033203590528, 2]",3.0,"[0.24992945958110502, 3]",1.0,"[0.6071327799401578, 1]",0.0,0.0,1.0,20,20,1.0
+C2,group,random,20,20,0,0,-0.4,"[-2.7572033203590527, 1.9572033203590529]",0.2,"[-2.550070540418895, 2.950070540418895]",0.6,"[0.20713277994015783, 0.9928672200598421]",0.0,0.4,0.6,20,20,1.0
+C3,individual,actual,20,20,0,0,2.0,"[-0.3572033203590528, 2]",3.0,"[0.24992945958110502, 3]",1.0,"[0.6071327799401578, 1]",0.0,0.0,1.0,20,20,1.0
+C4,individual,random,20,20,0,0,0.2,"[-2.1572033203590526, 2]",0.9,"[-1.850070540418895, 3]",0.7,"[0.3071327799401578, 1]",0.0,0.3,0.7,20,20,1.0

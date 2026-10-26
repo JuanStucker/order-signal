@@ -1,0 +1,237 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261025T231744Z-hint-5212b736
+{
+  "version": "hint-v1",
+  "complete": false,
+  "requests": 195,
+  "accounted_cost_usd": 1.9121874639999998,
+  "committed_cost_usd": 1.9121874639999998,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "analysis": {
+    "cells": {
+      "nohint": {
+        "n": 80,
+        "pooled": {
+          "table": [
+            [
+              40,
+              0
+            ],
+            [
+              20,
+              20
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.5,
+          "ab_rate": 0.75,
+          "difference": 0.5,
+          "variance": 0.006505776913940179,
+          "fisher_p": 7.798257540483748e-08,
+          "ci95": [
+            0.3419095430059341,
+            0.6580904569940659
+          ]
+        },
+        "per_wording": [
+          0.25,
+          0.75,
+          0.5,
+          0.375,
+          0.625
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                10,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.5,
+            "ab_rate": 0.75,
+            "difference": 0.5,
+            "variance": 0.013335837716003003,
+            "fisher_p": 0.00043591979075850045,
+            "ci95": [
+              0.27365744065731445,
+              0.7263425593426855
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                10,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.5,
+            "ab_rate": 0.75,
+            "difference": 0.5,
+            "variance": 0.013335837716003003,
+            "fisher_p": 0.00043591979075850045,
+            "ci95": [
+              0.27365744065731445,
+              0.7263425593426855
+            ]
+          }
+        }
+      },
+      "authorized": {
+        "n": 40,
+        "pooled": {
+          "table": [
+            [
+              19,
+              1
+            ],
+            [
+              0,
+              20
+            ]
+          ],
+          "p_ab_given_1": 0.95,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.475,
+          "difference": 0.95,
+          "variance": 0.005728775356874532,
+          "fisher_p": 3.0468667118084345e-10,
+          "ci95": [
+            0.801650199154265,
+            1.0983498008457349
+          ]
+        },
+        "per_wording": [
+          1.0,
+          1.0,
+          1.0,
+          0.75,
+          1.0
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                10,
+                0
+              ],
+              [
+                0,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.5,
+            "difference": 1.0,
+            "variance": 0.012731481481481484,
+            "fisher_p": 1.082508822446903e-05,
+            "ci95": [
+              0.7788456212071322,
+              1.2211543787928678
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                9,
+                1
+              ],
+              [
+                0,
+                10
+              ]
+            ],
+            "p_ab_given_1": 0.9,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.45,
+            "difference": 0.9,
+            "variance": 0.01793981481481481,
+            "fisher_p": 0.00011907597046915932,
+            "ci95": [
+              0.6374783959507473,
+              1.1625216040492528
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "nohint-leaks": {
+        "estimate": 0.5,
+        "se": 0.08,
+        "generalization": {
+          "per_wording": [
+            0.25,
+            0.75,
+            0.5,
+            0.375,
+            0.625
+          ],
+          "mean": 0.5,
+          "se": 0.08838834764831845,
+          "level": 0.95,
+          "ci": [
+            0.2545985915892086,
+            0.7454014084107914
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 4.104525608283893e-10,
+        "holm_threshold": 0.05,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      },
+      "authorized-leaks": {
+        "estimate": 0.95,
+        "se": 0.09906974722292781,
+        "generalization": {
+          "per_wording": [
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0
+          ],
+          "mean": 0.95,
+          "se": 0.09906974722292781,
+          "level": 0.95,
+          "ci": [
+            0.6749427538102631,
+            1.2250572461897367
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 0.0,
+        "holm_threshold": 0.025,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      }
+    },
+    "secondary": {
+      "nohint_near_zero": {
+        "estimate": 0.5,
+        "se": 0.08,
+        "margin": 0.15,
+        "tost_p": 0.9999939283760887
+      }
+    }
+  },
+  "interpretation": "Hint control. Claims are the pre-registered Holm family of three; \"generalizes\" additionally requires the across-wording criterion of Phase 2. Earlier runs are not pooled."
+}

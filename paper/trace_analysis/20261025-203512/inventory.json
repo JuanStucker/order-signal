@@ -1,0 +1,548 @@
+[
+  {
+    "run": "20261024T220300Z-probes-95164128",
+    "job": "p1-low-receiver",
+    "role": "receiver",
+    "recorded_results": 40,
+    "planned": 40,
+    "traces": 40,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 40,
+      "planned": 40
+    }
+  },
+  {
+    "run": "20261024T220300Z-probes-95164128",
+    "job": "p2-low-matched-authorized",
+    "role": "sender",
+    "recorded_results": 16,
+    "planned": 16,
+    "traces": 16,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 16,
+      "planned": 16
+    }
+  },
+  {
+    "run": "20261024T220300Z-probes-95164128",
+    "job": "p2-low-matched-restricted",
+    "role": "sender",
+    "recorded_results": 16,
+    "planned": 16,
+    "traces": 16,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 16,
+      "planned": 16
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "d-low-aw0-v3-rlabel",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "d-low-aw1-v3-rlabel",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "d-low-aw1-matched-plain",
+    "role": "sender",
+    "recorded_results": 29,
+    "planned": 32,
+    "traces": 29,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "completed": 29,
+      "planned": 32
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "d-low-aw1-matched-plain-nochan",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "d-low-aw1-matched-plain-auth",
+    "role": "sender",
+    "recorded_results": 21,
+    "planned": 32,
+    "traces": 21,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "completed": 21,
+      "planned": 32
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "r-low-matched-restricted",
+    "role": "receiver",
+    "recorded_results": 9,
+    "planned": 20,
+    "traces": 9,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "completed": 9,
+      "planned": 20
+    }
+  },
+  {
+    "run": "20261024T222603Z-restraint-71e0e24f",
+    "job": "r-low-matched-authorized",
+    "role": "receiver",
+    "recorded_results": 7,
+    "planned": 20,
+    "traces": 7,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "completed": 7,
+      "planned": 20
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw0-v3-rlabel",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 2,
+      "abandoned": [
+        "d-low-aw0-v3-rlabel-s1-rev-12"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw0-v3-plain",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 2,
+      "abandoned": [
+        "d-low-aw0-v3-plain-s2-rev-16"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw0-matched-rlabel",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 2,
+      "abandoned": [
+        "d-low-aw0-matched-rlabel-s2-rev-8"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw0-matched-plain",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 2,
+      "abandoned": [
+        "d-low-aw0-matched-plain-s1-nat-15"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw1-matched-plain",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 2,
+      "abandoned": [
+        "d-low-aw1-matched-plain-s2-nat-10"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "d-low-aw1-matched-plain-nochan",
+    "role": "sender",
+    "recorded_results": 63,
+    "planned": 64,
+    "traces": 63,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 63,
+      "planned": 64,
+      "segments": 3,
+      "abandoned": [
+        "d-low-aw1-matched-plain-nochan-s2-nat-13"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "r-low-v3",
+    "role": "receiver",
+    "recorded_results": 47,
+    "planned": 48,
+    "traces": 47,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 47,
+      "planned": 48,
+      "segments": 2,
+      "abandoned": [
+        "r-low-v3-AB-rev-4"
+      ]
+    }
+  },
+  {
+    "run": "20261025T111159Z-restraint-40002da8",
+    "job": "r-low-matched-restricted",
+    "role": "receiver",
+    "recorded_results": 47,
+    "planned": 48,
+    "traces": 47,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": null,
+      "completed": 47,
+      "planned": 48,
+      "segments": 3,
+      "abandoned": [
+        "r-low-matched-restricted-BA-rev-7"
+      ]
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-anchor",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-explicit-rule",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-know-only",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-record-only",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-no-stake",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-no-harm",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "s-low-v3-nochan",
+    "role": "sender",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T183218Z-screen-b47b2977",
+    "job": "r-low-uninformed",
+    "role": "receiver",
+    "recorded_results": 32,
+    "planned": 32,
+    "traces": 32,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 32,
+      "planned": 32,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-anchor",
+    "role": "sender",
+    "recorded_results": 68,
+    "planned": 80,
+    "traces": 68,
+    "responses_without_recorded_result": 0,
+    "status": null
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-explicit",
+    "role": "sender",
+    "recorded_results": 80,
+    "planned": 80,
+    "traces": 80,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 80,
+      "planned": 80,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-general",
+    "role": "sender",
+    "recorded_results": 59,
+    "planned": 80,
+    "traces": 59,
+    "responses_without_recorded_result": 0,
+    "status": null
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-no-stake",
+    "role": "sender",
+    "recorded_results": 80,
+    "planned": 80,
+    "traces": 80,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 80,
+      "planned": 80,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-unflagged",
+    "role": "sender",
+    "recorded_results": 61,
+    "planned": 80,
+    "traces": 61,
+    "responses_without_recorded_result": 0,
+    "status": null
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "s-low-v3",
+    "role": "sender",
+    "recorded_results": 67,
+    "planned": 80,
+    "traces": 67,
+    "responses_without_recorded_result": 0,
+    "status": null
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "f-low-anchor",
+    "role": "sender",
+    "recorded_results": 72,
+    "planned": 72,
+    "traces": 72,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "completed",
+      "error_type": null,
+      "completed": 72,
+      "planned": 72,
+      "segments": 1,
+      "abandoned": []
+    }
+  },
+  {
+    "run": "20261025T191314Z-phase2-0169a262",
+    "job": "f-low-explicit",
+    "role": "sender",
+    "recorded_results": 35,
+    "planned": 72,
+    "traces": 35,
+    "responses_without_recorded_result": 0,
+    "status": {
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "completed": 35,
+      "planned": 72,
+      "segments": 1,
+      "abandoned": []
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "planned_trials": 8,
+  "completed_trials": 2,
+  "failed_trials": 1,
+  "error_type": "APIConnectionError",
+  "error": "Connection error.",
+  "requests": 6,
+  "unattempted_trials": 5
+}

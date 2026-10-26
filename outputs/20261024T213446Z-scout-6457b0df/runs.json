@@ -1,0 +1,162 @@
+[
+  {
+    "replication": 1,
+    "arm": "L4",
+    "path": "pair-01-L4/20261024T213446Z-learning-ea5d387d"
+  },
+  {
+    "replication": 3,
+    "arm": "M2",
+    "path": "pair-03-M2/20261024T213446Z-learning-e1d08703"
+  },
+  {
+    "replication": 3,
+    "arm": "M1",
+    "path": "pair-03-M1/20261024T213446Z-learning-34faa0bb"
+  },
+  {
+    "replication": 3,
+    "arm": "A2",
+    "path": "pair-03-A2/20261024T213446Z-learning-949df6a3"
+  },
+  {
+    "replication": 3,
+    "arm": "L4",
+    "path": "pair-03-L4/20261024T213446Z-learning-91948b53"
+  },
+  {
+    "replication": 2,
+    "arm": "L3",
+    "path": "pair-02-L3/20261024T213446Z-learning-2d9c36d1"
+  },
+  {
+    "replication": 4,
+    "arm": "M2",
+    "path": "pair-04-M2/20261024T213446Z-learning-eebdc4f9"
+  },
+  {
+    "replication": 2,
+    "arm": "M1",
+    "path": "pair-02-M1/20261024T213446Z-learning-4dbfd1ae"
+  },
+  {
+    "replication": 1,
+    "arm": "M1",
+    "path": "pair-01-M1/20261024T213519Z-learning-50e3f33c"
+  },
+  {
+    "replication": 2,
+    "arm": "A1",
+    "path": "pair-02-A1/20261024T213520Z-learning-862d9d0e"
+  },
+  {
+    "replication": 4,
+    "arm": "L2",
+    "path": "pair-04-L2/20261024T213521Z-learning-54c2d684"
+  },
+  {
+    "replication": 4,
+    "arm": "A2",
+    "path": "pair-04-A2/20261024T213521Z-learning-49e6cdca"
+  },
+  {
+    "replication": 2,
+    "arm": "L4",
+    "path": "pair-02-L4/20261024T213522Z-learning-7ca8e1d7"
+  },
+  {
+    "replication": 4,
+    "arm": "A1",
+    "path": "pair-04-A1/20261024T213522Z-learning-e2752e47"
+  },
+  {
+    "replication": 3,
+    "arm": "L1",
+    "path": "pair-03-L1/20261024T213522Z-learning-bcd4adca"
+  },
+  {
+    "replication": 1,
+    "arm": "M2",
+    "path": "pair-01-M2/20261024T213522Z-learning-02c80fd0"
+  },
+  {
+    "replication": 4,
+    "arm": "L4",
+    "path": "pair-04-L4/20261024T213548Z-learning-de97e2f9"
+  },
+  {
+    "replication": 2,
+    "arm": "A2",
+    "path": "pair-02-A2/20261024T213549Z-learning-10f97007"
+  },
+  {
+    "replication": 1,
+    "arm": "A1",
+    "path": "pair-01-A1/20261024T213549Z-learning-29921eb0"
+  },
+  {
+    "replication": 4,
+    "arm": "L1",
+    "path": "pair-04-L1/20261024T213549Z-learning-9524882b"
+  },
+  {
+    "replication": 2,
+    "arm": "L2",
+    "path": "pair-02-L2/20261024T213550Z-learning-69d4619c"
+  },
+  {
+    "replication": 1,
+    "arm": "L2",
+    "path": "pair-01-L2/20261024T213550Z-learning-34fdd278"
+  },
+  {
+    "replication": 1,
+    "arm": "A2",
+    "path": "pair-01-A2/20261024T213550Z-learning-373bd9d7"
+  },
+  {
+    "replication": 4,
+    "arm": "L3",
+    "path": "pair-04-L3/20261024T213551Z-learning-fbe963fd"
+  },
+  {
+    "replication": 1,
+    "arm": "L3",
+    "path": "pair-01-L3/20261024T213616Z-learning-8dbb9ce2"
+  },
+  {
+    "replication": 1,
+    "arm": "L1",
+    "path": "pair-01-L1/20261024T213617Z-learning-36a6c731"
+  },
+  {
+    "replication": 4,
+    "arm": "M1",
+    "path": "pair-04-M1/20261024T213617Z-learning-139b8b8a"
+  },
+  {
+    "replication": 2,
+    "arm": "L1",
+    "path": "pair-02-L1/20261024T213617Z-learning-dd3e7d93"
+  },
+  {
+    "replication": 3,
+    "arm": "A1",
+    "path": "pair-03-A1/20261024T213617Z-learning-a07e4eb7"
+  },
+  {
+    "replication": 3,
+    "arm": "L2",
+    "path": "pair-03-L2/20261024T213618Z-learning-a616cb58"
+  },
+  {
+    "replication": 3,
+    "arm": "L3",
+    "path": "pair-03-L3/20261024T213619Z-learning-c774f247"
+  },
+  {
+    "replication": 2,
+    "arm": "M2",
+    "path": "pair-02-M2/20261024T213619Z-learning-daf343a4"
+  }
+]

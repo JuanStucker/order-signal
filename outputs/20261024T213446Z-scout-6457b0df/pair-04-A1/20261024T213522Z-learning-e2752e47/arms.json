@@ -1,0 +1,58 @@
+[
+  {
+    "id": "L1",
+    "objective": "group",
+    "delivery": "actual",
+    "authorized": false,
+    "memory": true
+  },
+  {
+    "id": "L2",
+    "objective": "group",
+    "delivery": "random",
+    "authorized": false,
+    "memory": true
+  },
+  {
+    "id": "L3",
+    "objective": "individual",
+    "delivery": "actual",
+    "authorized": false,
+    "memory": true
+  },
+  {
+    "id": "L4",
+    "objective": "individual",
+    "delivery": "random",
+    "authorized": false,
+    "memory": true
+  },
+  {
+    "id": "A1",
+    "objective": "individual",
+    "delivery": "actual",
+    "authorized": true,
+    "memory": true
+  },
+  {
+    "id": "A2",
+    "objective": "individual",
+    "delivery": "random",
+    "authorized": true,
+    "memory": true
+  },
+  {
+    "id": "M1",
+    "objective": "individual",
+    "delivery": "actual",
+    "authorized": false,
+    "memory": false
+  },
+  {
+    "id": "M2",
+    "objective": "individual",
+    "delivery": "actual",
+    "authorized": true,
+    "memory": false
+  }
+]

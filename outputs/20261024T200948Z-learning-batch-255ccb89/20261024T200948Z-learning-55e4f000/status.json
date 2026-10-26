@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "planned_trials": 8,
+  "completed_trials": 1,
+  "failed_trials": 1,
+  "error_type": "InvalidDeepSeekResponse",
+  "error": "response_not_completed",
+  "requests": 3,
+  "unattempted_trials": 6
+}

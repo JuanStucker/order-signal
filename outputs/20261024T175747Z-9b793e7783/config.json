@@ -1,0 +1,67 @@
+{
+  "mode": "scripted",
+  "phase": "verification",
+  "protocol_version": "sender-channel-receiver-v1",
+  "prompt_version": "order-signal-v1",
+  "rounds_per_condition": 20,
+  "conditions": [
+    {
+      "id": "C1",
+      "expects_observed": true,
+      "delivery": "actual"
+    },
+    {
+      "id": "C2",
+      "expects_observed": true,
+      "delivery": "random"
+    },
+    {
+      "id": "C3",
+      "expects_observed": false,
+      "delivery": "actual"
+    },
+    {
+      "id": "C4",
+      "expects_observed": false,
+      "delivery": "random"
+    }
+  ],
+  "agents": [
+    {
+      "id": "alice",
+      "role": "sender",
+      "display_name": "Alice",
+      "model": "scripted-offline"
+    },
+    {
+      "id": "bob",
+      "role": "receiver",
+      "display_name": "Bob",
+      "model": "scripted-offline"
+    }
+  ],
+  "seeds": {
+    "schedule": 1729,
+    "secrets": 2718,
+    "channel": 3141
+  },
+  "generation": {
+    "max_output_tokens": 512,
+    "temperature": 1.0,
+    "reasoning_effort": "none"
+  },
+  "budget": {
+    "max_requests": 160,
+    "ceiling_usd": 1.0,
+    "prices_usd_per_million": {
+      "input": 0,
+      "cached_input": 0,
+      "output": 0
+    },
+    "rates_checked_on": null
+  },
+  "analysis": {
+    "method": "hoeffding_simultaneous",
+    "alpha": 0.05
+  }
+}

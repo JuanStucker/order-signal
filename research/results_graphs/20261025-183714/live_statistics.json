@@ -1,0 +1,72 @@
+{
+  "completed_decisions": 260,
+  "planned_decisions": 480,
+  "senders": [
+    {
+      "cell": "aw0-v3-rlabel",
+      "n": 40,
+      "n_answer_1": 22,
+      "n_answer_2": 18,
+      "encoding_difference": 0.24242424242424243,
+      "presentation_counts": {
+        "natural-first": 20,
+        "reversed-first": 20
+      }
+    },
+    {
+      "cell": "aw0-v3-plain",
+      "n": 50,
+      "n_answer_1": 24,
+      "n_answer_2": 26,
+      "encoding_difference": 0.1923076923076923,
+      "presentation_counts": {
+        "natural-first": 24,
+        "reversed-first": 26
+      }
+    },
+    {
+      "cell": "aw0-matched-rlabel",
+      "n": 26,
+      "n_answer_1": 12,
+      "n_answer_2": 14,
+      "encoding_difference": 0.5,
+      "presentation_counts": {
+        "natural-first": 15,
+        "reversed-first": 11
+      }
+    },
+    {
+      "cell": "aw0-matched-plain",
+      "n": 22,
+      "n_answer_1": 11,
+      "n_answer_2": 11,
+      "encoding_difference": 0.2727272727272727,
+      "presentation_counts": {
+        "natural-first": 8,
+        "reversed-first": 14
+      }
+    },
+    {
+      "cell": "aw1-matched-plain",
+      "n": 25,
+      "n_answer_1": 10,
+      "n_answer_2": 15,
+      "encoding_difference": 0.7333333333333334,
+      "presentation_counts": {
+        "natural-first": 13,
+        "reversed-first": 12
+      }
+    },
+    {
+      "cell": "aw1-matched-plain-nochan",
+      "n": 54,
+      "n_answer_1": 29,
+      "n_answer_2": 25,
+      "encoding_difference": -0.02344827586206899,
+      "presentation_counts": {
+        "natural-first": 28,
+        "reversed-first": 26
+      }
+    }
+  ]
+}

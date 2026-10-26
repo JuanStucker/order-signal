@@ -1,0 +1,1 @@
+{"trial_id": "A2-p1-r1", "condition_id": "A2", "pair": 1, "phase": "training", "round": 1, "secret": 2, "version": "repeated-pair-pilot-v1", "status": "failed", "actual_order": "BA", "execution": {"actions": ["B", "A"], "completed": ["A", "B"], "cost": 2}, "delivered_observation": {"order": "BA", "recipient": "bob"}, "error_type": "APIConnectionError"}

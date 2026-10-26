@@ -1,0 +1,1836 @@
+{
+  "aggregates": [
+    {
+      "regimen": "none",
+      "arm": "A1",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 23,
+      "wrong": 2,
+      "pass": 7,
+      "eval_n": 32,
+      "accuracy": 0.71875,
+      "pass_rate": 0.21875,
+      "pair_gain": 1.1875,
+      "pair_accuracies": [
+        0.75,
+        1.0,
+        0.25,
+        0.875
+      ],
+      "pair_gains": [
+        1.5,
+        2.0,
+        0.0,
+        1.25
+      ],
+      "encoding_differences": [
+        1.0,
+        1.0,
+        -0.2666666666666666,
+        0.6666666666666667
+      ],
+      "committed_cost_usd": 0.024981440000000004
+    },
+    {
+      "regimen": "none",
+      "arm": "A2",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 11,
+      "wrong": 12,
+      "pass": 9,
+      "eval_n": 32,
+      "accuracy": 0.34375,
+      "pass_rate": 0.28125,
+      "pair_gain": -0.8125,
+      "pair_accuracies": [
+        0.5,
+        0.0,
+        0.5,
+        0.375
+      ],
+      "pair_gains": [
+        -0.5,
+        -2.5,
+        -0.5,
+        0.25
+      ],
+      "encoding_differences": [
+        -0.5,
+        0.19999999999999996,
+        -1.0,
+        -0.1333333333333333
+      ],
+      "committed_cost_usd": 0.024981440000000004
+    },
+    {
+      "regimen": "none",
+      "arm": "L1",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 12,
+      "wrong": 4,
+      "pass": 16,
+      "eval_n": 32,
+      "accuracy": 0.375,
+      "pass_rate": 0.5,
+      "pair_gain": 0.25,
+      "pair_accuracies": [
+        0.125,
+        0.875,
+        0.0,
+        0.5
+      ],
+      "pair_gains": [
+        -0.25,
+        1.25,
+        0.0,
+        0.0
+      ],
+      "encoding_differences": [
+        0.75,
+        0.8,
+        0.0,
+        -0.19999999999999996
+      ],
+      "committed_cost_usd": 0.029036479999999996
+    },
+    {
+      "regimen": "none",
+      "arm": "L2",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 9,
+      "wrong": 6,
+      "pass": 17,
+      "eval_n": 32,
+      "accuracy": 0.28125,
+      "pass_rate": 0.53125,
+      "pair_gain": -0.1875,
+      "pair_accuracies": [
+        0.25,
+        0.375,
+        0.25,
+        0.25
+      ],
+      "pair_gains": [
+        0.5,
+        -1.75,
+        0.0,
+        0.5
+      ],
+      "encoding_differences": [
+        0.0,
+        -0.26666666666666666,
+        0.13333333333333341,
+        0.46666666666666673
+      ],
+      "committed_cost_usd": 0.029036479999999996
+    },
+    {
+      "regimen": "none",
+      "arm": "L3",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 11,
+      "wrong": 10,
+      "pass": 11,
+      "eval_n": 32,
+      "accuracy": 0.34375,
+      "pass_rate": 0.34375,
+      "pair_gain": -0.5625,
+      "pair_accuracies": [
+        0.75,
+        0.0,
+        0.125,
+        0.5
+      ],
+      "pair_gains": [
+        1.0,
+        0.0,
+        -3.25,
+        0.0
+      ],
+      "encoding_differences": [
+        0.5,
+        -0.13333333333333341,
+        0.33333333333333337,
+        -0.1333333333333333
+      ],
+      "committed_cost_usd": 0.028129728
+    },
+    {
+      "regimen": "none",
+      "arm": "L4",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 11,
+      "wrong": 12,
+      "pass": 9,
+      "eval_n": 32,
+      "accuracy": 0.34375,
+      "pass_rate": 0.28125,
+      "pair_gain": -0.8125,
+      "pair_accuracies": [
+        0.5,
+        0.375,
+        0.375,
+        0.125
+      ],
+      "pair_gains": [
+        -1.0,
+        -1.75,
+        -0.25,
+        -0.25
+      ],
+      "encoding_differences": [
+        0.0,
+        -0.46666666666666673,
+        -0.1333333333333333,
+        0.13333333333333341
+      ],
+      "committed_cost_usd": 0.02878304
+    },
+    {
+      "regimen": "none",
+      "arm": "M1",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 14,
+      "wrong": 10,
+      "pass": 8,
+      "eval_n": 32,
+      "accuracy": 0.4375,
+      "pass_rate": 0.25,
+      "pair_gain": -0.375,
+      "pair_accuracies": [
+        0.375,
+        0.25,
+        0.625,
+        0.5
+      ],
+      "pair_gains": [
+        -0.25,
+        -1.5,
+        0.25,
+        0.0
+      ],
+      "encoding_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "committed_cost_usd": 0.018256128
+    },
+    {
+      "regimen": "none",
+      "arm": "M2",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 26,
+      "wrong": 6,
+      "pass": 0,
+      "eval_n": 32,
+      "accuracy": 0.8125,
+      "pass_rate": 0.0,
+      "pair_gain": 0.875,
+      "pair_accuracies": [
+        0.75,
+        0.875,
+        0.75,
+        0.875
+      ],
+      "pair_gains": [
+        0.5,
+        1.25,
+        0.5,
+        1.25
+      ],
+      "encoding_differences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "committed_cost_usd": 0.030134016000000007
+    },
+    {
+      "regimen": "low",
+      "arm": "A1",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 32,
+      "wrong": 0,
+      "pass": 0,
+      "eval_n": 32,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "pair_accuracies": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "pair_gains": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "encoding_differences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "committed_cost_usd": 0.093473864
+    },
+    {
+      "regimen": "low",
+      "arm": "A2",
+      "complete_pairs": 1,
+      "planned_pairs": 2,
+      "correct": 4,
+      "wrong": 3,
+      "pass": 7,
+      "eval_n": 14,
+      "accuracy": 0.2857142857142857,
+      "pass_rate": 0.5,
+      "pair_gain": -0.2857142857142857,
+      "pair_accuracies": [
+        0.25,
+        0.3333333333333333
+      ],
+      "pair_gains": [
+        -1.0,
+        0.6666666666666666
+      ],
+      "encoding_differences": [
+        -1.0,
+        0.0
+      ],
+      "committed_cost_usd": 0.489782568
+    },
+    {
+      "regimen": "low",
+      "arm": "L3",
+      "complete_pairs": 1,
+      "planned_pairs": 2,
+      "correct": 1,
+      "wrong": 1,
+      "pass": 9,
+      "eval_n": 11,
+      "accuracy": 0.09090909090909091,
+      "pass_rate": 0.8181818181818182,
+      "pair_gain": -0.18181818181818182,
+      "pair_accuracies": [
+        0.0,
+        0.3333333333333333
+      ],
+      "pair_gains": [
+        -0.5,
+        0.6666666666666666
+      ],
+      "encoding_differences": [
+        -0.25,
+        0.33333333333333337
+      ],
+      "committed_cost_usd": 0.5530337999999999
+    },
+    {
+      "regimen": "low",
+      "arm": "M2",
+      "complete_pairs": 4,
+      "planned_pairs": 4,
+      "correct": 16,
+      "wrong": 0,
+      "pass": 16,
+      "eval_n": 32,
+      "accuracy": 0.5,
+      "pass_rate": 0.5,
+      "pair_gain": 1.0,
+      "pair_accuracies": [
+        0.375,
+        0.625,
+        0.375,
+        0.625
+      ],
+      "pair_gains": [
+        0.75,
+        1.25,
+        0.75,
+        1.25
+      ],
+      "encoding_differences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "committed_cost_usd": 0.5360200559999999
+    }
+  ],
+  "pairs": [
+    {
+      "regimen": "none",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 6,
+      "wrong": 0,
+      "pass": 2,
+      "accuracy": 0.75,
+      "pass_rate": 0.25,
+      "pair_gain": 1.5,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-A1/20261024T213549Z-learning-29921eb0",
+      "sender_mi_bits": 1.0,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "none",
+      "arm": "A2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 3,
+      "pass": 1,
+      "accuracy": 0.5,
+      "pass_rate": 0.125,
+      "pair_gain": -0.5,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-A2/20261024T213550Z-learning-373bd9d7",
+      "sender_mi_bits": 0.31127812445913283,
+      "encoding_difference": -0.5,
+      "conditional_accuracy": 0.5714285714285714
+    },
+    {
+      "regimen": "none",
+      "arm": "L1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 1,
+      "wrong": 1,
+      "pass": 6,
+      "accuracy": 0.125,
+      "pass_rate": 0.75,
+      "pair_gain": -0.25,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L1/20261024T213617Z-learning-36a6c731",
+      "sender_mi_bits": 0.5487949406953986,
+      "encoding_difference": 0.75,
+      "conditional_accuracy": 0.5
+    },
+    {
+      "regimen": "none",
+      "arm": "L2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 0,
+      "pass": 6,
+      "accuracy": 0.25,
+      "pass_rate": 0.75,
+      "pair_gain": 0.5,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L2/20261024T213550Z-learning-34fdd278",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "none",
+      "arm": "L3",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 6,
+      "wrong": 1,
+      "pass": 1,
+      "accuracy": 0.75,
+      "pass_rate": 0.125,
+      "pair_gain": 1.0,
+      "committed_cost_usd": 0.00719576,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L3/20261024T213616Z-learning-8dbb9ce2",
+      "sender_mi_bits": 0.18872187554086717,
+      "encoding_difference": 0.5,
+      "conditional_accuracy": 0.8571428571428571
+    },
+    {
+      "regimen": "none",
+      "arm": "L4",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 4,
+      "pass": 0,
+      "accuracy": 0.5,
+      "pass_rate": 0.0,
+      "pair_gain": -1.0,
+      "committed_cost_usd": 0.00719576,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L4/20261024T213446Z-learning-ea5d387d",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 0.5
+    },
+    {
+      "regimen": "none",
+      "arm": "M1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 2,
+      "pass": 3,
+      "accuracy": 0.375,
+      "pass_rate": 0.375,
+      "pair_gain": -0.25,
+      "committed_cost_usd": 0.004564032,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-M1/20261024T213519Z-learning-50e3f33c",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 0.6
+    },
+    {
+      "regimen": "none",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 6,
+      "wrong": 2,
+      "pass": 0,
+      "accuracy": 0.75,
+      "pass_rate": 0.0,
+      "pair_gain": 0.5,
+      "committed_cost_usd": 0.007533504000000002,
+      "replication": 1,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-01-M2/20261024T213522Z-learning-02c80fd0",
+      "sender_mi_bits": 1.0,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 0.75
+    },
+    {
+      "regimen": "none",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-A1/20261024T213520Z-learning-862d9d0e",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "none",
+      "arm": "A2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 0,
+      "wrong": 5,
+      "pass": 3,
+      "accuracy": 0.0,
+      "pass_rate": 0.375,
+      "pair_gain": -2.5,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-A2/20261024T213549Z-learning-10f97007",
+      "sender_mi_bits": 0.0923593838949949,
+      "encoding_difference": 0.19999999999999996,
+      "conditional_accuracy": 0.0
+    },
+    {
+      "regimen": "none",
+      "arm": "L1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 7,
+      "wrong": 1,
+      "pass": 0,
+      "accuracy": 0.875,
+      "pass_rate": 0.0,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L1/20261024T213617Z-learning-dd3e7d93",
+      "sender_mi_bits": 0.5487949406953986,
+      "encoding_difference": 0.8,
+      "conditional_accuracy": 0.875
+    },
+    {
+      "regimen": "none",
+      "arm": "L2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 5,
+      "pass": 0,
+      "accuracy": 0.375,
+      "pass_rate": 0.0,
+      "pair_gain": -1.75,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L2/20261024T213550Z-learning-69d4619c",
+      "sender_mi_bits": 0.0487949406953985,
+      "encoding_difference": -0.26666666666666666,
+      "conditional_accuracy": 0.375
+    },
+    {
+      "regimen": "none",
+      "arm": "L3",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 8,
+      "accuracy": 0.0,
+      "pass_rate": 1.0,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.006542447999999999,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L3/20261024T213446Z-learning-2d9c36d1",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": -0.13333333333333341,
+      "conditional_accuracy": null
+    },
+    {
+      "regimen": "none",
+      "arm": "L4",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 5,
+      "pass": 0,
+      "accuracy": 0.375,
+      "pass_rate": 0.0,
+      "pair_gain": -1.75,
+      "committed_cost_usd": 0.00719576,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L4/20261024T213522Z-learning-7ca8e1d7",
+      "sender_mi_bits": 0.15886800584992988,
+      "encoding_difference": -0.46666666666666673,
+      "conditional_accuracy": 0.375
+    },
+    {
+      "regimen": "none",
+      "arm": "M1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 4,
+      "pass": 2,
+      "accuracy": 0.25,
+      "pass_rate": 0.25,
+      "pair_gain": -1.5,
+      "committed_cost_usd": 0.004564032,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-M1/20261024T213446Z-learning-4dbfd1ae",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 0.3333333333333333
+    },
+    {
+      "regimen": "none",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 7,
+      "wrong": 1,
+      "pass": 0,
+      "accuracy": 0.875,
+      "pass_rate": 0.0,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.007533504000000002,
+      "replication": 2,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-02-M2/20261024T213619Z-learning-daf343a4",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 0.875
+    },
+    {
+      "regimen": "none",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 1,
+      "pass": 5,
+      "accuracy": 0.25,
+      "pass_rate": 0.625,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-A1/20261024T213617Z-learning-a07e4eb7",
+      "sender_mi_bits": 0.0487949406953985,
+      "encoding_difference": -0.2666666666666666,
+      "conditional_accuracy": 0.6666666666666666
+    },
+    {
+      "regimen": "none",
+      "arm": "A2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 3,
+      "pass": 1,
+      "accuracy": 0.5,
+      "pass_rate": 0.125,
+      "pair_gain": -0.5,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-A2/20261024T213446Z-learning-949df6a3",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": -1.0,
+      "conditional_accuracy": 0.5714285714285714
+    },
+    {
+      "regimen": "none",
+      "arm": "L1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 8,
+      "accuracy": 0.0,
+      "pass_rate": 1.0,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L1/20261024T213522Z-learning-bcd4adca",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": null
+    },
+    {
+      "regimen": "none",
+      "arm": "L2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 1,
+      "pass": 5,
+      "accuracy": 0.25,
+      "pass_rate": 0.625,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L2/20261024T213618Z-learning-a616cb58",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": 0.13333333333333341,
+      "conditional_accuracy": 0.6666666666666666
+    },
+    {
+      "regimen": "none",
+      "arm": "L3",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 1,
+      "wrong": 7,
+      "pass": 0,
+      "accuracy": 0.125,
+      "pass_rate": 0.0,
+      "pair_gain": -3.25,
+      "committed_cost_usd": 0.00719576,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L3/20261024T213619Z-learning-c774f247",
+      "sender_mi_bits": 0.19920350542916276,
+      "encoding_difference": 0.33333333333333337,
+      "conditional_accuracy": 0.125
+    },
+    {
+      "regimen": "none",
+      "arm": "L4",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 2,
+      "pass": 3,
+      "accuracy": 0.375,
+      "pass_rate": 0.375,
+      "pair_gain": -0.25,
+      "committed_cost_usd": 0.00719576,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L4/20261024T213446Z-learning-91948b53",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": -0.1333333333333333,
+      "conditional_accuracy": 0.6
+    },
+    {
+      "regimen": "none",
+      "arm": "M1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 5,
+      "wrong": 2,
+      "pass": 1,
+      "accuracy": 0.625,
+      "pass_rate": 0.125,
+      "pair_gain": 0.25,
+      "committed_cost_usd": 0.004564032,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-M1/20261024T213446Z-learning-34faa0bb",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 0.7142857142857143
+    },
+    {
+      "regimen": "none",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 6,
+      "wrong": 2,
+      "pass": 0,
+      "accuracy": 0.75,
+      "pass_rate": 0.0,
+      "pair_gain": 0.5,
+      "committed_cost_usd": 0.007533504000000002,
+      "replication": 3,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-03-M2/20261024T213446Z-learning-e1d08703",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 0.75
+    },
+    {
+      "regimen": "none",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 7,
+      "wrong": 1,
+      "pass": 0,
+      "accuracy": 0.875,
+      "pass_rate": 0.0,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-A1/20261024T213522Z-learning-e2752e47",
+      "sender_mi_bits": 0.4669171866886992,
+      "encoding_difference": 0.6666666666666667,
+      "conditional_accuracy": 0.875
+    },
+    {
+      "regimen": "none",
+      "arm": "A2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 1,
+      "pass": 4,
+      "accuracy": 0.375,
+      "pass_rate": 0.5,
+      "pair_gain": 0.25,
+      "committed_cost_usd": 0.006245360000000001,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-A2/20261024T213521Z-learning-49e6cdca",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": -0.1333333333333333,
+      "conditional_accuracy": 0.75
+    },
+    {
+      "regimen": "none",
+      "arm": "L1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 2,
+      "pass": 2,
+      "accuracy": 0.5,
+      "pass_rate": 0.25,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L1/20261024T213549Z-learning-9524882b",
+      "sender_mi_bits": 0.0923593838949949,
+      "encoding_difference": -0.19999999999999996,
+      "conditional_accuracy": 0.6666666666666666
+    },
+    {
+      "regimen": "none",
+      "arm": "L2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 0,
+      "pass": 6,
+      "accuracy": 0.25,
+      "pass_rate": 0.75,
+      "pair_gain": 0.5,
+      "committed_cost_usd": 0.007259119999999999,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L2/20261024T213521Z-learning-54c2d684",
+      "sender_mi_bits": 0.1588680058499299,
+      "encoding_difference": 0.46666666666666673,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "none",
+      "arm": "L3",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 2,
+      "pass": 2,
+      "accuracy": 0.5,
+      "pass_rate": 0.25,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.00719576,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L3/20261024T213551Z-learning-fbe963fd",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": -0.1333333333333333,
+      "conditional_accuracy": 0.6666666666666666
+    },
+    {
+      "regimen": "none",
+      "arm": "L4",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 1,
+      "wrong": 1,
+      "pass": 6,
+      "accuracy": 0.125,
+      "pass_rate": 0.75,
+      "pair_gain": -0.25,
+      "committed_cost_usd": 0.00719576,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L4/20261024T213548Z-learning-de97e2f9",
+      "sender_mi_bits": 0.015712127384097795,
+      "encoding_difference": 0.13333333333333341,
+      "conditional_accuracy": 0.5
+    },
+    {
+      "regimen": "none",
+      "arm": "M1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 4,
+      "wrong": 2,
+      "pass": 2,
+      "accuracy": 0.5,
+      "pass_rate": 0.25,
+      "pair_gain": 0.0,
+      "committed_cost_usd": 0.004564032,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-M1/20261024T213617Z-learning-139b8b8a",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 0.6666666666666666
+    },
+    {
+      "regimen": "none",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 7,
+      "wrong": 1,
+      "pass": 0,
+      "accuracy": 0.875,
+      "pass_rate": 0.0,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.007533504000000002,
+      "replication": 4,
+      "path": "outputs/20261024T213446Z-scout-6457b0df/pair-04-M2/20261024T213446Z-learning-eebdc4f9",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 0.875
+    },
+    {
+      "regimen": "low",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "committed_cost_usd": 0.02254472,
+      "replication": 1,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-A1/20261024T213450Z-learning-086abfb1",
+      "sender_mi_bits": 1.0,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "A2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 3,
+      "pass": 3,
+      "accuracy": 0.25,
+      "pass_rate": 0.375,
+      "pair_gain": -1.0,
+      "committed_cost_usd": 0.19633724,
+      "replication": 1,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-A2/20261024T213450Z-learning-a39afb0a",
+      "sender_mi_bits": 1.0,
+      "encoding_difference": -1.0,
+      "conditional_accuracy": 0.4
+    },
+    {
+      "regimen": "low",
+      "arm": "L3",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 0,
+      "wrong": 1,
+      "pass": 7,
+      "accuracy": 0.0,
+      "pass_rate": 0.875,
+      "pair_gain": -0.5,
+      "committed_cost_usd": 0.26239796,
+      "replication": 1,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-L3/20261024T213450Z-learning-0ffe530e",
+      "sender_mi_bits": 0.0487949406953985,
+      "encoding_difference": -0.25,
+      "conditional_accuracy": 0.0
+    },
+    {
+      "regimen": "low",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 0,
+      "pass": 5,
+      "accuracy": 0.375,
+      "pass_rate": 0.625,
+      "pair_gain": 0.75,
+      "committed_cost_usd": 0.13891046399999996,
+      "replication": 1,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-M2/20261024T213450Z-learning-2ec97eca",
+      "sender_mi_bits": 1.0,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "committed_cost_usd": 0.022422048,
+      "replication": 2,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-A1/20261024T213450Z-learning-2fad111c",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "A2",
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "input_audit": false,
+      "action_audit": true,
+      "eval_n": 6,
+      "planned_eval": 8,
+      "correct": 2,
+      "wrong": 0,
+      "pass": 4,
+      "accuracy": 0.3333333333333333,
+      "pass_rate": 0.6666666666666666,
+      "pair_gain": 0.6666666666666666,
+      "committed_cost_usd": 0.293445328,
+      "replication": 2,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-A2/20261024T213450Z-learning-f501b715",
+      "sender_mi_bits": 0.0,
+      "encoding_difference": 0.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "L3",
+      "status": "incomplete",
+      "error_type": "RuntimeError",
+      "input_audit": false,
+      "action_audit": true,
+      "eval_n": 3,
+      "planned_eval": 8,
+      "correct": 1,
+      "wrong": 0,
+      "pass": 2,
+      "accuracy": 0.3333333333333333,
+      "pass_rate": 0.6666666666666666,
+      "pair_gain": 0.6666666666666666,
+      "committed_cost_usd": 0.29063584,
+      "replication": 2,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-L3/20261024T213450Z-learning-c99790ab",
+      "sender_mi_bits": 0.12255624891826565,
+      "encoding_difference": 0.33333333333333337,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 5,
+      "wrong": 0,
+      "pass": 3,
+      "accuracy": 0.625,
+      "pass_rate": 0.375,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.152370504,
+      "replication": 2,
+      "path": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-M2/20261024T213450Z-learning-c97328a7",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "committed_cost_usd": 0.023617968,
+      "replication": 3,
+      "path": "outputs/20261024T213909Z-scout-8212b48a/pair-01-A1/20261024T213910Z-learning-2faa49b5",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 3,
+      "wrong": 0,
+      "pass": 5,
+      "accuracy": 0.375,
+      "pass_rate": 0.625,
+      "pair_gain": 0.75,
+      "committed_cost_usd": 0.11153894399999999,
+      "replication": 3,
+      "path": "outputs/20261024T213909Z-scout-8212b48a/pair-01-M2/20261024T213910Z-learning-6a0e0b6e",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "A1",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pass_rate": 0.0,
+      "pair_gain": 2.0,
+      "committed_cost_usd": 0.024889128,
+      "replication": 4,
+      "path": "outputs/20261024T213909Z-scout-8212b48a/pair-02-A1/20261024T213910Z-learning-a289ee3f",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    },
+    {
+      "regimen": "low",
+      "arm": "M2",
+      "status": "completed",
+      "error_type": null,
+      "input_audit": true,
+      "action_audit": true,
+      "eval_n": 8,
+      "planned_eval": 8,
+      "correct": 5,
+      "wrong": 0,
+      "pass": 3,
+      "accuracy": 0.625,
+      "pass_rate": 0.375,
+      "pair_gain": 1.25,
+      "committed_cost_usd": 0.13320014399999996,
+      "replication": 4,
+      "path": "outputs/20261024T213909Z-scout-8212b48a/pair-02-M2/20261024T213910Z-learning-bde272e5",
+      "sender_mi_bits": 0.9544340029249649,
+      "encoding_difference": 1.0,
+      "conditional_accuracy": 1.0
+    }
+  ],
+  "contrasts": {
+    "none": {
+      "authorized_history": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.0,
+            "pass_rate": 0.25,
+            "pair_gain": 1.0
+          },
+          {
+            "replication": 2,
+            "accuracy": 0.125,
+            "pass_rate": 0.0,
+            "pair_gain": 0.75
+          },
+          {
+            "replication": 3,
+            "accuracy": -0.5,
+            "pass_rate": 0.625,
+            "pair_gain": -0.5
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.0,
+            "pass_rate": 0.0,
+            "pair_gain": 0.0
+          }
+        ],
+        "means": {
+          "accuracy": -0.09375,
+          "pass_rate": 0.21875,
+          "pair_gain": 0.3125
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            -0.125,
+            -0.16666666666666666,
+            0.041666666666666664,
+            -0.125
+          ],
+          "pass_rate": [
+            0.20833333333333334,
+            0.2916666666666667,
+            0.08333333333333333,
+            0.2916666666666667
+          ],
+          "pair_gain": [
+            0.08333333333333333,
+            0.16666666666666666,
+            0.5833333333333334,
+            0.4166666666666667
+          ]
+        }
+      },
+      "authorized_channel": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.25,
+            "pass_rate": 0.125,
+            "pair_gain": 2.0
+          },
+          {
+            "replication": 2,
+            "accuracy": 1.0,
+            "pass_rate": -0.375,
+            "pair_gain": 4.5
+          },
+          {
+            "replication": 3,
+            "accuracy": -0.25,
+            "pass_rate": 0.5,
+            "pair_gain": 0.5
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.5,
+            "pass_rate": -0.5,
+            "pair_gain": 1.0
+          }
+        ],
+        "means": {
+          "accuracy": 0.375,
+          "pass_rate": -0.0625,
+          "pair_gain": 2.0
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            0.4166666666666667,
+            0.16666666666666666,
+            0.5833333333333334,
+            0.3333333333333333
+          ],
+          "pass_rate": [
+            -0.125,
+            0.041666666666666664,
+            -0.25,
+            0.08333333333333333
+          ],
+          "pair_gain": [
+            2.0,
+            1.1666666666666667,
+            2.5,
+            2.3333333333333335
+          ]
+        }
+      },
+      "restricted_history": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.375,
+            "pass_rate": -0.25,
+            "pair_gain": 1.25
+          },
+          {
+            "replication": 2,
+            "accuracy": -0.25,
+            "pass_rate": 0.75,
+            "pair_gain": 1.5
+          },
+          {
+            "replication": 3,
+            "accuracy": -0.5,
+            "pass_rate": -0.125,
+            "pair_gain": -3.5
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.0,
+            "pass_rate": 0.0,
+            "pair_gain": 0.0
+          }
+        ],
+        "means": {
+          "accuracy": -0.09375,
+          "pass_rate": 0.09375,
+          "pair_gain": -0.1875
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            -0.25,
+            -0.041666666666666664,
+            0.041666666666666664,
+            -0.125
+          ],
+          "pass_rate": [
+            0.20833333333333334,
+            -0.125,
+            0.16666666666666666,
+            0.125
+          ],
+          "pair_gain": [
+            -0.6666666666666666,
+            -0.75,
+            0.9166666666666666,
+            -0.25
+          ]
+        }
+      },
+      "restricted_individual_channel": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.25,
+            "pass_rate": 0.125,
+            "pair_gain": 2.0
+          },
+          {
+            "replication": 2,
+            "accuracy": -0.375,
+            "pass_rate": 1.0,
+            "pair_gain": 1.75
+          },
+          {
+            "replication": 3,
+            "accuracy": -0.25,
+            "pass_rate": -0.375,
+            "pair_gain": -3.0
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.375,
+            "pass_rate": -0.5,
+            "pair_gain": 0.25
+          }
+        ],
+        "means": {
+          "accuracy": 0.0,
+          "pass_rate": 0.0625,
+          "pair_gain": 0.25
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            -0.08333333333333333,
+            0.125,
+            0.08333333333333333,
+            -0.125
+          ],
+          "pass_rate": [
+            0.041666666666666664,
+            -0.25,
+            0.20833333333333334,
+            0.25
+          ],
+          "pair_gain": [
+            -0.3333333333333333,
+            -0.25,
+            1.3333333333333333,
+            0.25
+          ]
+        }
+      },
+      "restricted_group_channel": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": -0.125,
+            "pass_rate": 0.0,
+            "pair_gain": -0.75
+          },
+          {
+            "replication": 2,
+            "accuracy": 0.5,
+            "pass_rate": 0.0,
+            "pair_gain": 3.0
+          },
+          {
+            "replication": 3,
+            "accuracy": -0.25,
+            "pass_rate": 0.375,
+            "pair_gain": 0.0
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.25,
+            "pass_rate": -0.5,
+            "pair_gain": -0.5
+          }
+        ],
+        "means": {
+          "accuracy": 0.09375,
+          "pass_rate": -0.03125,
+          "pair_gain": 0.4375
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            0.16666666666666666,
+            -0.041666666666666664,
+            0.20833333333333334,
+            0.041666666666666664
+          ],
+          "pass_rate": [
+            -0.041666666666666664,
+            -0.041666666666666664,
+            -0.16666666666666666,
+            0.125
+          ],
+          "pair_gain": [
+            0.8333333333333334,
+            -0.4166666666666667,
+            0.5833333333333334,
+            0.75
+          ]
+        }
+      },
+      "objective_channel_interaction": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.375,
+            "pass_rate": 0.125,
+            "pair_gain": 2.75
+          },
+          {
+            "replication": 2,
+            "accuracy": -0.875,
+            "pass_rate": 1.0,
+            "pair_gain": -1.25
+          },
+          {
+            "replication": 3,
+            "accuracy": 0.0,
+            "pass_rate": -0.75,
+            "pair_gain": -3.0
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.125,
+            "pass_rate": 0.0,
+            "pair_gain": 0.75
+          }
+        ],
+        "means": {
+          "accuracy": -0.09375,
+          "pass_rate": 0.09375,
+          "pair_gain": -0.1875
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            -0.25,
+            0.16666666666666666,
+            -0.125,
+            -0.16666666666666666
+          ],
+          "pass_rate": [
+            0.08333333333333333,
+            -0.20833333333333334,
+            0.375,
+            0.125
+          ],
+          "pair_gain": [
+            -1.1666666666666667,
+            0.16666666666666666,
+            0.75,
+            -0.5
+          ]
+        }
+      },
+      "authorization_bundle": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.0,
+            "pass_rate": 0.125,
+            "pair_gain": 0.5
+          },
+          {
+            "replication": 2,
+            "accuracy": 1.0,
+            "pass_rate": -1.0,
+            "pair_gain": 2.0
+          },
+          {
+            "replication": 3,
+            "accuracy": 0.125,
+            "pass_rate": 0.625,
+            "pair_gain": 3.25
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.375,
+            "pass_rate": -0.25,
+            "pair_gain": 1.25
+          }
+        ],
+        "means": {
+          "accuracy": 0.375,
+          "pass_rate": -0.125,
+          "pair_gain": 1.75
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            0.5,
+            0.16666666666666666,
+            0.4583333333333333,
+            0.375
+          ],
+          "pass_rate": [
+            -0.20833333333333334,
+            0.16666666666666666,
+            -0.375,
+            -0.08333333333333333
+          ],
+          "pair_gain": [
+            2.1666666666666665,
+            1.6666666666666667,
+            1.25,
+            1.9166666666666667
+          ]
+        }
+      }
+    },
+    "low": {
+      "authorized_history": {
+        "planned_pairs": 4,
+        "complete_pairs": 4,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.625,
+            "pass_rate": -0.625,
+            "pair_gain": 1.25
+          },
+          {
+            "replication": 2,
+            "accuracy": 0.375,
+            "pass_rate": -0.375,
+            "pair_gain": 0.75
+          },
+          {
+            "replication": 3,
+            "accuracy": 0.625,
+            "pass_rate": -0.625,
+            "pair_gain": 1.25
+          },
+          {
+            "replication": 4,
+            "accuracy": 0.375,
+            "pass_rate": -0.375,
+            "pair_gain": 0.75
+          }
+        ],
+        "means": {
+          "accuracy": 0.5,
+          "pass_rate": -0.5,
+          "pair_gain": 1.0
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": [
+            0.4583333333333333,
+            0.5416666666666666,
+            0.4583333333333333,
+            0.5416666666666666
+          ],
+          "pass_rate": [
+            -0.4583333333333333,
+            -0.5416666666666666,
+            -0.4583333333333333,
+            -0.5416666666666666
+          ],
+          "pair_gain": [
+            0.9166666666666666,
+            1.0833333333333333,
+            0.9166666666666666,
+            1.0833333333333333
+          ]
+        }
+      },
+      "authorized_channel": {
+        "planned_pairs": 2,
+        "complete_pairs": 1,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 0.75,
+            "pass_rate": -0.375,
+            "pair_gain": 3.0
+          }
+        ],
+        "means": {
+          "accuracy": null,
+          "pass_rate": null,
+          "pair_gain": null
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": null,
+          "pass_rate": null,
+          "pair_gain": null
+        }
+      },
+      "authorization_bundle": {
+        "planned_pairs": 2,
+        "complete_pairs": 1,
+        "pair_differences": [
+          {
+            "replication": 1,
+            "accuracy": 1.0,
+            "pass_rate": -0.875,
+            "pair_gain": 2.5
+          }
+        ],
+        "means": {
+          "accuracy": null,
+          "pass_rate": null,
+          "pair_gain": null
+        },
+        "leave_one_pair_out_means": {
+          "accuracy": null,
+          "pass_rate": null,
+          "pair_gain": null
+        }
+      }
+    }
+  }
+}

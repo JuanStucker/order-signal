@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "planned_trials": 8,
+  "completed_trials": 6,
+  "failed_trials": 0,
+  "stop_reason": "User requested stop; no automatic resumption",
+  "interrupted_trials": 1,
+  "unattempted_trials": 1
+}

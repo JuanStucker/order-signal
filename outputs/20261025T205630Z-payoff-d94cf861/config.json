@@ -1,0 +1,44 @@
+{
+  "version": "payoff-v2",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026205,
+  "ceiling_usd": 1.65,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "s-low-anchor",
+      "cell": "anchor",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.55
+    },
+    {
+      "id": "s-low-high-harm",
+      "cell": "high-harm",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.55
+    },
+    {
+      "id": "s-low-legit-dominant",
+      "cell": "legit-dominant",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.55
+    }
+  ]
+}

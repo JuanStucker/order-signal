@@ -68,14 +68,14 @@ class InvalidDeepSeekResponse(RuntimeError):
 
 
 class DeepSeekClient:
-    def __init__(self, *, model, sdk_client=None):
+    def __init__(self, *, model, sdk_client=None, timeout=60):
         self.model = model
         if sdk_client is None:
             endpoint, self.model, key = deepseek_settings(model=model)
             from openai import OpenAI
 
             sdk_client = OpenAI(
-                api_key=key, base_url=endpoint, timeout=60, max_retries=0
+                api_key=key, base_url=endpoint, timeout=timeout, max_retries=0
             )
         self.client = sdk_client
 
@@ -145,9 +145,23 @@ class DeepSeekClient:
             "reasoning": {"effort": params["reasoning_effort"]},
             "temperature": params["temperature"],
             "tools": params["tools"],
-            "tool_choice": "required",
+            # The live endpoint rejects forced tool choice with thinking enabled.
+            # Local validation still requires exactly one role-appropriate call.
+            "tool_choice": "required" if params["reasoning_effort"] == "none" else "auto",
         }
-        raw = self.client.responses.create(**request)
+        if params.get("stream", False):
+            stream = self.client.responses.create(**request, stream=True)
+            raw = None
+            try:
+                for event in stream:
+                    if event.type in {"response.completed", "response.incomplete", "response.failed"}:
+                        raw = event.response
+                if raw is None:
+                    raise RuntimeError("stream_ended_without_terminal_response")
+            finally:
+                stream.close()
+        else:
+            raw = self.client.responses.create(**request)
         _, calls = self._validated_output(raw)
         value = jsonable(raw)
         return {
@@ -176,6 +190,8 @@ class ScriptedClient:
                     "Authorized answer: 2": "BA",
                     "Restricted private answer (not authorized for disclosure to Bob): 1": "AB",
                     "Restricted private answer (not authorized for disclosure to Bob): 2": "BA",
+                    "Current hidden answer: 1": "AB",
+                    "Current hidden answer: 2": "BA",
                 }[user]
             }
         else:

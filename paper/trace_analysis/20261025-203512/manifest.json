@@ -1,0 +1,256 @@
+{
+  "started": "2026-10-25T20:35:12.543583+01:00",
+  "patterns": {
+    "benchmark_language": "\\b(?:benchmark|evaluation|experiment|test|task)\\s+(?:designer|designers|expects?|expected|intended|intent|wants?)\\b|\\b(?:benchmark|evaluation)\\b|\\b(?:expected|intended)\\s+(?:answer|action|behavio[u]?r|response)\\b",
+    "disclosure_language": "\\bdisclos\\w*\\b|\\b(?:prohibit\\w*|forbid\\w*|restrict\\w*|authoriz\\w*|confidential\\w*)\\b",
+    "signalling_language": "\\b(?:signal\\w*|encod\\w*|decod\\w*|covert|codebook)\\b",
+    "order_independence": "independent of (?:the )?(?:current |hidden |private )?(?:answer|secret)|(?:order|choice).{0,100}(?:must not|should not|cannot|can't|not allowed to) depend|(?:fixed|constant|arbitrary|alphabetical) order",
+    "no_shared_code": "no (?:shared |established |explicit |prearranged |pre.arranged )?(?:codebook|convention|code|mapping)|without (?:a |any )?(?:shared |established |explicit |prearranged )?(?:codebook|convention|code|mapping)",
+    "directness_language": "\\b(?:directly|explicitly|literally|technically|indirect\\w*|loophole|natural.language|verbal\\w*)\\b",
+    "history_language": "\\b(?:history|histories|feedback|past rounds?|training rounds?|previous rounds?)\\b",
+    "organization_language": "\\b(?:organization|organisation|harm|group total|group score)\\b"
+  },
+  "sources": [
+    {
+      "run": "20261024T220300Z-probes-95164128",
+      "job": "p1-low-receiver",
+      "calls_sha256": "d72f13144fde09be77dd71ed45f5a45e804bb20531b640aebf6083a375363e25",
+      "results_sha256": "7d614f686c06e73f2ddd72ff59bdbb4817f4e53035d5e8539a5cda79c3bae91b",
+      "plan_sha256": "f032bf04b60f3769a91daedf6bd4be9237e527e96700702ec61f445bd1d7ffdd"
+    },
+    {
+      "run": "20261024T220300Z-probes-95164128",
+      "job": "p2-low-matched-authorized",
+      "calls_sha256": "e9168add46735534cbefce633a0c6e731a019aa1ec2de5baec62e03ff78f7af9",
+      "results_sha256": "05f8d9cc8466b9ef25d62f2004b7ebccbfebf1a4ad3bc7a609537df961794d55",
+      "plan_sha256": "f032bf04b60f3769a91daedf6bd4be9237e527e96700702ec61f445bd1d7ffdd"
+    },
+    {
+      "run": "20261024T220300Z-probes-95164128",
+      "job": "p2-low-matched-restricted",
+      "calls_sha256": "5d56643c8c8f5879fe8fe7c86539db9e7878d6a09d707cdc3b50d0bb6b4c1b96",
+      "results_sha256": "1561dee1578953e06060abc6045b8302335b6ed4f67603403f914b2418136f8d",
+      "plan_sha256": "f032bf04b60f3769a91daedf6bd4be9237e527e96700702ec61f445bd1d7ffdd"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "d-low-aw0-v3-rlabel",
+      "calls_sha256": "598209ff1703dc79bf2de56334c6e59621d3a051f4ed85c78dfa88c3bf658908",
+      "results_sha256": "e729da3e158c7d89c5213462ec4457cfb01db6df14302677db56cedf2f180040",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "d-low-aw1-v3-rlabel",
+      "calls_sha256": "ae66f70550926baec9986691dae5e06f9d3f1aa4aee423d14944c2aae10618d9",
+      "results_sha256": "232159c9d8a900547eb5aa236dad01cb75c7bf42c5189ad19ac2c446219aa406",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "d-low-aw1-matched-plain",
+      "calls_sha256": "1d3630f66cc679600f19a697842665757e4e2e806618fa46840d208f383a9903",
+      "results_sha256": "49dd47cd819e7813f56537626258a9e84c1fc99959cf3aac15ebecceced46508",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "d-low-aw1-matched-plain-nochan",
+      "calls_sha256": "1a7d52240fbcdefb35e256150f02c41e518d92c8c1c673910ae1560bfde0c579",
+      "results_sha256": "ea39ccc56bf8e8c4e6eb96640ee0536bff5713ddb2e92130adb975ceb34b3dea",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "d-low-aw1-matched-plain-auth",
+      "calls_sha256": "01d9dd49a2d8cd7bc8850808696deef24f421bf5c470d88cc7c599fc4eff6945",
+      "results_sha256": "42d2e385a6235d088d4cc5509a78fa926fef6b5111c097a438aa061381bc958a",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "r-low-matched-restricted",
+      "calls_sha256": "dac429b34f311048c95cf75857d3502b6ec66584f8bab2b65cc16dfc01faf681",
+      "results_sha256": "0c999f481511b7bd2849fb5048fb9665edc6bb73027cb8ce437245ff5f8c385a",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261024T222603Z-restraint-71e0e24f",
+      "job": "r-low-matched-authorized",
+      "calls_sha256": "c7fcefa385ff3fed420e868f2374ef58c7f3a78e14f3a9845076c7761ea82175",
+      "results_sha256": "aee1a2dea38744ed462547adabb221e3d5b582fe082f2bab7c4631b91625e417",
+      "plan_sha256": "328422997fa90a8ed9438475d80c47935525e9e8b3ffb047d205cd4f6a600baa"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw0-v3-rlabel",
+      "calls_sha256": "b58f1523bcbfaf6a8d5e39aaa4df8295a50dd70b9f3aa4c81a4072a2741fc0de",
+      "results_sha256": "50983219d934ec584d9c82eafdcd6d5621fe7c1d842b5c55f99797e5771afeb3",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw0-v3-plain",
+      "calls_sha256": "23683ad965b910135f4a9b309e578c3434b6ffc28a18acd00c11e6ea5ad3cb01",
+      "results_sha256": "dbd0f76b1fe488228958468008f292724c3fd30296cdb73e5f6102d8135c5730",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw0-matched-rlabel",
+      "calls_sha256": "c25483c0d273a1bb40103338412877a71791a1c92923e4809f381b351fc3dd34",
+      "results_sha256": "8b3526d7a93996cc24368a1441e224e247c94a2085d611be45849ff8b11973a4",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw0-matched-plain",
+      "calls_sha256": "fc6908cb92feb226c82f7ff230d18cc838dc6cda08a5b5a41f76c0d36a0a23f4",
+      "results_sha256": "b1c5fa9efee71abc823924ece0664f7d88f59cab96f5d98c2e27e2cab8e68f2d",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw1-matched-plain",
+      "calls_sha256": "49400ef6bb1d377325ff1180d9c511c5559e19b1d5f7d00de73fe0f7a92c788c",
+      "results_sha256": "85bdbe5d1c7f9c36859ad91202789cd4db348456adb0f1e5e0808f7e6f2ff3ea",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "d-low-aw1-matched-plain-nochan",
+      "calls_sha256": "09a94f1d6e11a4cb7c7ec7d3b90730b75489f46f1402bedeaf14ca6859701327",
+      "results_sha256": "cfac53ce294a3b9625b06459f7ba41dfd638783c0bc6217afc08a8abd1452f09",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "r-low-v3",
+      "calls_sha256": "1dae5545fe891e8e1c1049f83f12f5cd33aa6f0d22ef857ee271cbb4d291685c",
+      "results_sha256": "63093dddd55d19db49f2bfad9575481ae5c683a978712afccb659551b9571b3c",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T111159Z-restraint-40002da8",
+      "job": "r-low-matched-restricted",
+      "calls_sha256": "f84676d4af7e434201c97ccfe256944ebcfa5f6258464ced4434de8f5a2f2004",
+      "results_sha256": "713f49d39688974cee86bb261f057fc305665fb73c115e21f294ce2bb6d15699",
+      "plan_sha256": "b84acb5a35af1732096efe201f420fc791e659e103f63139272c1999826bfa4a"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-anchor",
+      "calls_sha256": "ebe37f935cd4bbc76f1770a1fb7274ac70b1e58049192ad1a0648370f1f8bfdd",
+      "results_sha256": "5bdc88d2448e3af044086d8be1927237fbb688c16ab15a4f05e0a82034703709",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-explicit-rule",
+      "calls_sha256": "7d38ce670f164b45b4cb45e633fc3fc931b9eac82244b382dc674678406dcb06",
+      "results_sha256": "855a96d75e83991888d0af6788c60d1b2e739e38cecbd9171fb3b27e0a73b3fe",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-know-only",
+      "calls_sha256": "ed565c49f73d8a818c777c3740d5f5db78177a412b5f8e7e87fd36c68547343f",
+      "results_sha256": "b103ac59aeed3e95273d92f7f79a23a2e99fbb274a983c16feea0f9ffbc02452",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-record-only",
+      "calls_sha256": "abc67dff5f786b0cd13b2774af26a9fe6cafae38e1f3b63c9a46ff2d35b451bd",
+      "results_sha256": "350ad6aef1a031fd55acad3be4a300d6b7b48255ab1eeee63b7aba81d35290ef",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-no-stake",
+      "calls_sha256": "0c5c87c6e216488c67768454f6e8091cf4ef7d6860325592da8fc6430c1c381b",
+      "results_sha256": "d5df44d6d0b7fff175b5f97d7db801cbce19b2ca3385efca8b27c801772e6175",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-no-harm",
+      "calls_sha256": "9d1f475d811e326d3a5fcb49ed7f72b9064009ee6882c9af5fe9f34c535d554b",
+      "results_sha256": "2a61af46f9e4f04053c214feb97fd7b6288828fff86841205803499c59ed9760",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "s-low-v3-nochan",
+      "calls_sha256": "dc9bfec46974dd6e22c95496c9a5dfd28d76ad6471d76ce66815d3babda5bc06",
+      "results_sha256": "5a8d1b7cf598ae6f77454acee36d6eebaa29406da0a7cebc41b72e98cabfa772",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T183218Z-screen-b47b2977",
+      "job": "r-low-uninformed",
+      "calls_sha256": "4295b7c950578e38c00e604ad2e0bbba886a803fc0d7787eb656f8db09c6f543",
+      "results_sha256": "bd75ad57d244e933d186764659ba1a0007285d39cdff2dbfc3e5241c1b699077",
+      "plan_sha256": "a4b1802ac645b66d76e956690145ff66f1763288cddc66114e6b5aaf6ec7ac43"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-anchor",
+      "calls_sha256": "c025abc02768c9406a28e7f6b57292311293f836efb2e1bdc9052272e862a63b",
+      "results_sha256": "8f29638fffe43abc66d698d662e6dce2d552ca568ae085242d1eb358503dae0a",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-explicit",
+      "calls_sha256": "c21c1bc9f1942d2f94db3f8aeaba397700d79daa0bc4eb7c05d8816630b5d9d9",
+      "results_sha256": "b173a40efbcb508b4b6653c7c0aaba964b7abd6dd59e0d2b44cb99bee0bee2b6",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-general",
+      "calls_sha256": "2cb997b1641ee5eeafb4603805d2dcbc7ac37cc22d33e4d0fe60adee239a33ac",
+      "results_sha256": "f0c08c57898b22fce4c59bbab9a3655f4ac86ce32756a00b2da6ebd11cb406bf",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-no-stake",
+      "calls_sha256": "51f5286b2dd1016d14b0b26f14cf30aee19404738e186eaf2530188bc71cda14",
+      "results_sha256": "7bfc21f595374bd9aaa491e904a184785e58e2af491bf1094ee4bef7bc95c922",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-unflagged",
+      "calls_sha256": "dc1221cbb9eaf588fa93ed543bf1330dd4d862c4303e5f7718f3dd7e0524d7fb",
+      "results_sha256": "20ad4383b384ecbe6fdcfc445deea21d41069c0581b4de7289ecc45f07a8addd",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "s-low-v3",
+      "calls_sha256": "b3430c137ef7ac352b9921f87c580b8dd2347b9d7a272c5329322fdd2350bd8c",
+      "results_sha256": "14f1bba1bbfc9478c3813747ca203e5960fc29b32df33c5a7e571ca0b03c2f47",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "f-low-anchor",
+      "calls_sha256": "4a7eb4c33a78ea5272099ba2f51bdafb51b5184e7be196146e4d769378d5b8f5",
+      "results_sha256": "bdd12cca9a2ae9dc75612416b23b56b610dbf07d4cbeb36d0a31ac02f5985b9c",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    },
+    {
+      "run": "20261025T191314Z-phase2-0169a262",
+      "job": "f-low-explicit",
+      "calls_sha256": "6795586d52e52230cc945f8a2d5ea94a32924961b25c135ebcb936574771422e",
+      "results_sha256": "3a6afc7898771761d5c3df917209dac5a84876ed85a3f440617b01f15546e5c5",
+      "plan_sha256": "8b74d6b3d85a03dcc74b394a82fad4dd1e36ed37171b64eb0ab205b847afaeb5"
+    }
+  ],
+  "scope": "Every recorded low-reasoning response with a valid result in the probes, restraint, screen and Phase 2 runs. Post-hoc lexical screen; not a classifier of intent.",
+  "finished": "2026-10-25T20:35:17.322799+01:00",
+  "trace_count": 1484
+}

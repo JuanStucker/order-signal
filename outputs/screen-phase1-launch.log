@@ -1,0 +1,60 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261025T183218Z-screen-b47b2977
+{
+  "version": "screen-v1",
+  "complete": true,
+  "requests": 736,
+  "accounted_cost_usd": 1.6922039199999999,
+  "committed_cost_usd": 1.6922039199999999,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "contrasts_vs_anchor": {
+    "explicit-rule": {
+      "estimate": -0.9375,
+      "ci": [
+        -1.207901317356228,
+        -0.6670986826437719
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false
+    },
+    "know-only": {
+      "estimate": -0.1875,
+      "ci": [
+        -0.5028811898711687,
+        0.12788118987116875
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false
+    },
+    "record-only": {
+      "estimate": -0.1875,
+      "ci": [
+        -0.5028811898711687,
+        0.12788118987116875
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false
+    },
+    "no-stake": {
+      "estimate": -0.6875,
+      "ci": [
+        -1.011127840928231,
+        -0.3638721590717691
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false
+    },
+    "no-harm": {
+      "estimate": -0.125,
+      "ci": [
+        -0.44142377516073034,
+        0.19142377516073034
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false
+    }
+  },
+  "interpretation": "Phase 1 screening, exploratory. Contrasts are against the same-run anchor at 95%, unadjusted, and only select conditions for Phase 2; screening data are never pooled with Phase 2."
+}

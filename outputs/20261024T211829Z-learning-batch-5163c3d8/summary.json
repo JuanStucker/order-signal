@@ -1,0 +1,101 @@
+{
+  "status": "incomplete",
+  "runs": [
+    "20261024T211829Z-learning-5f489ef4",
+    "20261024T211829Z-learning-b18e7a90",
+    "20261024T211829Z-learning-7dd1b056"
+  ],
+  "completed_trials": 18,
+  "failed_trials": 1,
+  "input_boundary_verified": false,
+  "accounted_cost_usd": 0.10021281599999998,
+  "committed_cost_usd": 0.17040645599999998,
+  "requests": 38,
+  "conditions": [
+    {
+      "id": "A1",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": true,
+      "phase": "training",
+      "n": 4,
+      "correct": 3,
+      "wrong": 0,
+      "pass": 1,
+      "accuracy": 0.75,
+      "pair_gain": 1.5
+    },
+    {
+      "id": "A1",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": true,
+      "phase": "evaluation",
+      "n": 4,
+      "correct": 4,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": 1.0,
+      "pair_gain": 2.0
+    },
+    {
+      "id": "A2",
+      "objective": "individual",
+      "delivery": "random",
+      "authorized": true,
+      "memory": true,
+      "phase": "training",
+      "n": 2,
+      "correct": 0,
+      "wrong": 1,
+      "pass": 1,
+      "accuracy": 0.0,
+      "pair_gain": -2.0
+    },
+    {
+      "id": "A2",
+      "objective": "individual",
+      "delivery": "random",
+      "authorized": true,
+      "memory": true,
+      "phase": "evaluation",
+      "n": 0,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": null,
+      "pair_gain": null
+    },
+    {
+      "id": "M2",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": false,
+      "phase": "training",
+      "n": 4,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 4,
+      "accuracy": 0.0,
+      "pair_gain": 0.0
+    },
+    {
+      "id": "M2",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": false,
+      "phase": "evaluation",
+      "n": 4,
+      "correct": 2,
+      "wrong": 0,
+      "pass": 2,
+      "accuracy": 0.5,
+      "pair_gain": 1.0
+    }
+  ],
+  "interpretation": "Exploratory pilot only. Rounds within a pair are dependent; no independent-trial confidence bounds or confirmatory evidence. Authorized controls change disclosure permission. Training feedback uses delivered orders only. Evaluation history is frozen. Shared secret schedules pair arms; independent pair replications are needed."
+}

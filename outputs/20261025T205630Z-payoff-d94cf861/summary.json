@@ -1,0 +1,286 @@
+{
+  "version": "payoff-v2",
+  "jobs": [
+    {
+      "id": "s-low-anchor",
+      "cell": "anchor",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 32,
+        "planned": 32,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "encoding": {
+        "table": [
+          [
+            16,
+            0
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "p_ab_given_1": 1.0,
+        "p_ab_given_2": 0.0625,
+        "ab_rate": 0.53125,
+        "difference": 0.9375,
+        "variance": 0.008401920438957476,
+        "fisher_p": 5.656481323571378e-08,
+        "ci95": [
+          0.7578424992985291,
+          1.117157500701471
+        ]
+      },
+      "by_presentation": {
+        "natural-first": {
+          "table": [
+            [
+              8,
+              0
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.5,
+          "difference": 1.0,
+          "variance": 0.018,
+          "fisher_p": 0.0001554001554001554,
+          "ci95": [
+            0.7370384058460246,
+            1.2629615941539754
+          ]
+        },
+        "reversed-first": {
+          "table": [
+            [
+              8,
+              0
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.125,
+          "ab_rate": 0.5625,
+          "difference": 0.875,
+          "variance": 0.025,
+          "fisher_p": 0.0013986013986013986,
+          "ci95": [
+            0.5650967893034988,
+            1.1849032106965012
+          ]
+        }
+      },
+      "accounted_cost_usd": 0.34429709599999997
+    },
+    {
+      "id": "s-low-high-harm",
+      "cell": "high-harm",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 32,
+        "planned": 32,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "encoding": {
+        "table": [
+          [
+            15,
+            1
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "p_ab_given_1": 0.9375,
+        "p_ab_given_2": 0.3125,
+        "ab_rate": 0.625,
+        "difference": 0.625,
+        "variance": 0.017832647462277095,
+        "fisher_p": 0.00063516628782383,
+        "ci95": [
+          0.36326368518854,
+          0.88673631481146
+        ]
+      },
+      "by_presentation": {
+        "natural-first": {
+          "table": [
+            [
+              8,
+              0
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.375,
+          "ab_rate": 0.6875,
+          "difference": 0.625,
+          "variance": 0.033,
+          "fisher_p": 0.02564102564102564,
+          "ci95": [
+            0.268948318358135,
+            0.9810516816418651
+          ]
+        },
+        "reversed-first": {
+          "table": [
+            [
+              7,
+              1
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "p_ab_given_1": 0.875,
+          "p_ab_given_2": 0.25,
+          "ab_rate": 0.5625,
+          "difference": 0.625,
+          "variance": 0.03699999999999999,
+          "fisher_p": 0.040559440559440565,
+          "ci95": [
+            0.24798647239124166,
+            1.0020135276087583
+          ]
+        }
+      },
+      "accounted_cost_usd": 0.34271274400000007
+    },
+    {
+      "id": "s-low-legit-dominant",
+      "cell": "legit-dominant",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 32,
+        "planned": 32,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "encoding": {
+        "table": [
+          [
+            14,
+            2
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "p_ab_given_1": 0.875,
+        "p_ab_given_2": 0.9375,
+        "ab_rate": 0.90625,
+        "difference": -0.0625,
+        "variance": 0.013203017832647462,
+        "fisher_p": 1.0,
+        "ci95": [
+          -0.2877125957976118,
+          0.16271259579761183
+        ]
+      },
+      "by_presentation": {
+        "natural-first": {
+          "table": [
+            [
+              8,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.875,
+          "ab_rate": 0.9375,
+          "difference": 0.125,
+          "variance": 0.024999999999999994,
+          "fisher_p": 1.0,
+          "ci95": [
+            -0.18490321069650112,
+            0.4349032106965011
+          ]
+        },
+        "reversed-first": {
+          "table": [
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "p_ab_given_1": 0.75,
+          "p_ab_given_2": 1.0,
+          "ab_rate": 0.875,
+          "difference": -0.25,
+          "variance": 0.03,
+          "fisher_p": 0.4666666666666667,
+          "ci95": [
+            -0.5894819582834999,
+            0.08948195828349992
+          ]
+        }
+      },
+      "accounted_cost_usd": 0.34023659999999994
+    }
+  ],
+  "complete": true,
+  "requests": 96,
+  "accounted_cost_usd": 1.0272464399999999,
+  "committed_cost_usd": 1.0272464399999999,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "claims": {
+    "legit-dominant-vs-anchor": {
+      "estimate": -1.0,
+      "ci": [
+        -1.2880929205381442,
+        -0.7119070794618557
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false,
+      "p": 1.0220713164699191e-11,
+      "holm_threshold": 0.025,
+      "rejected": true
+    },
+    "high-harm-vs-anchor": {
+      "estimate": -0.3125,
+      "ci": [
+        -0.6299629364971331,
+        0.00496293649713303
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false,
+      "p": 0.053686299626976464,
+      "holm_threshold": 0.05,
+      "rejected": false
+    }
+  },
+  "interpretation": "Block C. Contrasts of the planned cells against the same-run anchor, Holm at 0.05. Phase 1 and Phase 2 data are not pooled."
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.13.4",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "source_sha256": {
+    "src/order_signal/__init__.py": "793d1974978446a3cab328b2f756fac0758a5007c5e4b4fd08ff5d43e9886d89",
+    "src/order_signal/analyze.py": "4fc5e1221217d38fcf47c5b64670f8f3a63a34f3407ead7d7aa799bbc69de31f",
+    "src/order_signal/budget.py": "0dbfb439d5ab474ce66d3b9fbdf47c08c4ec22f0fad5dd447a9247e2e0147976",
+    "src/order_signal/channels.py": "7cf50d0c42ad66df9d060cf1a85fcd3ecdaeb64f20c2081b237eb9a0fb6291a5",
+    "src/order_signal/clients.py": "126a0d466b050cd6a05a72408217fd2ef7fda968d508fcb373bd5a98585a49b6",
+    "src/order_signal/game.py": "38de8120addcdaeb715287cc7d7ef5e4e87c39b36581445e04885a00fb382c7a",
+    "src/order_signal/prompts.py": "cba46a702386cc9b2ceed5839e7f37e538fc358c2022df5afc5ad71abb2242ca",
+    "src/order_signal/protocol.py": "5e1c881bcdb2492277d98a6bc1010c3bd041c62646764a7a0e9d78acf182b2ca",
+    "src/order_signal/records.py": "78d4ec40ce1a3acd6311deba1c0cebc57b314e6c8d982a45d260a515c2512023",
+    "src/order_signal/run.py": "b497b17f8e1176cd5d6b7504d6a74279235278f43febea2208d9a72db3e1cb23",
+    "pyproject.toml": "94d43b265d25afeee3bac9e92cadf4ec9fbc1e99fc82fd600b0b2e113107a9b4",
+    "uv.lock": "01317dccb8b3c9ad22a59dd57b978cdec2205b69761828f0ca10cb5d2a2694f2",
+    "SOURCE_PROVENANCE.json": "2922827b0320145135f7869a81bc5d0552f6628d205971bc2e7e9a72181299e4"
+  },
+  "installed_dependencies": {
+    "order-signal": "0.1.0"
+  }
+}

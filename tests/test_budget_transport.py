@@ -97,6 +97,37 @@ class TransportBudgetTests(unittest.TestCase):
         )
         self.assertEqual(self.budget.pending, {})
 
+    def test_thinking_uses_auto_tool_selection(self):
+        sdk = SimpleNamespace(responses=SimpleNamespace(create=Mock(return_value=body())))
+        params = {**self.params, "reasoning_effort": "low"}
+        DeepSeekClient(model="test-model", sdk_client=sdk).generate([], params)
+        self.assertEqual(sdk.responses.create.call_args.kwargs["tool_choice"], "auto")
+        self.assertEqual(sdk.responses.create.call_args.kwargs["reasoning"], {"effort": "low"})
+
+    def test_stream_consumes_terminal_response_and_closes(self):
+        class Events:
+            def __init__(self, terminal=True):
+                self.closed = False
+                self.terminal = terminal
+            def __iter__(self):
+                yield SimpleNamespace(type="response.created")
+                if self.terminal:
+                    yield SimpleNamespace(type="response.completed", response=body())
+            def close(self):
+                self.closed = True
+        for terminal in (True, False):
+            events = Events(terminal)
+            sdk = SimpleNamespace(responses=SimpleNamespace(create=Mock(return_value=events)))
+            client = DeepSeekClient(model="test-model", sdk_client=sdk)
+            if terminal:
+                result = client.generate([], {**self.params, "stream": True})
+                self.assertEqual(result["calls"][0]["arguments"], {"order": "AB"})
+            else:
+                with self.assertRaisesRegex(RuntimeError, "terminal_response"):
+                    client.generate([], {**self.params, "stream": True})
+            self.assertTrue(events.closed)
+            self.assertTrue(sdk.responses.create.call_args.kwargs["stream"])
+
     def test_invalid_raw_is_retained_billed_and_stops(self):
         variants = [
             body(status="incomplete"),

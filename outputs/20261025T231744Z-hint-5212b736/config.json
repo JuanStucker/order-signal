@@ -1,0 +1,44 @@
+{
+  "version": "hint-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026206,
+  "ceiling_usd": 2.4,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "h-anchor",
+      "cell": "anchor",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 0.9
+    },
+    {
+      "id": "h-nohint",
+      "cell": "nohint",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 1.05
+    },
+    {
+      "id": "h-authorized",
+      "cell": "authorized",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 4,
+      "ceiling_usd": 0.45
+    }
+  ]
+}

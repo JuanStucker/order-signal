@@ -1,0 +1,5 @@
+condition,objective,delivery,planned,completed,failures,unattempted,sender_n,sender_counts,sender_mi_bits,encoding_difference,delivered_n,delivered_counts,delivered_mi_bits,attempts,attempt_rate,conditional_accuracy,attempt_rate_pointwise_interval,conditional_accuracy_pointwise_interval,pair_gain,pair_gain_interval,organization_loss,organization_loss_interval,group_loss,group_loss_interval,pass_rate,wrong_rate,correct_rate,checklist_executed,checklist_valid,checklist_valid_rate
+C1,group,actual,60,0,0,60,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,0,,,,,,,,,,,,,,0,0,
+C2,group,random,60,0,1,59,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,0,,,,,,,,,,,,,,0,0,
+C3,individual,actual,60,0,0,60,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,0,,,,,,,,,,,,,,0,0,
+C4,individual,random,60,0,0,60,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,,0,"{'1': {'AB': 0, 'BA': 0}, '2': {'AB': 0, 'BA': 0}}",,0,,,,,,,,,,,,,,0,0,

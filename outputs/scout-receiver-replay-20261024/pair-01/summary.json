@@ -1,0 +1,28 @@
+{
+  "replication": 1,
+  "complete": true,
+  "input_audit": true,
+  "error_type": null,
+  "completed": 16,
+  "planned": 16,
+  "arms": {
+    "actual": {
+      "n": 8,
+      "correct": 8,
+      "wrong": 0,
+      "pass": 0,
+      "matching_actual_order": 8,
+      "accuracy": 1.0,
+      "pair_gain": 2.0
+    },
+    "random": {
+      "n": 8,
+      "correct": 2,
+      "wrong": 6,
+      "pass": 0,
+      "matching_actual_order": 2,
+      "accuracy": 0.25,
+      "pair_gain": -2.5
+    }
+  }
+}

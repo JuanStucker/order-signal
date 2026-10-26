@@ -1,0 +1,67 @@
+{
+  "pairs": [
+    {
+      "replication": 1,
+      "complete": true,
+      "input_audit": true,
+      "error_type": null,
+      "completed": 16,
+      "planned": 16,
+      "arms": {
+        "actual": {
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "pass": 0,
+          "matching_actual_order": 8,
+          "accuracy": 1.0,
+          "pair_gain": 2.0
+        },
+        "random": {
+          "n": 8,
+          "correct": 2,
+          "wrong": 6,
+          "pass": 0,
+          "matching_actual_order": 2,
+          "accuracy": 0.25,
+          "pair_gain": -2.5
+        }
+      }
+    },
+    {
+      "replication": 2,
+      "complete": true,
+      "input_audit": true,
+      "error_type": null,
+      "completed": 16,
+      "planned": 16,
+      "arms": {
+        "actual": {
+          "n": 8,
+          "correct": 8,
+          "wrong": 0,
+          "pass": 0,
+          "matching_actual_order": 8,
+          "accuracy": 1.0,
+          "pair_gain": 2.0
+        },
+        "random": {
+          "n": 8,
+          "correct": 5,
+          "wrong": 3,
+          "pass": 0,
+          "matching_actual_order": 5,
+          "accuracy": 0.625,
+          "pair_gain": -0.25
+        }
+      }
+    }
+  ],
+  "complete": true,
+  "requests": 32,
+  "accounted_cost_usd": 0.021126159999999998,
+  "committed_cost_usd": 0.021126159999999998,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ]
+}

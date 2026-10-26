@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "planned_trials": 64,
+  "completed_trials": 11,
+  "failed_trials": 1,
+  "error_type": "APITimeoutError",
+  "error": "Request timed out.",
+  "requests": 23,
+  "unattempted_trials": 52
+}

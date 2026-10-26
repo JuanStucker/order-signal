@@ -109,8 +109,8 @@ def validate(config):
         raise ValueError("invalid_output_cap")
     if not finite(generation["temperature"]) or not 0 <= generation["temperature"] <= 2:
         raise ValueError("invalid_temperature")
-    if generation["reasoning_effort"] != "none":
-        raise ValueError("only_non_thinking_initial_protocol_supported")
+    if generation["reasoning_effort"] not in ("none", "low"):
+        raise ValueError("unsupported_reasoning_effort")
     budget = config["budget"]
     exact(
         budget,

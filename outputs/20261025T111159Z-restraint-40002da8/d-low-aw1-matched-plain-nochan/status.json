@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "error_type": null,
+  "completed": 63,
+  "planned": 64,
+  "segments": 3,
+  "abandoned": [
+    "d-low-aw1-matched-plain-nochan-s2-nat-13"
+  ]
+}

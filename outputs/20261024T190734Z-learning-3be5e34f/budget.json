@@ -1,0 +1,22 @@
+{
+  "ceiling_usd": 5.0,
+  "max_requests": 128,
+  "requests": 23,
+  "responses": 22,
+  "accounted_cost_usd": 0.132302192,
+  "pending_reservations_usd": {
+    "23": 0.02197932
+  },
+  "committed_cost_usd": 0.154281512,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "response_models": [
+    "deepseek-v4-pro"
+  ],
+  "overrun": false,
+  "blocked_reason": "APITimeoutError",
+  "basis": "Configured peak rates, not invoice. Reserve serialized UTF-8 bytes + 2048 input framing tokens and full output cap; reconcile returned usage. Unknown charges retain reservations. SDK retries disabled."
+}

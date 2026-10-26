@@ -1,0 +1,12 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261024T222603Z-restraint-71e0e24f
+{
+  "version": "restraint-probes-v1",
+  "complete": false,
+  "requests": 3233,
+  "accounted_cost_usd": 1.6924337760000012,
+  "committed_cost_usd": 1.6924337760000012,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "interpretation": "Exploratory probes. Units are independent stateless calls (D, R) or synthetic templates (F). Encoding differences use raw point estimates with Agresti-Caffo adjusted variances. Primary: three main effects in the no-thinking factorial, Bonferroni z=2.394; equivalence margin 0.15. End-to-end gain combines separately sampled sender and receiver policies; it is not observed pair play."
+}

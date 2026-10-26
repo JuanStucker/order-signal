@@ -1,0 +1,92 @@
+{
+  "version": "restraint-probes-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026101,
+  "ceiling_usd": 6.12,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "none": {
+      "max_output_tokens": 1024,
+      "temperature": 1.0,
+      "reasoning_effort": "none"
+    },
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "d-low-aw0-v3-rlabel",
+      "study": "decomposition",
+      "cell": "aw0-v3-rlabel",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.67
+    },
+    {
+      "id": "d-low-aw0-v3-plain",
+      "study": "decomposition",
+      "cell": "aw0-v3-plain",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.67
+    },
+    {
+      "id": "d-low-aw0-matched-rlabel",
+      "study": "decomposition",
+      "cell": "aw0-matched-rlabel",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.91
+    },
+    {
+      "id": "d-low-aw0-matched-plain",
+      "study": "decomposition",
+      "cell": "aw0-matched-plain",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.91
+    },
+    {
+      "id": "d-low-aw1-matched-plain",
+      "study": "decomposition",
+      "cell": "aw1-matched-plain",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.91
+    },
+    {
+      "id": "d-low-aw1-matched-plain-nochan",
+      "study": "decomposition",
+      "cell": "aw1-matched-plain-nochan",
+      "regimen": "low",
+      "repeats_per_secret": 32,
+      "ceiling_usd": 0.28
+    },
+    {
+      "id": "r-low-v3",
+      "study": "receiver",
+      "cell": "v3",
+      "regimen": "low",
+      "repeats_per_order": 24,
+      "ceiling_usd": 0.93
+    },
+    {
+      "id": "r-low-matched-restricted",
+      "study": "receiver",
+      "cell": "matched-restricted",
+      "regimen": "low",
+      "repeats_per_order": 24,
+      "ceiling_usd": 0.84
+    }
+  ]
+}

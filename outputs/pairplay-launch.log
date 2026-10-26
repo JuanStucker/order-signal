@@ -1,0 +1,78 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261025T202227Z-pairplay-2138b055
+{
+  "version": "pairplay-v1",
+  "complete": false,
+  "requests": 155,
+  "accounted_cost_usd": 1.2189781999999998,
+  "committed_cost_usd": 1.43057156,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "arms": {
+    "matched-actual": {
+      "complete_pairs": 8,
+      "pair_gain": 1.0,
+      "accuracy": 0.7000000000000001,
+      "pass_rate": 0.2,
+      "natural_direction": 0.85
+    },
+    "matched-shuffled": {
+      "complete_pairs": 5,
+      "pair_gain": -0.08000000000000003,
+      "accuracy": 0.52,
+      "pass_rate": 0.2,
+      "natural_direction": 0.44000000000000006
+    }
+  },
+  "actual_minus_shuffled": {
+    "pair_gain": {
+      "pairs": 5,
+      "differences": [
+        1.6,
+        0.8,
+        1.6,
+        0.0,
+        1.2000000000000002
+      ],
+      "mean": 1.04,
+      "sign_flip_p": null
+    },
+    "accuracy": {
+      "pairs": 5,
+      "differences": [
+        0.4,
+        0.0,
+        0.4,
+        0.0,
+        0.20000000000000007
+      ],
+      "mean": 0.2,
+      "sign_flip_p": null
+    },
+    "natural_direction": {
+      "pairs": 5,
+      "differences": [
+        0.39999999999999997,
+        1.2,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "mean": 0.4,
+      "sign_flip_p": null
+    },
+    "late_natural_direction": {
+      "pairs": 5,
+      "differences": [
+        0.6666666666666666,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.5333333333333333,
+      "sign_flip_p": null
+    }
+  },
+  "interpretation": "Exploratory. Pairs are the unit; rounds within a pair are dependent. Primary: pair gain, actual minus shuffled, paired by pair, exact sign-flip p."
+}

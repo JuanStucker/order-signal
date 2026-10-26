@@ -1,0 +1,45 @@
+{
+  "version": "repeated-pair-pilot-v1",
+  "status": {
+    "status": "incomplete",
+    "planned_trials": 8,
+    "completed_trials": 2,
+    "failed_trials": 1,
+    "error_type": "InvalidDeepSeekResponse",
+    "error": "response_not_completed",
+    "requests": 5,
+    "unattempted_trials": 5
+  },
+  "conditions": [
+    {
+      "id": "M2",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": false,
+      "phase": "training",
+      "n": 2,
+      "correct": 1,
+      "wrong": 0,
+      "pass": 1,
+      "accuracy": 0.5,
+      "pair_gain": 1.0
+    },
+    {
+      "id": "M2",
+      "objective": "individual",
+      "delivery": "actual",
+      "authorized": true,
+      "memory": false,
+      "phase": "evaluation",
+      "n": 0,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": null,
+      "pair_gain": null
+    }
+  ],
+  "input_boundary_verified": false,
+  "interpretation": "Exploratory pilot only. Rounds within a pair are dependent; no independent-trial confidence bounds or confirmatory evidence. Authorized controls change disclosure permission. Training feedback uses delivered orders only. Evaluation history is frozen. Shared secret schedules pair arms; independent pair replications are needed."
+}

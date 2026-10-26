@@ -1,0 +1,1 @@
+{"design_version": "order-signal-design-v3", "protocol_version": "sender-channel-receiver-v2", "prompt_version": "order-signal-prompts-v3", "payoff_version": "penalty-transfer-v2", "analysis_version": "joint-hoeffding-diagnostics-v3", "trial_id": "trial-00001", "condition_id": "C2", "secret": 2, "status": "failed", "error_type": "BadRequestError", "requests": 1}

@@ -1,0 +1,10 @@
+{
+  "run_id": "20261024T175747Z-9b793e7783",
+  "status": "completed",
+  "phase": "verification",
+  "planned_trials": 80,
+  "completed_trials": 80,
+  "failed_trials": 0,
+  "requests": 160,
+  "unattempted_trials": 0
+}

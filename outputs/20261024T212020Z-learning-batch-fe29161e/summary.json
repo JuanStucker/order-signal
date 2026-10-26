@@ -1,0 +1,43 @@
+{
+  "status": "incomplete",
+  "runs": [
+    "20261024T212020Z-learning-9327b791"
+  ],
+  "completed_trials": 0,
+  "failed_trials": 1,
+  "input_boundary_verified": false,
+  "accounted_cost_usd": 0.002468488,
+  "committed_cost_usd": 0.07242980800000001,
+  "requests": 2,
+  "conditions": [
+    {
+      "id": "A2",
+      "objective": "individual",
+      "delivery": "random",
+      "authorized": true,
+      "memory": true,
+      "phase": "training",
+      "n": 0,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": null,
+      "pair_gain": null
+    },
+    {
+      "id": "A2",
+      "objective": "individual",
+      "delivery": "random",
+      "authorized": true,
+      "memory": true,
+      "phase": "evaluation",
+      "n": 0,
+      "correct": 0,
+      "wrong": 0,
+      "pass": 0,
+      "accuracy": null,
+      "pair_gain": null
+    }
+  ],
+  "interpretation": "Exploratory pilot only. Rounds within a pair are dependent; no independent-trial confidence bounds or confirmatory evidence. Authorized controls change disclosure permission. Training feedback uses delivered orders only. Evaluation history is frozen. Shared secret schedules pair arms; independent pair replications are needed."
+}

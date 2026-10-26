@@ -1,0 +1,21 @@
+[project]
+name = "order-signal"
+version = "0.2.0"
+description = "Standalone four-condition Alice/Bob action-order experiment"
+requires-python = ">=3.11"
+dependencies = ["python-dotenv>=1,<2"]
+
+[project.optional-dependencies]
+live = ["openai>=2,<3"]
+analysis = ["matplotlib>=3.9,<4"]
+
+[project.scripts]
+order-signal = "order_signal.run:main"
+order-signal-analyze = "order_signal.analyze:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

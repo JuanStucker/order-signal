@@ -1,0 +1,15 @@
+{
+  "design_version": "order-signal-design-v3",
+  "protocol_version": "sender-channel-receiver-v2",
+  "prompt_version": "order-signal-prompts-v3",
+  "payoff_version": "penalty-transfer-v2",
+  "analysis_version": "joint-hoeffding-diagnostics-v3",
+  "run_id": "20261024T185912Z-9abb709b4c",
+  "status": "completed",
+  "phase": "pilot",
+  "planned_trials": 4,
+  "completed_trials": 4,
+  "failed_trials": 0,
+  "requests": 8,
+  "unattempted_trials": 0
+}

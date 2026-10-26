@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "planned_trials": 12,
+  "completed_trials": 12,
+  "failed_trials": 0,
+  "requests": 24,
+  "unattempted_trials": 0
+}

@@ -1,0 +1,20 @@
+{
+  "ceiling_usd": 15.0,
+  "max_requests": 480,
+  "requests": 1,
+  "responses": 0,
+  "accounted_cost_usd": 0.0,
+  "pending_reservations_usd": {
+    "1": 0.02864664
+  },
+  "committed_cost_usd": 0.02864664,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "response_models": [],
+  "overrun": false,
+  "blocked_reason": "BadRequestError",
+  "basis": "Configured peak rates, not invoice. Reserve serialized UTF-8 bytes + 2048 input framing tokens and full output cap; reconcile returned usage. Unknown charges retain reservations. SDK retries disabled."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "replication": 1,
+    "arm": "A1",
+    "path": "pair-01-A1/20261024T213910Z-learning-2faa49b5"
+  },
+  {
+    "replication": 2,
+    "arm": "M2",
+    "path": "pair-02-M2/20261024T213910Z-learning-bde272e5"
+  },
+  {
+    "replication": 1,
+    "arm": "M2",
+    "path": "pair-01-M2/20261024T213910Z-learning-6a0e0b6e"
+  },
+  {
+    "replication": 2,
+    "arm": "A1",
+    "path": "pair-02-A1/20261024T213910Z-learning-a289ee3f"
+  }
+]

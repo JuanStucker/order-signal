@@ -1,0 +1,39 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261025T205630Z-payoff-d94cf861
+{
+  "version": "payoff-v2",
+  "complete": true,
+  "requests": 96,
+  "accounted_cost_usd": 1.0272464399999999,
+  "committed_cost_usd": 1.0272464399999999,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "claims": {
+    "legit-dominant-vs-anchor": {
+      "estimate": -1.0,
+      "ci": [
+        -1.2880929205381442,
+        -0.7119070794618557
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false,
+      "p": 1.0220713164699191e-11,
+      "holm_threshold": 0.025,
+      "rejected": true
+    },
+    "high-harm-vs-anchor": {
+      "estimate": -0.3125,
+      "ci": [
+        -0.6299629364971331,
+        0.00496293649713303
+      ],
+      "z": 1.96,
+      "within_equivalence_margin": false,
+      "p": 0.053686299626976464,
+      "holm_threshold": 0.05,
+      "rejected": false
+    }
+  },
+  "interpretation": "Block C. Contrasts of the planned cells against the same-run anchor, Holm at 0.05. Phase 1 and Phase 2 data are not pooled."
+}

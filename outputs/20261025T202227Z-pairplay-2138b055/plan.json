@@ -1,0 +1,245 @@
+{
+  "version": "pairplay-v1",
+  "jobs": [
+    {
+      "id": "matched-actual-p1",
+      "arm": "matched-actual",
+      "pair": 1,
+      "presentation": "natural-first",
+      "secrets": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "channel_seed": 1130932,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p1",
+      "arm": "matched-shuffled",
+      "pair": 1,
+      "presentation": "natural-first",
+      "secrets": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "channel_seed": 1130932,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p2",
+      "arm": "matched-actual",
+      "pair": 2,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "channel_seed": 1235661,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p2",
+      "arm": "matched-shuffled",
+      "pair": 2,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "channel_seed": 1235661,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p3",
+      "arm": "matched-actual",
+      "pair": 3,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1340390,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p3",
+      "arm": "matched-shuffled",
+      "pair": 3,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1340390,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p4",
+      "arm": "matched-actual",
+      "pair": 4,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "channel_seed": 1445119,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p4",
+      "arm": "matched-shuffled",
+      "pair": 4,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "channel_seed": 1445119,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p5",
+      "arm": "matched-actual",
+      "pair": 5,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "channel_seed": 1549848,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p5",
+      "arm": "matched-shuffled",
+      "pair": 5,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "channel_seed": 1549848,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p6",
+      "arm": "matched-actual",
+      "pair": 6,
+      "presentation": "reversed-first",
+      "secrets": [
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1654577,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p6",
+      "arm": "matched-shuffled",
+      "pair": 6,
+      "presentation": "reversed-first",
+      "secrets": [
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1654577,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p7",
+      "arm": "matched-actual",
+      "pair": 7,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1759306,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p7",
+      "arm": "matched-shuffled",
+      "pair": 7,
+      "presentation": "natural-first",
+      "secrets": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1759306,
+      "initial_history": []
+    },
+    {
+      "id": "matched-actual-p8",
+      "arm": "matched-actual",
+      "pair": 8,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1864035,
+      "initial_history": []
+    },
+    {
+      "id": "matched-shuffled-p8",
+      "arm": "matched-shuffled",
+      "pair": 8,
+      "presentation": "reversed-first",
+      "secrets": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "channel_seed": 1864035,
+      "initial_history": []
+    }
+  ]
+}

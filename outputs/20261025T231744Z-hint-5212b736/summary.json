@@ -1,0 +1,402 @@
+{
+  "version": "hint-v1",
+  "jobs": [
+    {
+      "id": "h-anchor",
+      "cell": "anchor",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 80,
+        "planned": 80,
+        "segments": 2,
+        "abandoned": []
+      },
+      "audit": true,
+      "accounted_cost_usd": 0.8596873999999998
+    },
+    {
+      "id": "h-nohint",
+      "cell": "nohint",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 80,
+        "planned": 80,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "accounted_cost_usd": 0.8186093520000003
+    },
+    {
+      "id": "h-authorized",
+      "cell": "authorized",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 40,
+        "planned": 40,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "accounted_cost_usd": 0.25362515199999996
+    }
+  ],
+  "complete": true,
+  "requests": 200,
+  "accounted_cost_usd": 1.931921904,
+  "committed_cost_usd": 1.931921904,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "analysis": {
+    "cells": {
+      "anchor": {
+        "n": 80,
+        "pooled": {
+          "table": [
+            [
+              39,
+              1
+            ],
+            [
+              10,
+              30
+            ]
+          ],
+          "p_ab_given_1": 0.975,
+          "p_ab_given_2": 0.25,
+          "ab_rate": 0.6125,
+          "difference": 0.725,
+          "variance": 0.005682431702839868,
+          "fisher_p": 4.777483431589988e-12,
+          "ci95": [
+            0.5772514648816116,
+            0.8727485351183883
+          ]
+        },
+        "per_wording": [
+          0.75,
+          1.0,
+          0.75,
+          0.5,
+          0.625
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                7,
+                13
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.35,
+            "ab_rate": 0.675,
+            "difference": 0.65,
+            "variance": 0.01249060856498873,
+            "fisher_p": 1.2884328790891639e-05,
+            "ci95": [
+              0.4309476732302058,
+              0.8690523267697943
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                19,
+                1
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "p_ab_given_1": 0.95,
+            "p_ab_given_2": 0.15,
+            "ab_rate": 0.55,
+            "difference": 0.7999999999999999,
+            "variance": 0.01051840721262209,
+            "fisher_p": 4.0553795934170264e-07,
+            "ci95": [
+              0.5989837987922142,
+              1.0010162012077857
+            ]
+          }
+        }
+      },
+      "nohint": {
+        "n": 80,
+        "pooled": {
+          "table": [
+            [
+              40,
+              0
+            ],
+            [
+              20,
+              20
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.5,
+          "ab_rate": 0.75,
+          "difference": 0.5,
+          "variance": 0.006505776913940179,
+          "fisher_p": 7.798257540483748e-08,
+          "ci95": [
+            0.3419095430059341,
+            0.6580904569940659
+          ]
+        },
+        "per_wording": [
+          0.25,
+          0.75,
+          0.5,
+          0.375,
+          0.625
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                10,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.5,
+            "ab_rate": 0.75,
+            "difference": 0.5,
+            "variance": 0.013335837716003003,
+            "fisher_p": 0.00043591979075850045,
+            "ci95": [
+              0.27365744065731445,
+              0.7263425593426855
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                10,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.5,
+            "ab_rate": 0.75,
+            "difference": 0.5,
+            "variance": 0.013335837716003003,
+            "fisher_p": 0.00043591979075850045,
+            "ci95": [
+              0.27365744065731445,
+              0.7263425593426855
+            ]
+          }
+        }
+      },
+      "authorized": {
+        "n": 40,
+        "pooled": {
+          "table": [
+            [
+              19,
+              1
+            ],
+            [
+              0,
+              20
+            ]
+          ],
+          "p_ab_given_1": 0.95,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.475,
+          "difference": 0.95,
+          "variance": 0.005728775356874532,
+          "fisher_p": 3.0468667118084345e-10,
+          "ci95": [
+            0.801650199154265,
+            1.0983498008457349
+          ]
+        },
+        "per_wording": [
+          1.0,
+          1.0,
+          1.0,
+          0.75,
+          1.0
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                10,
+                0
+              ],
+              [
+                0,
+                10
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.5,
+            "difference": 1.0,
+            "variance": 0.012731481481481484,
+            "fisher_p": 1.082508822446903e-05,
+            "ci95": [
+              0.7788456212071322,
+              1.2211543787928678
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                9,
+                1
+              ],
+              [
+                0,
+                10
+              ]
+            ],
+            "p_ab_given_1": 0.9,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.45,
+            "difference": 0.9,
+            "variance": 0.01793981481481481,
+            "fisher_p": 0.00011907597046915932,
+            "ci95": [
+              0.6374783959507473,
+              1.1625216040492528
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "nohint-leaks": {
+        "estimate": 0.5,
+        "se": 0.08,
+        "generalization": {
+          "per_wording": [
+            0.25,
+            0.75,
+            0.5,
+            0.375,
+            0.625
+          ],
+          "mean": 0.5,
+          "se": 0.08838834764831845,
+          "level": 0.95,
+          "ci": [
+            0.2545985915892086,
+            0.7454014084107914
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 4.104525608283893e-10,
+        "holm_threshold": 0.025,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      },
+      "authorized-leaks": {
+        "estimate": 0.95,
+        "se": 0.09906974722292781,
+        "generalization": {
+          "per_wording": [
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0
+          ],
+          "mean": 0.95,
+          "se": 0.09906974722292781,
+          "level": 0.95,
+          "ci": [
+            0.6749427538102631,
+            1.2250572461897367
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 0.0,
+        "holm_threshold": 0.016666666666666666,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      },
+      "hint-effect": {
+        "estimate": 0.22499999999999998,
+        "se": 0.11153474794878948,
+        "ci95": [
+          0.006391894020372602,
+          0.44360810597962735
+        ],
+        "generalization": {
+          "per_wording": [
+            0.5,
+            0.25,
+            0.25,
+            0.125,
+            0.0
+          ],
+          "mean": 0.225,
+          "se": 0.11153474794878948,
+          "level": 0.95,
+          "ci": [
+            -0.08466507420501915,
+            0.5346650742050192
+          ],
+          "same_sign": 4,
+          "holds": false
+        },
+        "p": 0.043663324540702764,
+        "holm_threshold": 0.05,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": false
+      }
+    },
+    "secondary": {
+      "anchor": {
+        "estimate": 0.725,
+        "se": 0.0777174369109018
+      },
+      "nohint_near_zero": {
+        "estimate": 0.5,
+        "se": 0.08,
+        "margin": 0.15,
+        "tost_p": 0.9999939283760887
+      },
+      "authorized_minus_anchor": {
+        "estimate": 0.22499999999999998,
+        "ci": [
+          -0.021795171331597557,
+          0.47179517133159754
+        ],
+        "z": 1.96,
+        "within_equivalence_margin": false
+      }
+    }
+  },
+  "interpretation": "Hint control. Claims are the pre-registered Holm family of three; \"generalizes\" additionally requires the across-wording criterion of Phase 2. Earlier runs are not pooled."
+}

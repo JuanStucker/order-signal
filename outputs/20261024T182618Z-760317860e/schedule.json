@@ -1,0 +1,402 @@
+[
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00001",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00002",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00003",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00004",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00005",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00006",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00007",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00008",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00009",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00010",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00011",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00012",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00013",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00014",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00015",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00016",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00017",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00018",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00019",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00020",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00021",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00022",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00023",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00024",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00025",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00026",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00027",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00028",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00029",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00030",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00031",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00032",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00033",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00034",
+    "condition_id": "K1",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00035",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00036",
+    "condition_id": "K2",
+    "secret": 2
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00037",
+    "condition_id": "K1",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00038",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00039",
+    "condition_id": "K2",
+    "secret": 1
+  },
+  {
+    "design_version": "order-signal-design-v3",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "trial_id": "trial-00040",
+    "condition_id": "K1",
+    "secret": 2
+  }
+]

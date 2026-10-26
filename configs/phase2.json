@@ -1,0 +1,89 @@
+{
+  "version": "phase2-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026202,
+  "ceiling_usd": 6.95,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "s-low-anchor",
+      "study": "specification",
+      "cell": "anchor",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 1.1
+    },
+    {
+      "id": "s-low-explicit",
+      "study": "specification",
+      "cell": "explicit",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 0.5
+    },
+    {
+      "id": "s-low-general",
+      "study": "specification",
+      "cell": "general",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 1.1
+    },
+    {
+      "id": "s-low-no-stake",
+      "study": "specification",
+      "cell": "no-stake",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 0.6
+    },
+    {
+      "id": "s-low-unflagged",
+      "study": "specification",
+      "cell": "unflagged",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 1.1
+    },
+    {
+      "id": "s-low-v3",
+      "study": "specification",
+      "cell": "v3",
+      "regimen": "low",
+      "repeats_per_secret_per_wording": 8,
+      "ceiling_usd": 0.85
+    },
+    {
+      "id": "f-low-anchor",
+      "study": "feedback",
+      "prompt": "anchor",
+      "cell": "feedback-anchor",
+      "regimen": "low",
+      "templates": 6,
+      "ceiling_usd": 1.1
+    },
+    {
+      "id": "f-low-explicit",
+      "study": "feedback",
+      "prompt": "explicit",
+      "cell": "feedback-explicit",
+      "regimen": "low",
+      "templates": 6,
+      "ceiling_usd": 0.6
+    }
+  ]
+}

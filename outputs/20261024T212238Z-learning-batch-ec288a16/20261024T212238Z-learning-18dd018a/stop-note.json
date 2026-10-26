@@ -1,0 +1,6 @@
+{
+  "interrupted_trial_ids": [
+    "A2-p1-r7"
+  ],
+  "note": "Process terminated on user request. In-flight responses are not treated as decisions. Pending cost reservations retained; provider-side completion is unknown."
+}

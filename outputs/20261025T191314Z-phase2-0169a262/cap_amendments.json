@@ -1,0 +1,7 @@
+{
+  "caps_usd": {
+    "f-low-explicit": 1.25
+  },
+  "amended_at": "2026-10-25T19:47:58.169133+00:00",
+  "reason": "f-low-explicit reached its $0.60 cap after 35 of 72 tasks (35 requests, 35 responses, no failures). Measured $0.0152 per call with history, against $0.003 assumed from the no-history explicit cell. Remaining 37 tasks at the measured rate: about $0.56, plus one worst-case reservation. Cap raised to $1.25 under the PHASE2_PLAN resume rules; task order and inputs unchanged."
+}

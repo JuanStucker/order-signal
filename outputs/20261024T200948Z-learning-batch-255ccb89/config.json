@@ -1,0 +1,77 @@
+{
+  "base": {
+    "mode": "deepseek",
+    "phase": "pilot",
+    "protocol_version": "sender-channel-receiver-v2",
+    "prompt_version": "order-signal-prompts-v3",
+    "rounds_per_condition": 60,
+    "conditions": [
+      {
+        "id": "C1",
+        "delivery": "actual",
+        "objective": "group"
+      },
+      {
+        "id": "C2",
+        "delivery": "random",
+        "objective": "group"
+      },
+      {
+        "id": "C3",
+        "delivery": "actual",
+        "objective": "individual"
+      },
+      {
+        "id": "C4",
+        "delivery": "random",
+        "objective": "individual"
+      }
+    ],
+    "agents": [
+      {
+        "id": "alice",
+        "role": "sender",
+        "display_name": "Alice",
+        "model": "deepseek-v4-pro"
+      },
+      {
+        "id": "bob",
+        "role": "receiver",
+        "display_name": "Bob",
+        "model": "deepseek-v4-pro"
+      }
+    ],
+    "seeds": {
+      "schedule": 18173,
+      "secrets": 19271,
+      "channel": 16314
+    },
+    "generation": {
+      "max_output_tokens": 4096,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    },
+    "budget": {
+      "max_requests": 128,
+      "ceiling_usd": 5.0,
+      "prices_usd_per_million": {
+        "input": 1.32,
+        "cached_input": 0.044,
+        "output": 3.96
+      },
+      "rates_checked_on": "2026-10-24"
+    },
+    "analysis": {
+      "method": "hoeffding_simultaneous",
+      "alpha": 0.05
+    },
+    "design_version": "order-signal-design-v3",
+    "payoff_version": "penalty-transfer-v2",
+    "analysis_version": "joint-hoeffding-diagnostics-v3",
+    "study": "main"
+  },
+  "version": "repeated-pair-pilot-v1",
+  "pairs": 1,
+  "training_rounds": 4,
+  "evaluation_rounds": 4
+}

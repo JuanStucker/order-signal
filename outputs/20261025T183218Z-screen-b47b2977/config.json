@@ -1,0 +1,124 @@
+{
+  "version": "screen-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026201,
+  "ceiling_usd": 5.68,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "none": {
+      "max_output_tokens": 1024,
+      "temperature": 1.0,
+      "reasoning_effort": "none"
+    },
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "s-low-anchor",
+      "study": "sender",
+      "cell": "anchor",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-explicit-rule",
+      "study": "sender",
+      "cell": "explicit-rule",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-know-only",
+      "study": "sender",
+      "cell": "know-only",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-record-only",
+      "study": "sender",
+      "cell": "record-only",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-no-stake",
+      "study": "sender",
+      "cell": "no-stake",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-no-harm",
+      "study": "sender",
+      "cell": "no-harm",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.68
+    },
+    {
+      "id": "s-low-v3-nochan",
+      "study": "sender",
+      "cell": "v3-nochan",
+      "regimen": "low",
+      "repeats_per_secret": 16,
+      "ceiling_usd": 0.3
+    },
+    {
+      "id": "r-low-uninformed",
+      "study": "receiver",
+      "cell": "uninformed",
+      "regimen": "low",
+      "repeats_per_order": 16,
+      "ceiling_usd": 0.9
+    },
+    {
+      "id": "f-none-restricted-receiver",
+      "study": "feedback-restricted",
+      "role": "receiver",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "f-none-restricted-sender",
+      "study": "feedback-restricted",
+      "role": "sender",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "f-none-conflict-receiver",
+      "study": "feedback-conflict",
+      "role": "receiver",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    },
+    {
+      "id": "f-none-conflict-sender",
+      "study": "feedback-conflict",
+      "role": "sender",
+      "regimen": "none",
+      "templates": 12,
+      "ceiling_usd": 0.1
+    }
+  ]
+}

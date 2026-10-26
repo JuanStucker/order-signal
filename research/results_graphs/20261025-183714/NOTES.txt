@@ -1,0 +1,11 @@
+Order Signal result charts
+
+All data are from local experiment artifacts; no model calls were made.
+Snapshot capture: 2026-10-25T18:37:14.439320+01:00 to 2026-10-25T18:37:14.443898+01:00
+Raw log files were read sequentially during this capture window.
+The ongoing study is shown descriptively without inferential intervals.
+Earlier incomplete low-reasoning cells are also shown without intervals.
+Independent runs and inference settings are not pooled.
+The stored snapshot preserves every plotted value and the raw ongoing decisions.
+Re-render this snapshot with: python3 research/plot_simple_results.py --snapshot <snapshot.json>
+Capture a fresh snapshot with: python3 research/plot_simple_results.py

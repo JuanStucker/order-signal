@@ -1,0 +1,3773 @@
+[
+  {
+    "run": "outputs/20261024T190734Z-learning-3be5e34f",
+    "regimen": "low",
+    "arm": "L1",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        2,
+        0
+      ],
+      [
+        6,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T190734Z-learning-3be5e34f",
+    "regimen": "low",
+    "arm": "L2",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 3,
+    "evaluation_rounds": 0,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 0,
+      "label": "none",
+      "majority": "none"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 0.3333333333333333,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-2ff5f50e",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 2,
+    "evaluation_rounds": 0,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 2,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 0,
+      "label": "none",
+      "majority": "none"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-3fe34f8c",
+    "regimen": "low",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 2,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 0,
+      "label": "constant-BA",
+      "majority": "constant-BA"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 2,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.06666666666666667,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-55e4f000",
+    "regimen": "low",
+    "arm": "L3",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 1,
+    "evaluation_rounds": 0,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 0,
+      "label": "constant-BA",
+      "majority": "constant-BA"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 0,
+      "label": "none",
+      "majority": "none"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-694ce58b",
+    "regimen": "low",
+    "arm": "L1",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-6f9758ec",
+    "regimen": "low",
+    "arm": "L4",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 3,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 0.14285714285714285,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 0.3333333333333333
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-aeadbe5a",
+    "regimen": "low",
+    "arm": "L2",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 3,
+    "evaluation_rounds": 0,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 0,
+      "reversed": 3,
+      "label": "reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 0,
+      "label": "none",
+      "majority": "none"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": 0.3333333333333333,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T200948Z-learning-batch-255ccb89/20261024T200948Z-learning-d8d2429a",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 4,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.02857142857142857,
+    "sender_table_eval": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 0.3333333333333333
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-115fec8e",
+    "regimen": "none",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 1,
+      "reversed": 2,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-3b5757ec",
+    "regimen": "none",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 4,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 0.14285714285714285,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 0.25
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-4dd42214",
+    "regimen": "none",
+    "arm": "M1",
+    "pair": 1,
+    "authorized": false,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-759d8f38",
+    "regimen": "none",
+    "arm": "L3",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 0,
+      "reversed": 4,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-95bf2922",
+    "regimen": "none",
+    "arm": "L4",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 4,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-baf726ca",
+    "regimen": "none",
+    "arm": "L1",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 0.4857142857142857,
+    "sender_table_eval": [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-c402ed94",
+    "regimen": "none",
+    "arm": "L2",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T201207Z-learning-batch-e1091614/20261024T201207Z-learning-fb913c1e",
+    "regimen": "none",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 4,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 0.42857142857142855,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 0.25
+  },
+  {
+    "run": "outputs/20261024T211829Z-learning-batch-5163c3d8/20261024T211829Z-learning-5f489ef4",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 4,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.017857142857142856,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.25
+  },
+  {
+    "run": "outputs/20261024T211829Z-learning-batch-5163c3d8/20261024T211829Z-learning-7dd1b056",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 4,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 2,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.017857142857142856,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.25
+  },
+  {
+    "run": "outputs/20261024T211829Z-learning-batch-5163c3d8/20261024T211829Z-learning-b18e7a90",
+    "regimen": "low",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 2,
+    "evaluation_rounds": 0,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 1,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 1,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 0,
+      "label": "none",
+      "majority": "none"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T212238Z-learning-batch-ec288a16/20261024T212238Z-learning-18dd018a",
+    "regimen": "low",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 2,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 2,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-A1/20261024T213549Z-learning-29921eb0",
+    "regimen": "none",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 6,
+      "natural": 6,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_eval": 0.02857142857142857
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-A2/20261024T213550Z-learning-373bd9d7",
+    "regimen": "none",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 6,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 7,
+      "natural": 1,
+      "reversed": 6,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": 0.15151515151515152,
+    "sender_table_eval": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": 0.42857142857142855
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L1/20261024T213617Z-learning-36a6c731",
+    "regimen": "none",
+    "arm": "L1",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 7,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 1,
+      "reversed": 1,
+      "majority": "constant",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.0808080808080808,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.14285714285714285
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L2/20261024T213550Z-learning-34fdd278",
+    "regimen": "none",
+    "arm": "L2",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 4,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 0,
+      "reversed": 2,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L3/20261024T213616Z-learning-8dbb9ce2",
+    "regimen": "none",
+    "arm": "L3",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 6,
+      "reversed": 2,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 7,
+      "natural": 7,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "sender_fisher_p_all": 0.07196969696969698,
+    "sender_table_eval": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.4857142857142857
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-L4/20261024T213446Z-learning-ea5d387d",
+    "regimen": "none",
+    "arm": "L4",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 4,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 3,
+      "reversed": 5,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 0.9999999999999999
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-M1/20261024T213519Z-learning-50e3f33c",
+    "regimen": "none",
+    "arm": "M1",
+    "pair": 1,
+    "authorized": false,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 4,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 5,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-01-M2/20261024T213522Z-learning-02c80fd0",
+    "regimen": "none",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 6,
+      "reversed": 2,
+      "majority": "natural",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_eval": 0.02857142857142857
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-A1/20261024T213520Z-learning-862d9d0e",
+    "regimen": "none",
+    "arm": "A1",
+    "pair": 2,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-A2/20261024T213549Z-learning-10f97007",
+    "regimen": "none",
+    "arm": "A2",
+    "pair": 2,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 4,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 2,
+      "reversed": 3,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 0.5757575757575758,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L1/20261024T213617Z-learning-dd3e7d93",
+    "regimen": "none",
+    "arm": "L1",
+    "pair": 2,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 7,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.24242424242424243,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "sender_fisher_p_eval": 0.14285714285714285
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L2/20261024T213550Z-learning-69d4619c",
+    "regimen": "none",
+    "arm": "L2",
+    "pair": 2,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 3,
+      "reversed": 5,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L3/20261024T213446Z-learning-2d9c36d1",
+    "regimen": "none",
+    "arm": "L3",
+    "pair": 2,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-L4/20261024T213522Z-learning-7ca8e1d7",
+    "regimen": "none",
+    "arm": "L4",
+    "pair": 2,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 6,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 5,
+      "reversed": 3,
+      "majority": "constant",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        3,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 0.4642857142857143
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-M1/20261024T213446Z-learning-4dbfd1ae",
+    "regimen": "none",
+    "arm": "M1",
+    "pair": 2,
+    "authorized": false,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 6,
+      "natural": 5,
+      "reversed": 1,
+      "majority": "natural",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-02-M2/20261024T213619Z-learning-daf343a4",
+    "regimen": "none",
+    "arm": "M2",
+    "pair": 2,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 7,
+      "reversed": 1,
+      "majority": "natural",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "sender_fisher_p_all": 0.015151515151515152,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-A1/20261024T213617Z-learning-a07e4eb7",
+    "regimen": "none",
+    "arm": "A1",
+    "pair": 3,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 1,
+      "reversed": 2,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 0.29292929292929293,
+    "sender_table_eval": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-A2/20261024T213446Z-learning-949df6a3",
+    "regimen": "none",
+    "arm": "A2",
+    "pair": 3,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-BA",
+      "majority": "constant-BA"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 8,
+      "label": "reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 7,
+      "natural": 3,
+      "reversed": 4,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        0,
+        7
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 0.045454545454545456,
+    "sender_table_eval": [
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L1/20261024T213522Z-learning-bcd4adca",
+    "regimen": "none",
+    "arm": "L1",
+    "pair": 3,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 5,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 0,
+      "natural": 0,
+      "reversed": 0,
+      "majority": "none",
+      "label": "none"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        6,
+        1
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L2/20261024T213618Z-learning-a616cb58",
+    "regimen": "none",
+    "arm": "L2",
+    "pair": 3,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 5,
+      "reversed": 3,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 1,
+      "reversed": 2,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L3/20261024T213619Z-learning-c774f247",
+    "regimen": "none",
+    "arm": "L3",
+    "pair": 3,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 6,
+      "reversed": 2,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 1,
+      "reversed": 7,
+      "majority": "reversed",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        7,
+        0
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 0.4166666666666667,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 0.375
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-L4/20261024T213446Z-learning-91948b53",
+    "regimen": "none",
+    "arm": "L4",
+    "pair": 3,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 2,
+      "reversed": 3,
+      "majority": "constant",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 0.5580808080808081,
+    "sender_table_eval": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-M1/20261024T213446Z-learning-34faa0bb",
+    "regimen": "none",
+    "arm": "M1",
+    "pair": 3,
+    "authorized": false,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 5,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 7,
+      "natural": 7,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        7,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-03-M2/20261024T213446Z-learning-e1d08703",
+    "regimen": "none",
+    "arm": "M2",
+    "pair": 3,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 6,
+      "reversed": 2,
+      "majority": "natural",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-A1/20261024T213522Z-learning-e2752e47",
+    "regimen": "none",
+    "arm": "A1",
+    "pair": 4,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 7,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        8,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 0.01818181818181818,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 0.10714285714285714
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-A2/20261024T213521Z-learning-49e6cdca",
+    "regimen": "none",
+    "arm": "A2",
+    "pair": 4,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 4,
+      "natural": 1,
+      "reversed": 3,
+      "majority": "constant",
+      "label": "mixed"
+    },
+    "sender_follows_history": false,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L1/20261024T213549Z-learning-9524882b",
+    "regimen": "none",
+    "arm": "L1",
+    "pair": 4,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 4,
+      "reversed": 4,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 6,
+      "natural": 6,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        7,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L2/20261024T213521Z-learning-54c2d684",
+    "regimen": "none",
+    "arm": "L2",
+    "pair": 4,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 6,
+      "reversed": 2,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 0,
+      "reversed": 2,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": false,
+    "sender_table_all": [
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 0.4642857142857143
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L3/20261024T213551Z-learning-fbe963fd",
+    "regimen": "none",
+    "arm": "L3",
+    "pair": 4,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 6,
+      "natural": 0,
+      "reversed": 6,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-L4/20261024T213548Z-learning-de97e2f9",
+    "regimen": "none",
+    "arm": "L4",
+    "pair": 4,
+    "authorized": false,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "sender_evaluation": {
+      "natural": 5,
+      "reversed": 3,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 1,
+      "reversed": 1,
+      "majority": "tie",
+      "label": "mixed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-M1/20261024T213617Z-learning-139b8b8a",
+    "regimen": "none",
+    "arm": "M1",
+    "pair": 4,
+    "authorized": false,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 5,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "receiver_evaluation": {
+      "attempts": 6,
+      "natural": 6,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        8,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": null,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": null
+  },
+  {
+    "run": "outputs/20261024T213446Z-scout-6457b0df/pair-04-M2/20261024T213446Z-learning-eebdc4f9",
+    "regimen": "none",
+    "arm": "M2",
+    "pair": 4,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 7,
+      "reversed": 1,
+      "majority": "natural",
+      "label": "mixed"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.00202020202020202,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-A1/20261024T213450Z-learning-086abfb1",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_eval": 0.02857142857142857
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-A2/20261024T213450Z-learning-a39afb0a",
+    "regimen": "low",
+    "arm": "A2",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 0,
+      "reversed": 8,
+      "label": "reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 0,
+      "reversed": 5,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "sender_fisher_p_all": 0.010101010101010102,
+    "sender_table_eval": [
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "sender_fisher_p_eval": 0.02857142857142857
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-L3/20261024T213450Z-learning-0ffe530e",
+    "regimen": "low",
+    "arm": "L3",
+    "pair": 1,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "reversed"
+    },
+    "sender_training": {
+      "natural": 1,
+      "reversed": 3,
+      "label": "constant-AB",
+      "majority": "constant-AB"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 5,
+      "label": "mixed-reversed",
+      "majority": "reversed"
+    },
+    "receiver_evaluation": {
+      "attempts": 1,
+      "natural": 0,
+      "reversed": 1,
+      "majority": "reversed",
+      "label": "reversed"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "sender_fisher_p_all": 0.5227272727272727,
+    "sender_table_eval": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-01-M2/20261024T213450Z-learning-2ec97eca",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_eval": 0.02857142857142857
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-A1/20261024T213450Z-learning-2fad111c",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 2,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-A2/20261024T213450Z-learning-f501b715",
+    "regimen": "low",
+    "arm": "A2",
+    "pair": 2,
+    "authorized": true,
+    "memory": true,
+    "delivery": "random",
+    "training_rounds": 4,
+    "evaluation_rounds": 6,
+    "history_implied": {
+      "natural": 2,
+      "reversed": 2,
+      "label": "tie"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 3,
+      "reversed": 3,
+      "label": "mixed-tie",
+      "majority": "tie"
+    },
+    "receiver_evaluation": {
+      "attempts": 2,
+      "natural": 2,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 1.0,
+    "sender_table_eval": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-L3/20261024T213450Z-learning-c99790ab",
+    "regimen": "low",
+    "arm": "L3",
+    "pair": 2,
+    "authorized": false,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 3,
+    "history_implied": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 3,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 2,
+      "reversed": 1,
+      "label": "mixed-natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 1,
+      "natural": 1,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "sender_fisher_p_all": 0.42857142857142855,
+    "sender_table_eval": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "sender_fisher_p_eval": 1.0
+  },
+  {
+    "run": "outputs/20261024T213450Z-scout-67d57a3a/pair-02-M2/20261024T213450Z-learning-c97328a7",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 2,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 5,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213909Z-scout-8212b48a/pair-01-A1/20261024T213910Z-learning-2faa49b5",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 1,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213909Z-scout-8212b48a/pair-01-M2/20261024T213910Z-learning-6a0e0b6e",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 1,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 3,
+      "natural": 3,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "sender_fisher_p_all": 0.0012626262626262627,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213909Z-scout-8212b48a/pair-02-A1/20261024T213910Z-learning-a289ee3f",
+    "regimen": "low",
+    "arm": "A1",
+    "pair": 2,
+    "authorized": true,
+    "memory": true,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural"
+    },
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 8,
+      "natural": 8,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": true,
+    "receiver_follows_history": true,
+    "sender_table_all": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.00202020202020202,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  },
+  {
+    "run": "outputs/20261024T213909Z-scout-8212b48a/pair-02-M2/20261024T213910Z-learning-bde272e5",
+    "regimen": "low",
+    "arm": "M2",
+    "pair": 2,
+    "authorized": true,
+    "memory": false,
+    "delivery": "actual",
+    "training_rounds": 4,
+    "evaluation_rounds": 8,
+    "history_implied": null,
+    "sender_training": {
+      "natural": 4,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "sender_evaluation": {
+      "natural": 8,
+      "reversed": 0,
+      "label": "natural",
+      "majority": "natural"
+    },
+    "receiver_evaluation": {
+      "attempts": 5,
+      "natural": 5,
+      "reversed": 0,
+      "majority": "natural",
+      "label": "natural"
+    },
+    "sender_follows_history": null,
+    "receiver_follows_history": null,
+    "sender_table_all": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "sender_fisher_p_all": 0.00202020202020202,
+    "sender_table_eval": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "sender_fisher_p_eval": 0.017857142857142856
+  }
+]

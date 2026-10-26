@@ -1,0 +1,16 @@
+{"task_id": "p2-low-matched-authorized-s2-1", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-4", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-4", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-3", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-2", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-8", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-3", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-1", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-8", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-7", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-5", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-7", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s2-6", "arm": "matched_authorized", "role": "sender", "current": 2, "value": "BA", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-5", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-2", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}
+{"task_id": "p2-low-matched-authorized-s1-6", "arm": "matched_authorized", "role": "sender", "current": 1, "value": "AB", "direction": 1}

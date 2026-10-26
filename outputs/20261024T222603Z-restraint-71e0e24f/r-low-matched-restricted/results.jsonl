@@ -1,0 +1,9 @@
+{"task_id": "r-low-matched-restricted-BA-nat-5", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "natural-first", "value": "2", "direction": 1}
+{"task_id": "r-low-matched-restricted-AB-nat-5", "cell": "matched-restricted", "role": "receiver", "current": "AB", "presentation": "natural-first", "value": "1", "direction": 1}
+{"task_id": "r-low-matched-restricted-BA-rev-5", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "reversed-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-BA-nat-1", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "natural-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-BA-rev-2", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "reversed-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-BA-rev-1", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "reversed-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-BA-rev-4", "cell": "matched-restricted", "role": "receiver", "current": "BA", "presentation": "reversed-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-AB-rev-4", "cell": "matched-restricted", "role": "receiver", "current": "AB", "presentation": "reversed-first", "value": "pass", "direction": 0}
+{"task_id": "r-low-matched-restricted-AB-rev-1", "cell": "matched-restricted", "role": "receiver", "current": "AB", "presentation": "reversed-first", "value": "1", "direction": 1}

@@ -1,0 +1,7 @@
+{
+  "caps_usd": {
+    "h-anchor": 1.3278
+  },
+  "amended_at": "2026-10-25T23:50:42.940318+00:00",
+  "reason": "h-anchor reached its $0.90 cap after 75 of 80 tasks (no failures; budget reservation refused before the 76th request). Measured $0.0112 per call. Under the HINT_PLAN cap rule, unused allocation from completed jobs is released to it: h-nohint $1.05 cap, $0.8186 spent; h-authorized $0.45 cap, $0.2536 spent; $0.4278 released. New h-anchor cap $1.3278. Run total stays within the $2.40 authorization. Task order and inputs unchanged."
+}

@@ -1,0 +1,289 @@
+{
+  "version": "study3-v1",
+  "jobs": [
+    {
+      "id": "s3-anchor",
+      "cell": "anchor",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 80,
+        "planned": 80,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "accounted_cost_usd": 0.6097203200000001
+    },
+    {
+      "id": "s3-nochan",
+      "cell": "nochan",
+      "status": {
+        "status": "completed",
+        "error_type": null,
+        "completed": 240,
+        "planned": 240,
+        "segments": 1,
+        "abandoned": []
+      },
+      "audit": true,
+      "accounted_cost_usd": 0.5579228160000003
+    }
+  ],
+  "complete": true,
+  "requests": 320,
+  "accounted_cost_usd": 1.1676431360000004,
+  "committed_cost_usd": 1.1676431360000004,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "analysis": {
+    "cells": {
+      "anchor": {
+        "n": 80,
+        "pooled": {
+          "table": [
+            [
+              38,
+              2
+            ],
+            [
+              5,
+              35
+            ]
+          ],
+          "p_ab_given_1": 0.95,
+          "p_ab_given_2": 0.125,
+          "ab_rate": 0.5375,
+          "difference": 0.825,
+          "variance": 0.0044946550048590855,
+          "fisher_p": 1.2011636923837071e-14,
+          "ci95": [
+            0.6935973110371532,
+            0.9564026889628467
+          ]
+        },
+        "per_wording": [
+          0.875,
+          0.875,
+          0.625,
+          0.875,
+          0.875
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                20,
+                0
+              ],
+              [
+                3,
+                17
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.15,
+            "ab_rate": 0.575,
+            "difference": 0.85,
+            "variance": 0.00873403456048084,
+            "fisher_p": 2.5695242602917798e-08,
+            "ci95": [
+              0.6668261285894104,
+              1.0331738714105896
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                18,
+                2
+              ],
+              [
+                2,
+                18
+              ]
+            ],
+            "p_ab_given_1": 0.9,
+            "p_ab_given_2": 0.1,
+            "ab_rate": 0.5,
+            "difference": 0.8,
+            "variance": 0.010706235912847483,
+            "fisher_p": 5.295889611796174e-07,
+            "ci95": [
+              0.5971969529745796,
+              1.0028030470254206
+            ]
+          }
+        }
+      },
+      "nochan": {
+        "n": 240,
+        "pooled": {
+          "table": [
+            [
+              108,
+              12
+            ],
+            [
+              102,
+              18
+            ]
+          ],
+          "p_ab_given_1": 0.9,
+          "p_ab_given_2": 0.85,
+          "ab_rate": 0.875,
+          "difference": 0.050000000000000044,
+          "variance": 0.0018580850379547183,
+          "fisher_p": 0.3292203639611896,
+          "ci95": [
+            -0.03448680063658961,
+            0.1344868006365897
+          ]
+        },
+        "per_wording": [
+          -0.125,
+          0.16666666666666663,
+          0.04166666666666663,
+          0.125,
+          0.04166666666666663
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                60,
+                0
+              ],
+              [
+                59,
+                1
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.9833333333333333,
+            "ab_rate": 0.9916666666666667,
+            "difference": 0.01666666666666672,
+            "variance": 0.0007594575542949206,
+            "fisher_p": 1.0,
+            "ci95": [
+              -0.037347517957183406,
+              0.07068085129051685
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                48,
+                12
+              ],
+              [
+                43,
+                17
+              ]
+            ],
+            "p_ab_given_1": 0.8,
+            "p_ab_given_2": 0.7166666666666667,
+            "ab_rate": 0.7583333333333333,
+            "difference": 0.08333333333333337,
+            "variance": 0.005995938370648855,
+            "fisher_p": 0.3939582618358115,
+            "ci95": [
+              -0.0684362184373846,
+              0.23510288510405133
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "anchor-leaks": {
+        "estimate": 0.825,
+        "se": 0.07293833011524188,
+        "generalization": {
+          "per_wording": [
+            0.875,
+            0.875,
+            0.625,
+            0.875,
+            0.875
+          ],
+          "mean": 0.825,
+          "se": 0.07293833011524188,
+          "level": 0.95,
+          "ci": [
+            0.6224940202680423,
+            1.0275059797319575
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 0.0,
+        "holm_threshold": 0.016666666666666666,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      },
+      "nochan-null": {
+        "estimate": 0.049999999999999975,
+        "se": 0.04418894343490791,
+        "margin": 0.15,
+        "generalization": {
+          "per_wording": [
+            -0.125,
+            0.16666666666666663,
+            0.04166666666666663,
+            0.125,
+            0.04166666666666663
+          ],
+          "mean": 0.049999999999999975,
+          "se": 0.049999999999999996,
+          "level": 0.9,
+          "ci": [
+            -0.05659000000000003,
+            0.15658999999999998
+          ],
+          "holds": false
+        },
+        "p": 0.011817550991416959,
+        "holm_threshold": 0.05,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": false
+      },
+      "channel-effect": {
+        "estimate": 0.775,
+        "se": 0.0852799080785943,
+        "ci95": [
+          0.6078513801659552,
+          0.9421486198340449
+        ],
+        "generalization": {
+          "per_wording": [
+            1.0,
+            0.7083333333333334,
+            0.5833333333333334,
+            0.75,
+            0.8333333333333334
+          ],
+          "mean": 0.775,
+          "se": 0.0852799080785943,
+          "level": 0.95,
+          "ci": [
+            0.5382288632105908,
+            1.0117711367894093
+          ],
+          "same_sign": 5,
+          "holds": true
+        },
+        "p": 0.0,
+        "holm_threshold": 0.025,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      }
+    }
+  },
+  "interpretation": "Study 3. Claims are the pre-registered Holm family of three; \"generalizes\" additionally requires the across-wording criterion of Phase 2. Earlier runs are not pooled."
+}

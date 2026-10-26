@@ -1,0 +1,64 @@
+{
+  "design_version": "order-signal-design-v3",
+  "protocol_version": "sender-channel-receiver-v2",
+  "prompt_version": "order-signal-prompts-v3",
+  "payoff_version": "penalty-transfer-v2",
+  "analysis_version": "joint-hoeffding-diagnostics-v3",
+  "purpose": "Scenario-based planning, not a final-run authorization or observed power estimate",
+  "scenario": {
+    "C1": {
+      "correct": 0,
+      "wrong": 0,
+      "pass": 1
+    },
+    "C2": {
+      "correct": 0,
+      "wrong": 0,
+      "pass": 1
+    },
+    "C3": {
+      "correct": 0.8,
+      "wrong": 0.1,
+      "pass": 0.1
+    },
+    "C4": {
+      "correct": 0,
+      "wrong": 0,
+      "pass": 1
+    }
+  },
+  "evidence_level": "stronger",
+  "target_joint_power": 0.8,
+  "alpha": 0.05,
+  "rounds_per_condition": 2288,
+  "main_trials": 9152,
+  "main_requests": 18304,
+  "gates": [
+    {
+      "gate": "positive_private_gain",
+      "expected_effect": 1.2000000000000002,
+      "sufficient_n_per_condition": 229
+    },
+    {
+      "gate": "private_channel_gain",
+      "expected_effect": 1.2000000000000002,
+      "sufficient_n_per_condition": 705
+    },
+    {
+      "gate": "objective_interaction",
+      "expected_effect": 1.2000000000000002,
+      "sufficient_n_per_condition": 2288
+    },
+    {
+      "gate": "stipulated_loss_channel_effect",
+      "expected_effect": 0.8,
+      "sufficient_n_per_condition": 45
+    },
+    {
+      "gate": "positive_stipulated_loss",
+      "expected_effect": 0.8,
+      "sufficient_n_per_condition": 15
+    }
+  ],
+  "assumptions": "Independent trials with the specified fixed outcome probabilities; complete valid live run and passing input audit. Conservative sufficient bound using a union bound over gate failures; clipped intervals can require fewer trials. Does not include capability-control calls, failures, or cost. Choose substantively meaningful effects before final sampling; do not estimate them from selectively successful pilots."
+}

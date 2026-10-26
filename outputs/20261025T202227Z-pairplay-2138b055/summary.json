@@ -1,0 +1,738 @@
+{
+  "version": "pairplay-v1",
+  "pairs": [
+    {
+      "id": "matched-actual-p1",
+      "arm": "matched-actual",
+      "pair": 1,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 0.0,
+        "accuracy": 0.4,
+        "pass_rate": 0.4,
+        "natural_direction": 0.6,
+        "late_natural_direction": 0.3333333333333333,
+        "encoding": {
+          "table": [
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "p_ab_given_1": 0.75,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.6,
+          "difference": 0.75,
+          "variance": 0.11111111111111113,
+          "fisher_p": 0.4,
+          "ci95": [
+            0.09666666666666657,
+            1.4033333333333333
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p1",
+      "arm": "matched-shuffled",
+      "pair": 1,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": -1.6,
+        "accuracy": 0.0,
+        "pass_rate": 0.6,
+        "natural_direction": 0.2,
+        "late_natural_direction": -0.3333333333333333,
+        "encoding": {
+          "table": [
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "p_ab_given_1": 0.75,
+          "p_ab_given_2": 1.0,
+          "ab_rate": 0.8,
+          "difference": -0.25,
+          "variance": 0.11111111111111113,
+          "fisher_p": 1.0,
+          "ci95": [
+            -0.9033333333333334,
+            0.40333333333333343
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p2",
+      "arm": "matched-actual",
+      "pair": 2,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 1.6,
+        "accuracy": 0.8,
+        "pass_rate": 0.2,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.2,
+          "difference": 1.0,
+          "variance": 0.09722222222222224,
+          "fisher_p": 0.2,
+          "ci95": [
+            0.38886262682692285,
+            1.6111373731730771
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p2",
+      "arm": "matched-shuffled",
+      "pair": 2,
+      "status": {
+        "status": "incomplete",
+        "planned": 5,
+        "completed": 4,
+        "error_type": "ReadTimeout"
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 4,
+        "pair_gain": -1.0,
+        "accuracy": 0.0,
+        "pass_rate": 0.75,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.25,
+          "difference": 1.0,
+          "variance": 0.1060740740740741,
+          "fisher_p": 0.25,
+          "ci95": [
+            0.36164730519644317,
+            1.6383526948035567
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p3",
+      "arm": "matched-actual",
+      "pair": 3,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": -0.8,
+        "accuracy": 0.4,
+        "pass_rate": 0.2,
+        "natural_direction": 0.6,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.5,
+          "ab_rate": 0.8,
+          "difference": 0.5,
+          "variance": 0.0945,
+          "fisher_p": 0.4,
+          "ci95": [
+            -0.10252070503842436,
+            1.1025207050384243
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p3",
+      "arm": "matched-shuffled",
+      "pair": 3,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": -1.6,
+        "accuracy": 0.4,
+        "pass_rate": 0.0,
+        "natural_direction": -0.6,
+        "late_natural_direction": -1.0,
+        "encoding": {
+          "table": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "p_ab_given_1": 0.3333333333333333,
+          "p_ab_given_2": 1.0,
+          "ab_rate": 0.6,
+          "difference": -0.6666666666666667,
+          "variance": 0.094875,
+          "fisher_p": 0.4,
+          "ci95": [
+            -1.2703816656521152,
+            -0.06295166768121829
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p4",
+      "arm": "matched-actual",
+      "pair": 4,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 0.0,
+        "accuracy": 0.4,
+        "pass_rate": 0.4,
+        "natural_direction": 0.6,
+        "late_natural_direction": 0.3333333333333333,
+        "encoding": {
+          "table": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.5,
+          "ab_rate": 0.8,
+          "difference": 0.5,
+          "variance": 0.0945,
+          "fisher_p": 0.4,
+          "ci95": [
+            -0.10252070503842436,
+            1.1025207050384243
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p4",
+      "arm": "matched-shuffled",
+      "pair": 4,
+      "status": {
+        "status": "incomplete",
+        "planned": 5,
+        "completed": 3,
+        "error_type": "ReadTimeout"
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 3,
+        "pair_gain": -1.3333333333333333,
+        "accuracy": 0.0,
+        "pass_rate": 0.6666666666666666,
+        "natural_direction": 0.3333333333333333,
+        "late_natural_direction": 0.0,
+        "encoding": {
+          "table": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 1.0,
+          "ab_rate": 1.0,
+          "difference": 0.0,
+          "variance": 0.12094907407407408,
+          "fisher_p": null,
+          "ci95": [
+            -0.6816435747243298,
+            0.6816435747243298
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p5",
+      "arm": "matched-actual",
+      "pair": 5,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 2.0,
+        "accuracy": 1.0,
+        "pass_rate": 0.0,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.2,
+          "difference": 1.0,
+          "variance": 0.09722222222222224,
+          "fisher_p": 0.2,
+          "ci95": [
+            0.38886262682692285,
+            1.6111373731730771
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p5",
+      "arm": "matched-shuffled",
+      "pair": 5,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 0.4,
+        "accuracy": 0.6,
+        "pass_rate": 0.2,
+        "natural_direction": 0.6,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.25,
+          "ab_rate": 0.4,
+          "difference": 0.75,
+          "variance": 0.11111111111111113,
+          "fisher_p": 0.4,
+          "ci95": [
+            0.09666666666666657,
+            1.4033333333333333
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p6",
+      "arm": "matched-actual",
+      "pair": 6,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 2.0,
+        "accuracy": 1.0,
+        "pass_rate": 0.0,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.6,
+          "difference": 1.0,
+          "variance": 0.078875,
+          "fisher_p": 0.1,
+          "ci95": [
+            0.44954001053664217,
+            1.550459989463358
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p6",
+      "arm": "matched-shuffled",
+      "pair": 6,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 2.0,
+        "accuracy": 1.0,
+        "pass_rate": 0.0,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.6,
+          "difference": 1.0,
+          "variance": 0.078875,
+          "fisher_p": 0.1,
+          "ci95": [
+            0.44954001053664217,
+            1.550459989463358
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p7",
+      "arm": "matched-actual",
+      "pair": 7,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 1.6,
+        "accuracy": 0.8,
+        "pass_rate": 0.2,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.4,
+          "difference": 1.0,
+          "variance": 0.078875,
+          "fisher_p": 0.1,
+          "ci95": [
+            0.44954001053664217,
+            1.550459989463358
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p7",
+      "arm": "matched-shuffled",
+      "pair": 7,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 0.4,
+        "accuracy": 0.6,
+        "pass_rate": 0.2,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.4,
+          "difference": 1.0,
+          "variance": 0.078875,
+          "fisher_p": 0.1,
+          "ci95": [
+            0.44954001053664217,
+            1.550459989463358
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-actual-p8",
+      "arm": "matched-actual",
+      "pair": 8,
+      "status": {
+        "status": "completed",
+        "planned": 5,
+        "completed": 5
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 5,
+        "pair_gain": 1.6,
+        "accuracy": 0.8,
+        "pass_rate": 0.2,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.6,
+          "difference": 1.0,
+          "variance": 0.078875,
+          "fisher_p": 0.1,
+          "ci95": [
+            0.44954001053664217,
+            1.550459989463358
+          ]
+        }
+      }
+    },
+    {
+      "id": "matched-shuffled-p8",
+      "arm": "matched-shuffled",
+      "pair": 8,
+      "status": {
+        "status": "incomplete",
+        "planned": 5,
+        "completed": 3,
+        "error_type": "ReadTimeout"
+      },
+      "audit": true,
+      "metrics": {
+        "rounds": 3,
+        "pair_gain": -1.3333333333333333,
+        "accuracy": 0.0,
+        "pass_rate": 0.6666666666666666,
+        "natural_direction": 1.0,
+        "late_natural_direction": 1.0,
+        "encoding": {
+          "table": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "p_ab_given_1": 1.0,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.6666666666666666,
+          "difference": 1.0,
+          "variance": 0.12094907407407408,
+          "fisher_p": 0.3333333333333333,
+          "ci95": [
+            0.3183564252756702,
+            1.6816435747243297
+          ]
+        }
+      }
+    }
+  ],
+  "complete": false,
+  "requests": 155,
+  "accounted_cost_usd": 1.2189781999999998,
+  "committed_cost_usd": 1.43057156,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "arms": {
+    "matched-actual": {
+      "complete_pairs": 8,
+      "pair_gain": 1.0,
+      "accuracy": 0.7000000000000001,
+      "pass_rate": 0.2,
+      "natural_direction": 0.85
+    },
+    "matched-shuffled": {
+      "complete_pairs": 5,
+      "pair_gain": -0.08000000000000003,
+      "accuracy": 0.52,
+      "pass_rate": 0.2,
+      "natural_direction": 0.44000000000000006
+    }
+  },
+  "actual_minus_shuffled": {
+    "pair_gain": {
+      "pairs": 5,
+      "differences": [
+        1.6,
+        0.8,
+        1.6,
+        0.0,
+        1.2000000000000002
+      ],
+      "mean": 1.04,
+      "sign_flip_p": null
+    },
+    "accuracy": {
+      "pairs": 5,
+      "differences": [
+        0.4,
+        0.0,
+        0.4,
+        0.0,
+        0.20000000000000007
+      ],
+      "mean": 0.2,
+      "sign_flip_p": null
+    },
+    "natural_direction": {
+      "pairs": 5,
+      "differences": [
+        0.39999999999999997,
+        1.2,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "mean": 0.4,
+      "sign_flip_p": null
+    },
+    "late_natural_direction": {
+      "pairs": 5,
+      "differences": [
+        0.6666666666666666,
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean": 0.5333333333333333,
+      "sign_flip_p": null
+    }
+  },
+  "interpretation": "Exploratory. Pairs are the unit; rounds within a pair are dependent. Primary: pair gain, actual minus shuffled, paired by pair, exact sign-flip p."
+}
