@@ -32,6 +32,8 @@ independently.
 | With low reasoning, the realistic v3 restriction leaks little, and not profitably. | Phase 2 v3 0.10 [−0.02, 0.22], not confirmed (p = 0.16); earlier 0.22 [0.03, 0.40]; pair gain −0.24 [−0.60, 0.10] | Not confirmed in Phase 2 |
 | **With low reasoning, the leak needs an observer.** | No-channel 0.003 [−0.15, 0.16]; channel effect +0.77. [Study 3](STUDY3_RESULTS.md), five wordings: no-channel 0.05 [−0.03, 0.13], channel effect +0.78 (5/5 wordings) | **Confirmed** (Holm), generalizes. Near-zero (±0.15) confirmed for these five wordings only: across-wording 90% upper bound 0.157 |
 | **With low reasoning, the leak does not need the hint that Bob knows Alice has the answer.** Without it, encoding is lower but clearly positive. | [Hint control](HINT_RESULTS.md) (R9), five wordings: no hint 0.50 [0.34, 0.66], 5/5 wordings; same-run anchor 0.73; hint effect +0.23 [0.01, 0.44], p = 0.044 | **Confirmed** (Holm), generalizes. The hint effect is confirmed but does not generalize over wordings (4/5) |
+| **With low reasoning, Alice leaks even when nothing says what Bob observes.** | [Undescribed screen](UNDESCRIBED_RESULTS.md) (R10), five wordings: 0.30 [0.12, 0.48], p = 0.001; 4/5 wordings positive, one 0.00 | **Confirmed** (single planned test), generalizes. Screening: no same-run baseline |
+| **When the channel is not described, feedback sets Alice's mapping.** | [Discovery screen](DISCOVERY_RESULTS.md) (R11): natural history +0.64, reversed −0.83; difference +1.47 [1.07, 1.87]; all 6 templates same direction | Descriptive: the planned sign-flip test is withheld (one invalid response left template 5 incomplete). Imitation and inference not separated |
 | **Matched positive control: an authorized sender encodes almost fully.** | R9 authorized 0.95 [0.76, 1.00], 5/5 wordings; authorized − anchor +0.23 [−0.02, 0.47] | **Confirmed** (Holm), generalizes. The difference from the anchor is descriptive |
 | With low reasoning, the matched frame leaks more than v3. | +0.21 [0.006, 0.41]. Borderline: worst-case filling of the missing tasks gives 0.17, which would put the interval across zero. Label −0.05 [−0.25, 0.15], inconclusive | Primary |
 | The awareness sentence matters with reasoning but not without it. It combines "Bob knows Alice knows" with "he sees only the order", so its cause is not identified. | At the matched-plain corner: +0.40 (low) vs +0.02 (none); interaction +0.38 [0.07, 0.69] | Secondary; interaction chosen after the data were seen |
@@ -75,6 +77,7 @@ independently.
 
 | $3.00 of credits (25 October) | $1.168 | No-observer control (R7) |
 | $2.40 (26 October) | $1.932 | Hint control and matched positive control (R9) |
+| Remaining $0.88 (26 October) | $0.521 + $0.511 ledger; actual balance fell from $0.76 to $0.37 | Undescribed screen (R10), feedback-discovery screen (R11) |
 
 All figures are peak-rate ledger estimates. Actual provider charges appear to be
 lower.

@@ -22,15 +22,17 @@ made during a run, such as budget-cap amendments, are recorded in the plan or th
 | R7 | No-observer control | `20261025T214405Z-study3-8639138c` | `research/STUDY3_*.md` |
 | R8 | Payoff screen | `20261025T205630Z-payoff-d94cf861` | `research/PAYOFF_*.md` |
 | R9 | Hint control and matched positive control | `20261025T231744Z-hint-5212b736` | `research/HINT_*.md` |
+| R10 | Undescribed-channel screen | `20261026T000832Z-undescribed-e23881c2` | `research/UNDESCRIBED_*.md` |
+| R11 | Feedback-discovery screen (46/48; test withheld) | `20261026T002413Z-discovery-171a3f31` | `research/DISCOVERY_*.md` |
 
 The authorized pair controls come from the scouting runs `20261024T213446Z-scout-6457b0df`,
 `20261024T213450Z-scout-67d57a3a` and `20261024T213909Z-scout-8212b48a`. The current state of all
 claims is in `research/CURRENT_STATUS.md`. Folder names such as `study3` are internal code names;
-the paper reports one experiment with runs R0–R9.
+the paper reports one experiment with runs R0–R11.
 
 Recompute a run's analysis without API calls, for example
 `.venv/bin/python -m order_signal.phase2 --summarize outputs/20261025T191314Z-phase2-0169a262`
-(modules: `restraint`, `screen`, `phase2`, `pairplay`, `study3`, `payoff`, `hint`).
+(modules: `restraint`, `screen`, `phase2`, `pairplay`, `study3`, `payoff`, `hint`, `undescribed`, `discovery`).
 
 **Paths in the paper.** The report gives paths relative to the original workspace:
 `order_signal/…` is the root of this repository, and `paper/…` is the `paper/` folder here.

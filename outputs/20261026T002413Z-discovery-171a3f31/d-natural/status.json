@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "error_type": "InvalidDeepSeekResponse",
+  "completed": 22,
+  "planned": 24,
+  "segments": 1,
+  "abandoned": [
+    "d-natural-t5-s2-rev"
+  ]
+}

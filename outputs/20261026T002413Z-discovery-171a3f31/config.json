@@ -1,0 +1,36 @@
+{
+  "version": "discovery-v1",
+  "mode": "deepseek",
+  "phase": "pilot",
+  "model": "deepseek-v4-pro",
+  "seed": 1026208,
+  "templates": 6,
+  "ceiling_usd": 0.6,
+  "prices_usd_per_million": {
+    "input": 1.32,
+    "cached_input": 0.044,
+    "output": 3.96
+  },
+  "rates_checked_on": "2026-10-24",
+  "generation": {
+    "low": {
+      "max_output_tokens": 16384,
+      "temperature": 1.0,
+      "reasoning_effort": "low"
+    }
+  },
+  "jobs": [
+    {
+      "id": "d-natural",
+      "cell": "natural",
+      "regimen": "low",
+      "ceiling_usd": 0.3
+    },
+    {
+      "id": "d-reversed",
+      "cell": "reversed",
+      "regimen": "low",
+      "ceiling_usd": 0.3
+    }
+  ]
+}

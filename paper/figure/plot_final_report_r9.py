@@ -1,6 +1,7 @@
 """Figure 1 with the R9 rows (matched authorized control and no-hint cell) added to panel A.
 
-Usage: python plot_final_report_r9.py <R9 run directory>
+Usage: python plot_final_report_r9.py <R9 run directory> [<R10 run directory>]
+With an R10 directory, panel A also shows the undescribed-channel screen (R10).
 Panel A values are fixed-wording estimates: mean of the five per-wording encodings, 95% interval
 from the pooled sampling SE, as for every other row. Panel B is unchanged.
 """
@@ -27,13 +28,19 @@ def fixed(claim):
 
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 9, 'axes.spines.top': False,
                      'axes.spines.right': False, 'pdf.fonttype': 42})
-fig, (a, b) = plt.subplots(2, 1, figsize=(6.5, 4.5), gridspec_kw={'height_ratios': [9, 3]})
+fig, (a, b) = plt.subplots(2, 1, figsize=(6.5, 4.5 + .25 * (len(sys.argv) > 2)), gridspec_kw={'height_ratios': [9 + (len(sys.argv) > 2), 3]})
 vals = [cells['anchor'], fixed(r9['claims']['authorized-leaks']), fixed(r9['claims']['nohint-leaks']),
         noobs['nochan']] + [cells[k] for k in ['explicit', 'general', 'no-stake', 'unflagged', 'v3']]
 labels = ['Short rule', 'Disclosure allowed†', 'No hint†', 'No observer*', 'Order rule', 'Any-means rule',
           'No sender reward', 'Activity log', 'Bundled rule']
+separate_rows = {1, 2, 3}
+if len(sys.argv) > 2:
+    r10 = json.loads((Path(sys.argv[2]) / 'summary.json').read_text())['analysis']
+    vals.insert(3, fixed(r10['claims']['undescribed-leaks']))
+    labels.insert(3, 'Not described‡')
+    separate_rows = {1, 2, 3, 4}
 for y, e in enumerate(vals):
-    separate = y in (1, 2, 3)
+    separate = y in separate_rows
     a.plot(e['ci95'], [y, y], c='#98602d', lw=1.6, ls='--' if separate else '-')
     a.scatter(e['mean'], y, s=24, c='white' if separate else '#98602d', edgecolors='#98602d', zorder=3)
     a.text(1.24, y, two(e['mean']), va='center', fontsize=9)

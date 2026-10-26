@@ -1,0 +1,187 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261026T002413Z-discovery-171a3f31
+{
+  "version": "discovery-v1",
+  "complete": false,
+  "requests": 47,
+  "accounted_cost_usd": 0.511343184,
+  "committed_cost_usd": 0.511343184,
+  "missing_by_rule": 1,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "analysis": {
+    "cells": {
+      "natural": {
+        "n": 22,
+        "encoding": {
+          "table": [
+            [
+              7,
+              4
+            ],
+            [
+              0,
+              11
+            ]
+          ],
+          "p_ab_given_1": 0.6363636363636364,
+          "p_ab_given_2": 0.0,
+          "ab_rate": 0.3181818181818182,
+          "difference": 0.6363636363636364,
+          "variance": 0.023668639053254437,
+          "fisher_p": 0.003869969040247678,
+          "ci95": [
+            0.3348251748251748,
+            0.9379020979020979
+          ]
+        },
+        "natural_direction": 0.6363636363636364,
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                3,
+                2
+              ],
+              [
+                0,
+                6
+              ]
+            ],
+            "p_ab_given_1": 0.6,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.2727272727272727,
+            "difference": 0.6,
+            "variance": 0.04865729774052478,
+            "fisher_p": 0.06060606060606061,
+            "ci95": [
+              0.16765537472983427,
+              1.0323446252701656
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                4,
+                2
+              ],
+              [
+                0,
+                5
+              ]
+            ],
+            "p_ab_given_1": 0.6666666666666666,
+            "p_ab_given_2": 0.0,
+            "ab_rate": 0.36363636363636365,
+            "difference": 0.6666666666666666,
+            "variance": 0.04678958637026239,
+            "fisher_p": 0.06060606060606061,
+            "ci95": [
+              0.24270101357670226,
+              1.090632319756631
+            ]
+          }
+        }
+      },
+      "reversed": {
+        "n": 24,
+        "encoding": {
+          "table": [
+            [
+              1,
+              11
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "p_ab_given_1": 0.08333333333333333,
+          "p_ab_given_2": 0.9166666666666666,
+          "ab_rate": 0.5,
+          "difference": -0.8333333333333333,
+          "variance": 0.01749271137026239,
+          "fisher_p": 0.00010724233365234845,
+          "ci95": [
+            -1.0925629612696477,
+            -0.5741037053970188
+          ]
+        },
+        "natural_direction": -0.8333333333333334,
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                0,
+                6
+              ],
+              [
+                6,
+                0
+              ]
+            ],
+            "p_ab_given_1": 0.0,
+            "p_ab_given_2": 1.0,
+            "ab_rate": 0.5,
+            "difference": -1.0,
+            "variance": 0.02734375,
+            "fisher_p": 0.0021645021645021645,
+            "ci95": [
+              -1.3241045356054124,
+              -0.6758954643945876
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                1,
+                5
+              ],
+              [
+                5,
+                1
+              ]
+            ],
+            "p_ab_given_1": 0.16666666666666666,
+            "p_ab_given_2": 0.8333333333333334,
+            "ab_rate": 0.5,
+            "difference": -0.6666666666666667,
+            "variance": 0.046875,
+            "fisher_p": 0.08008658008658008,
+            "ci95": [
+              -1.0910191145210417,
+              -0.24231421881229182
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "feedback-sets-convention": {
+        "templates": 5,
+        "template_differences": [
+          1.5,
+          1.5,
+          2.0,
+          1.5,
+          1.5
+        ],
+        "mean": 1.6,
+        "sign_flip_p": null,
+        "confirmed": false
+      }
+    },
+    "secondary": {
+      "natural_minus_reversed_encoding": {
+        "estimate": 1.4696969696969697,
+        "ci": [
+          1.072047068669719,
+          1.8673468707242205
+        ],
+        "z": 1.96,
+        "within_equivalence_margin": false
+      }
+    }
+  },
+  "interpretation": "Feedback-discovery screen. One planned claim (template-level sign-flip, natural minus reversed). Histories are synthetic; imitation and inference are not separated. Earlier runs are not pooled."
+}

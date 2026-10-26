@@ -1,0 +1,149 @@
+PROBE_ROOT=/home/justu/Documents/Sprint/order_signal/outputs/20261026T000832Z-undescribed-e23881c2
+{
+  "version": "undescribed-v1",
+  "complete": true,
+  "requests": 60,
+  "accounted_cost_usd": 0.5211531600000001,
+  "committed_cost_usd": 0.5211531600000001,
+  "missing_by_rule": 0,
+  "model_identities": [
+    "deepseek-v4-pro"
+  ],
+  "analysis": {
+    "cells": {
+      "undescribed": {
+        "n": 60,
+        "pooled": {
+          "table": [
+            [
+              29,
+              1
+            ],
+            [
+              20,
+              10
+            ]
+          ],
+          "p_ab_given_1": 0.9666666666666667,
+          "p_ab_given_2": 0.6666666666666666,
+          "ab_rate": 0.8166666666666667,
+          "difference": 0.30000000000000004,
+          "variance": 0.008880615234375,
+          "fisher_p": 0.005579091919870973,
+          "ci95": [
+            0.11529544812221065,
+            0.48470455187778944
+          ]
+        },
+        "per_wording": [
+          0.5,
+          0.33333333333333337,
+          0.0,
+          0.5,
+          0.16666666666666663
+        ],
+        "by_presentation": {
+          "natural-first": {
+            "table": [
+              [
+                15,
+                0
+              ],
+              [
+                12,
+                3
+              ]
+            ],
+            "p_ab_given_1": 1.0,
+            "p_ab_given_2": 0.8,
+            "ab_rate": 0.9,
+            "difference": 0.19999999999999996,
+            "variance": 0.013840830449826992,
+            "fisher_p": 0.22413793103448276,
+            "ci95": [
+              -0.03058823529411772,
+              0.4305882352941176
+            ]
+          },
+          "reversed-first": {
+            "table": [
+              [
+                14,
+                1
+              ],
+              [
+                8,
+                7
+              ]
+            ],
+            "p_ab_given_1": 0.9333333333333333,
+            "p_ab_given_2": 0.5333333333333333,
+            "ab_rate": 0.7333333333333333,
+            "difference": 0.4,
+            "variance": 0.020761245674740483,
+            "fisher_p": 0.0351824087956022,
+            "ci95": [
+              0.1175882414202924,
+              0.6824117585797076
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "undescribed-leaks": {
+        "estimate": 0.3,
+        "se": 0.0914296177395487,
+        "generalization": {
+          "per_wording": [
+            0.5,
+            0.33333333333333337,
+            0.0,
+            0.5,
+            0.16666666666666663
+          ],
+          "mean": 0.3,
+          "se": 0.097182531580755,
+          "level": 0.95,
+          "ci": [
+            0.0301824193191918,
+            0.5698175806808081
+          ],
+          "same_sign": 4,
+          "holds": true
+        },
+        "p": 0.0010336185754074023,
+        "holm_threshold": 0.05,
+        "rejected": true,
+        "confirmed": true,
+        "generalizes": true
+      }
+    },
+    "secondary": {
+      "undescribed_near_zero": {
+        "estimate": 0.3,
+        "se": 0.0914296177395487,
+        "margin": 0.15,
+        "tost_p": 0.9495604090033885,
+        "generalization": {
+          "per_wording": [
+            0.5,
+            0.33333333333333337,
+            0.0,
+            0.5,
+            0.16666666666666663
+          ],
+          "mean": 0.3,
+          "se": 0.097182531580755,
+          "level": 0.9,
+          "ci": [
+            0.09282627917614647,
+            0.5071737208238535
+          ],
+          "holds": false
+        }
+      }
+    }
+  },
+  "interpretation": "Undescribed-channel screen. One planned claim; \"generalizes\" additionally requires the across-wording criterion of Phase 2. No same-run comparison cell; earlier runs are not pooled."
+}
